@@ -1,0 +1,268 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
+<TEI n="2">
+    <teiHeader xml:lang="Italy">
+        <fileDesc>
+            <titleStmt>
+                <title>Cartolina, Gorizia, 14/08/1916</title>
+                <respStmt>
+                    <resp>Trascrizione realizzata da</resp>
+                    <name ref="#MG">Matteo Giannettoni</name>
+                    <name ref="#PG">Giulia Pes</name>
+                </respStmt>
+                <!-- ENTE DI APPARTENENZA -->
+                <respStmt>
+                    <resp>Ente di Appartenenza</resp>
+                    <name type="comune" ref="#SP">Comune della Spezia</name>
+                </respStmt>
+            </titleStmt>
+            <editionStmt>
+                <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date><!-- chiedere di date################## -->
+                </edition>
+                <!-- NOME COMPILATORE -->
+                <respStmt>
+                    <resp>Codifica realizzata da</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                </respStmt>
+                <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                <respStmt>
+                    <resp>Compilatore</resp>
+                    <name ref="#TC">Tommaso Castagneto</name>
+                    <!--<name xml:id="XZ1">XZ</name>-->
+                </respStmt>
+                <respStmt>
+                    <resp>Responsabile scientifico</resp>
+                    <name ref="#GP">Giacomo Paolicchi</name>
+                    <name ref="#ES">Enrica Salvatori</name>
+                </respStmt>
+                <respStmt>
+                    <resp>Funzionario responsabile</resp>
+                    <name ref="#ER">E. Ratti</name>
+                </respStmt>
+            </editionStmt>
+            <publicationStmt>
+                <publisher>Unipi</publisher>
+                <pubPlace>Pisa</pubPlace>
+                <availability>
+                    <p>Available under licence only</p>
+                </availability>
+                <date when="2019">2019</date><!-- chiedere di date################## -->
+                <distributor>LabCD</distributor>
+                <address>
+                    <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                    <addrLine>Pisa</addrLine>
+                </address>
+            </publicationStmt>
+
+            <notesStmt>
+                <note resp="#PG">Sul fronte troviamo la frase in tedesco "In Freud' und Leid bewährt sich deutsche Einigkeit", sul retro troviamo la
+                    stampa "Nr. 708" in basso a sinistra e centralmente la stampa "A. F. W III/2"</note>
+            </notesStmt>
+            <sourceDesc>
+                <bibl>
+                    <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                        non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                        registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                    <title>[Pausa dalla battaglia]</title>
+                  <!--  <author ref="#M">Mastroianni</author> -->
+                    <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+
+                    <!-- LUOGO -->
+                    <pubPlace> </pubPlace>
+                    <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                    <date when="1916">1916</date>
+                </bibl>
+                <msDesc>
+                    <msIdentifier>
+                        <country>Italia</country>
+                        <settlement>La Spezia (SP)</settlement>
+                        <!-- COLLOCAZIONE SPECIFICA -->
+                        <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                            cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                        <!-- CODICE IDENTIFICATIVO -->
+                        <idno>7694_71_001/002</idno>
+                    </msIdentifier>
+
+                    <!-- Informazioni sul contenuto della cartolina -->
+                    <!-- DESCRIZIONE -->
+                    <msContents>
+                        <summary>Cartolina Artistica</summary>
+                        <textLang>Italiano</textLang>
+                        <msItem n="1" facs="#fronte2">
+                            <!-- <author><persName ref="#M">Mastroianni</persName></author> ##########-->
+                            <title>[Pausa dalla battaglia]</title>
+                        </msItem>
+                        <msItem n="2" facs="#retro2">
+                          <!--  <author><persName ref="#GI">Giovanni Coliola</persName></author> -->
+                            <title>Cartolina <!-- rivedere -->, Gorizia, 14/08/1916</title>
+                        </msItem>
+                    </msContents>
+
+                    <physDesc>
+                        <objectDesc>
+                            <supportDesc>
+                                <support>
+                                    <objectType>Cartolina</objectType>
+                                    <!-- MATERIALI -->
+                                    <material>Carta</material>
+                                    <!-- DIMENSIONE -->
+                                    <dimensions unit="cm">
+                                        <height>9</height>
+                                        <width>14</width>
+                                    </dimensions>
+                                    <stamp>Non sono presenti o non sono leggibili
+                                        francobolli.</stamp>
+                                </support>
+
+                                <!-- CONSERVAZIONE
+                                buono = non occorrono interventi di restauro;
+                                discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                <condition>Buono</condition>
+                            </supportDesc>
+                        </objectDesc>
+                        <handDesc>
+                            <summary>Scrittura eseguita a mano leggibile, con una annotazione nella
+                                parte superiore del retro.</summary>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero
+                                71, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                        </handDesc>
+                    </physDesc>
+                   <history>
+                       <p>La cartolina è stata scritta il <origDate>14 Agosto 1916</origDate> a <origPlace ref="#GO">Gorizia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918">Prima Guerra Mondiale</date>.
+                      <!--#####--> La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+                   </history>
+
+                </msDesc>
+                <!-- NOMI -->
+                <listPlace>
+                    <place xml:id="GO">
+                        <placeName>Gorizia</placeName>
+                        <location>
+                            <settlement type="comune">Gorizia</settlement>
+                            <district type="provincia">GO</district>
+                            <region>Friuli-Venezia Giulia</region>
+                            <country type="nazione">IT</country>
+                        </location>
+
+                    </place>
+                </listPlace>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <correspDesc><!-- si possono eliminare questi tag se non servono -->
+                <correspAction type="sent">
+                    <placeName ref="#GO">Gorizia</placeName>
+                    <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                    <date type="writing" when="1916-08-14">1916/08/14</date>
+                </correspAction>
+                <correspAction type="received">
+                    <note resp="#MG">Nella cartolina non vengono specificati nè il luogo nè la data di arrivo della cartolina. Non è presente neanche il nome del destinatario ne quello del mittente.
+                    </note>
+                </correspAction>
+            </correspDesc>
+
+            <textClass>
+                <keywords>
+                    <!-- soggettario -->
+                    <!-- tipologia -->
+                    <!-- descrizione -->
+                    <term>Cartolina </term>
+                    <term>Cartolina Artistica </term>
+                    <term>Coppia di soldati</term>
+                </keywords>
+            </textClass>
+
+            <langUsage>
+                <language ident="de-DE">tedesco</language>
+                <language ident="it-IT">italiano</language>
+            </langUsage>
+        </profileDesc>
+    </teiHeader>
+
+    <facsimile>
+        <surface n="1" xml:id="fronte" corresp="#fronte71">
+            <!-- Fronte -->
+            <graphic url="img/71F.jpg" width="527px" height="825px" xml:id="fronte2"/>
+        </surface>
+
+        <surface n="2" xml:id="retro" corresp="#retro171">
+            <!-- Retro -->
+            <graphic url='img/71R.jpg' width='550px' height='355px' xml:id="retro2" />
+            <zone ulx="7" uly="158" lrx="49" lry="341" xml:id="C2stampa1"/>
+            <!--stampa1-->
+            <zone ulx="256" uly="156" lrx="264" lry="249" xml:id="C2stampa2" />
+            <!--stampa2-->
+            <zone ulx="181" uly="6" lrx="523" lry="71"  xml:id="C2retro_01"/>
+            <!--Spezia li ecc.-->
+            <zone ulx="30" uly="67" lrx="508" lry="118"  xml:id="C2retro_02"/>
+            <!--prima riga-->
+            <zone ulx="46" uly="114" lrx="511" lry="189"  xml:id="C2retro_03"/>
+            <!--seconda riga-->
+            <zone ulx="61" uly="184" lrx="530" lry="260"  xml:id="C2retro_04"/>
+            <!--terza riga-->
+
+
+        </surface>
+
+    </facsimile>
+
+    <text type="cartolina" xml:id="C71">
+        <front>
+            <div type="stampe">
+                <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
+                <ab xml:id="ScritteR2">
+                    <s xml:id="scritte2" facs="#C2stampa1" style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</s><!-- chiedere fra tag s e orientation -->
+                <s xml:id="scritte3" facs="#C2stampa2" style="text-orientation: sideways-left">A. F. W III/2</s></ab>
+            </div>
+        </front>
+        <!-- TRASCRIZIONE -->
+        <body>
+            <div type="fronte" xml:id="fronte187">
+                <figure>
+                    <figDesc>La cartolina raffigura due soldati che brindano con una birra. I due soldati
+                        sono in piedi, in un ambiente tranquillo sotto un orologio.</figDesc>
+                    <head>[Pausa dalla battaglia]</head>
+                </figure>
+                <ab n="ab_00" facs="#C2fronte_01">
+                    <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
+                  <!--  <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName> -->
+                </ab>
+            </div>
+            <div xml:id="retro187" type="retro">
+                <div type="opener">
+                    <ab type="parag" n="ab_01">
+                        <s type="sentence" n="retro_s_01">
+                            <lb xml:id="retro_lb_1" facs="#C2retro_01"/>
+                            <placeName ref="#SP">Gorizia</placeName>
+                            <choice>
+                                <orig xml:id="orig1">li</orig>
+                                <reg>il</reg>
+                            </choice>
+                            <date xml:id="data_4" when="1916-08-14">14/8.1916</date>
+                        </s>
+                    </ab>
+                </div>
+                <div type="letter-body">
+                    <ab type="parag" n="ab_02">
+                        <s type="sentence" n="retro_s_02">
+                            <lb xml:id="retro_lb_2" facs="#C2retro_02"/>Prego l'imminente presa di
+                            <lb xml:id="retro_lb_3" facs="#C2retro_03"/>M. tanto dopo 12 ore d'intenso
+                            <lb xml:id="retro_lb_4" facs="#C2retro_04"/>bombardamento.</s>
+                    </ab>
+                </div>
+            </div>
+        </body>
+        <back>
+            <div type="note">
+                <note resp="#PG">
+                <p>La cartolina non presenta alcuna specifica riguardante il mittente e il destinatario.</p>
+            </note></div>
+        </back>
+    </text>
+</TEI>

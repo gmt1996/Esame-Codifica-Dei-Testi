@@ -9,7 +9,7 @@
                 <respStmt>
                     <resp>Trascrizione realizzata da</resp>
                     <name ref="#MG">Matteo Giannettoni</name>
-                    <name ref="#GP">Giulia Pes</name>
+                    <name ref="#PG">Giulia Pes</name>
                 </respStmt>
                 <!-- ENTE DI APPARTENENZA -->
                 <respStmt>
@@ -58,7 +58,7 @@
                 </address>
             </publicationStmt>
             <notesStmt>
-                <note resp="#FM">Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 219  Reproduction interdite tous pays”</note>
+                <note resp="#MG">Sul retro riporta la stampa “Copyright by A. Noyer 1912 – Allegorie n 219  Reproduction interdite tous pays”</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -139,7 +139,7 @@
                             <forename>Mario</forename>
                         </persName>
                         <sex>M</sex>
-                        <note resp="#GP">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+                        <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
                     </person>
                     <person xml:id="M">
                         <persName>
@@ -160,7 +160,7 @@
                         </persName>
                         <sex>F</sex>
                         <birth notAfter="1990">Ravenna</birth>
-                        <note resp="#GP">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Sappiamo che nacque a Ravenna
+                        <note resp="#PG">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Sappiamo che nacque a Ravenna
                             e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
                     </person>
 
@@ -224,7 +224,7 @@
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <facsimile>
+    <facsimile><!-- coordinate per interfaccia finale ############## -->
 
         <surface n="1" corresp="#fronte067">    <!-- Fronte -->
             <graphic url='img/067F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
@@ -280,14 +280,14 @@
                             <placeName ref="#MI">Milano Ferrovia</placeName>
                             <date when="1916-10-31">31.10.16</date>
                         </mentioned>
-                        <note resp="#FM">Timbro effettuato in data 31/10/1916 a Milano.</note>
+                        <note resp="#MG">Timbro effettuato in data 31/10/1916 a Milano.</note>
                     </stamp>
                     <stamp type="postage">
                         <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
                             <orgName ref="#PI">Poste Italiane</orgName>
                             <s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
                         </mentioned>
-                        <note resp="#FM">Francobollo da 5 centesimi delle poste italiane.</note>
+                        <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
                 </p>
             </div>
@@ -351,7 +351,7 @@
         </body>
         <back>
             <div type="note">
-                <note resp="#FM">
+                <note resp="#PG">
                 <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#G">Giuseppe</persName>, che invia la cartolina da <placeName>Ravenna</placeName> ad <placeName>Arona</placeName>, situata sul <geogName>Lago Maggiore</geogName>, luogo in cui probabilmente
                     <persName>Oliva</persName> si trovava in villeggiatura. La cartolina è destinata presso i signori <persName>Cibecchini</persName>.</p></note>
             </div>
