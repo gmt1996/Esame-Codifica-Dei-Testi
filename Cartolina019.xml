@@ -21,7 +21,7 @@
                 <edition>
                     Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
                     <!-- COMPILAZIONE -->
-                    <date when="2019">2019</date>
+                    <date when="2018">2018</date>
                 </edition>
                 <!-- NOME COMPILATORE -->
                 <respStmt>
@@ -66,9 +66,9 @@
                     <title>[Albero fronte mare]</title>
                     <author ref="#GG">Giovannino Grossi</author>
                     <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
-
+                    <publisher>FPM</publisher>
                     <!-- LUOGO -->
-
+                    <pubPlace>Milano</pubPlace>
                     <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
 
                 </bibl>
@@ -127,7 +127,7 @@
                         </handDesc>
                     </physDesc>
                     <history>
-                        <p>La cartolina è stata scritta il <origDate>18 ottobre 1916</origDate>, un anno in cui già era scoppiata la <date from="1914" to="1918">prima guerra mondiale</date>, a <origPlace>Milano</origPlace>. Oggi
+                        <p>La cartolina è stata scritta il <origDate>18 ottobre 1916</origDate> a <origPlace>Milano</origPlace>. Oggi
                             si trovano presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
                     </history>
                 </msDesc>
@@ -270,8 +270,7 @@
     <text type="cartolina" xml:id="xx" >
         <front>
             <div type="stampe">
-                <ab xml:id="ScritteF1"><s><persName ref="#M">  Giannino Grossi  </persName></s></ab>
-                <ab xml:id="ScritteR1" ><s facs="#C1stampa" xml:id="scritta1" style="text-orientation: sideways-left">Copyright by A. Noyer 1912 – Allegorie n 219  Reproduction interdite tous pays</s></ab>
+                <ab xml:id="ScritteF1"><s><persName ref="#GG">  Giannino Grossi  </persName></s></ab>
             </div>
             <div type="postmark">
                 <p>
@@ -306,14 +305,8 @@
             </div>
 
             <div xml:id="retro067" type="retro">
-                <div type="opener">
-                    <ab type="parag" n="ab_01">
-                        <s type="sentence" n="retro_s_01">
-                            <lb xml:id="retro_lb_00" facs="#C1retro_data" />
-                            <date xml:id="data_1" when="1913-07-24">24-<num value="7" type="roman">VII</num>-913</date>
-                        </s>
-                    </ab>
-                </div>
+              <div type="opener">
+              </div>
                 <div type="letter-body">
                     <ab type="parag" n="ab_02">
                         <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
@@ -324,6 +317,7 @@
                 </div>
                 <div type="closer">
                     <signed><persName ref="#M">Mario</persName></signed>
+                    <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
                 </div>
                 <div type="destination">
                     <p>
