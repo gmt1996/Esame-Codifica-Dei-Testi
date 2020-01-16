@@ -21,7 +21,7 @@
                 <edition>
                     Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
                     <!-- COMPILAZIONE -->
-                    <date when="2018">2018</date><!-- chiedere di date################## -->
+                    <date when="2018">2018</date>  <!-- chiedere di date################## -->
                 </edition>
                 <!-- NOME COMPILATORE -->
                 <respStmt>
@@ -59,7 +59,7 @@
             </publicationStmt>
 
             <notesStmt>
-                <note resp="#PG">Sul fronte troviamo la frase in tedesco "In Freud' und Leid bewährt sich deutsche Einigkeit", sul retro troviamo la
+                <note resp="#PG">Sul fronte troviamo la frase in tedesco "In Freud' und Leid bewährt sich deutsche Einigkeit" che tradotto in italiano "L'unità tedesca si dimostra nella gioia e nel dolore". Sul retro troviamo la
                     stampa "Nr. 708" in basso a sinistra e centralmente la stampa "A. F. W III/2"</note>
             </notesStmt>
             <sourceDesc>
@@ -225,8 +225,8 @@
         <body>
             <div type="fronte" xml:id="fronte187">
                 <figure>
-                    <figDesc>La cartolina raffigura due soldati che brindano con una birra. I due soldati
-                        sono in piedi, in un ambiente tranquillo sotto un orologio.</figDesc>
+                    <figDesc>La cartolina raffigura due soldati che brindano con due bicchieri di birra. I due soldati
+                        sono in piedi, in un ambiente tranquillo sotto un orologio che segna un orario vicino alle 12:00.</figDesc>
                     <head>[Pausa dalla battaglia]</head>
                 </figure>
                 <ab n="ab_00" facs="#C2fronte_01">
