@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <?xml-stylesheet type="text/xsl" href="prog.xsl"?>
 <!DOCTYPE TEI SYSTEM 'myTEI.dtd'>
-<TEI n="1">
+<TEI n="3">
     <teiHeader xml:lang="Italy">
         <fileDesc>
             <titleStmt>
