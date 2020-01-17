@@ -1,0 +1,1065 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "myTEI.dtd">
+
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude" xmlns="http://www.tei-c.org/ns/1.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Cartoline</title>
+        <!-- TRASCRITTORE nome e cognome-->
+        <respStmt>
+          <resp>Trascrizione realizzata da</resp>
+          <name xml:id="MG">Matteo Giannettoni</name>
+          <name xml:id="PG">Giulia Pes</name>
+        </respStmt>
+        <!-- ENTE DI APPARTENENZA -->
+        <respStmt>
+          <resp>Ente di Appartenenza</resp>
+          <name type="comune" ref="SP">Comune della Spezia</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+        <!-- NOME COMPILATORE -->
+        <respStmt>
+          <resp>Codifica realizzata da</resp>
+          <name xml:id="TC">Tommaso Castagneto</name>
+        </respStmt>
+        <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+        <respStmt>
+          <resp>Compilatore</resp>
+          <name ref="#TC">Tommaso Castagneto</name>
+          <!--<name xml:id="XZ1">XZ</name>-->
+        </respStmt>
+        <respStmt>
+          <resp>Responsabile scientifico</resp>
+          <name xml:id="GP">Giacomo Paolicchi</name>
+          <name xml:id="ES">Enrica Salvatori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Funzionario responsabile</resp>
+          <name xml:id="ER">E. Ratti</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Unipi</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <availability>
+          <p>Available under licence only</p>
+        </availability>
+        <date when="2019">2019</date>
+        <distributor>LabCD</distributor>
+        <address>
+          <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+          <addrLine>Pisa</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+                    <!--Cartoline risalenti al periodo della Prima Guerra Mondiale-->
+                </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p><!-- inserire introduzione preliminare --></p>
+    </encodingDesc>
+  </teiHeader>
+
+
+  <TEI n="1">
+      <teiHeader xml:lang="Italy">
+          <fileDesc>
+              <titleStmt>
+                  <title>Cartolina di Mario a Oliva Turtura, Ravenna, 18/10/1916</title>
+                  <respStmt>
+                      <resp>Trascrizione realizzata da</resp>
+                      <name ref="#MG">Matteo Giannettoni</name>
+                      <name ref="#PG">Giulia Pes</name>
+                  </respStmt>
+                  <!-- ENTE DI APPARTENENZA -->
+                  <respStmt>
+                      <resp>Ente di Appartenenza</resp>
+                      <name type="comune" ref="#SP">Comune della Spezia</name>
+                  </respStmt>
+              </titleStmt>
+              <editionStmt>
+                  <edition>
+                      Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                      <!-- COMPILAZIONE -->
+                      <date when="2018">2018</date>
+                  </edition>
+                  <!-- NOME COMPILATORE -->
+                  <respStmt>
+                      <resp>Codifica realizzata da</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                  </respStmt>
+                  <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                  <respStmt>
+                      <resp>Compilatore</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                      <!--<name xml:id="XZ1">XZ</name>-->
+                  </respStmt>
+                  <respStmt>
+                      <resp>Responsabile scientifico</resp>
+                      <name ref="#GP">Giacomo Paolicchi</name>
+                      <name ref="#ES">Enrica Salvatori</name>
+                  </respStmt>
+                  <respStmt>
+                      <resp>Funzionario responsabile</resp>
+                      <name ref="#ER">E. Ratti</name>
+                  </respStmt>
+              </editionStmt>
+              <publicationStmt>
+                  <publisher>Unipi</publisher>
+                  <pubPlace>Pisa</pubPlace>
+                  <availability>
+                      <p>Available under licence only</p>
+                  </availability>
+                  <date when="2019">2019</date>
+                  <distributor>LabCD</distributor>
+                  <address>
+                      <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                      <addrLine>Pisa</addrLine>
+                  </address>
+              </publicationStmt>
+              <notesStmt>
+                  <note resp="#MG">Sul retro riporta la stampa “FPM 582-3”</note>
+              </notesStmt>
+              <sourceDesc>
+                  <bibl>
+                      <!-- TITOLO -->
+                      <title>[Albero fronte mare]</title>
+                      <author ref="#GG">Giovannino Grossi</author>
+                      <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                      <publisher>FPM</publisher>
+                      <!-- LUOGO -->
+                      <pubPlace>Milano</pubPlace>
+                      <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
+
+                  </bibl>
+
+                  <msDesc>
+                      <msIdentifier>
+                          <country type="nation">Italia</country>
+                          <settlement type="city">La Spezia (SP)</settlement>
+                          <!-- COLLOCAZIONE SPECIFICA -->
+                          <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                          <!-- CODICE IDENTIFICATIVO -->
+                          <idno>7694_019_001/002</idno>
+                      </msIdentifier>
+
+                      <!-- Informazioni sul contenuto della cartolina -->
+                      <!-- DESCRIZIONE -->
+                      <msContents>
+                          <summary>Cartolina Artistica</summary>
+                           <textLang>Italiano</textLang>
+                          <msItem n="1" facs="#fronte1">
+                              <author><persName ref="#GG">Giovannino Grossi</persName></author>
+                              <title>[Albero fronte mare]</title>
+                          </msItem>
+                          <msItem n="2" facs="#retro1">
+                              <author><persName ref="#G">Giuseppe</persName></author>
+                              <title>Cartolina di mario a Oliva Turtura, Ravenna, 18/10/1916</title>
+                          </msItem>
+                      </msContents>
+
+                      <physDesc>
+                          <objectDesc>
+                              <supportDesc>
+                                  <support>
+                                      <objectType>Cartolina</objectType>
+                                      <!-- MATERIALI -->
+                                      <material>Carta</material>
+                                      <!-- DIMENSIONE -->
+                                      <dimensions unit="cm">
+                                          <height>9</height>
+                                          <width>14</width>
+                                      </dimensions>
+                                      <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in buono stato, è presente inoltre sopra di esso un timbro di partenza
+                                      quasi del tutto leggibile .</stamp> <!-- descrivere francobolli-->
+                                  </support>
+                                  <!-- CONSERVAZIONE
+                                  buono = non occorrono interventi di restauro;
+                                  discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                  mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                  cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                  <condition>Buono</condition>
+                              </supportDesc>
+                          </objectDesc>
+                          <handDesc>
+                              <summary>Scritta a mano in modo leggibile, é inoltre presente una annotazione nella parte superiore sinistra del retro.</summary>
+                              <handNote n="1">Annotazione di un catalogatore che presenta il numero 19, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                          </handDesc>
+                      </physDesc>
+                      <history>
+                          <p>La cartolina è stata scritta il <origDate>18 ottobre 1916</origDate> a <origPlace>Milano</origPlace>. Oggi
+                              si trovano presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
+                      </history>
+                  </msDesc>
+
+                  <!-- NOMI -->
+                  <listPerson>
+                      <person xml:id="G">
+                          <persName>
+                              <forename>Mario</forename>
+                          </persName>
+                          <sex>M</sex>
+                          <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+                      </person>
+                      <person xml:id="M">
+                          <persName>
+                              <ref target="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"/>
+                              <forename>Giannino</forename>
+                              <surname>Grossi</surname>
+                          </persName>
+                          <sex>M</sex>
+                          <birth when="1889-04-21">21/04/1889<placeName type="city">Milano</placeName>,<country>Italia</country></birth>
+                          <death when="1969-04-21">21/04/1969<placeName type="city">Milano</placeName>,<country>Italia</country></death>
+                          <occupation>Pittore</occupation>
+                          <note resp="#MG">Autore della cartolina</note>
+                      </person>
+                      <person>
+                          <persName ref="#OT">
+                              <forename>Oliva</forename>
+                              <surname>Turtura</surname>
+                          </persName>
+                          <sex>F</sex>
+                          <birth notAfter="1990">Ravenna</birth>
+                          <note resp="#PG">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Sappiamo che nacque a Ravenna
+                              e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+                      </person>
+
+                  </listPerson>
+                  <listOrg>
+                      <org xml:id="PI">
+                          <orgName type="Poste">Poste Italiane</orgName>
+                          <desc>Società che si occupa del servizio postale italiano</desc>
+                      </org>
+                  </listOrg>
+                  <listPlace>
+                      <place xml:id="MI">
+                          <placeName>Milano</placeName>
+                          <location>
+                              <settlement type="comune">Milano</settlement>
+                              <district type="provincia">MI</district>
+                              <region>Lombardia</region>
+                              <country type="nazione">IT</country>
+                          </location>
+                      </place>
+                      <place xml:id="RV">
+                          <placeName>Ravenna</placeName>
+                          <location>
+                              <settlement type="comune">Ravenna</settlement>
+                              <district type="provincia">RV</district>
+                              <region>Emilia-Romagna</region>
+                              <country type="nation">IT</country>
+                          </location>
+                      </place>
+                  </listPlace>
+              </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+              <correspDesc>
+                  <correspAction type="sent">
+                      <persName ref="#M">Mario</persName>
+                      <placeName ref="#MI">Milano</placeName>
+                      <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                      <date type="writing" when="1913-07-24">31/10/1916</date>
+                      <!--La data posta sul timbro non è ben leggibile, si può intuire 31/10/1916-->
+                  </correspAction>
+                  <correspAction type="received">
+                      <persName ref="#OT">Oliva Turtura</persName>
+                      <placeName ref="#RV">Ravenna</placeName>
+                  </correspAction>
+              </correspDesc>
+
+              <textClass>
+                  <keywords>
+                      <!-- soggettario -->
+                      <!-- tipologia -->
+                      <!-- descrizione -->
+                      <term>Cartolina </term>
+                      <term>Cartolina Artistica </term>
+                      <term>Albero al vento su una scogliera</term>
+                  </keywords>
+              </textClass>
+
+              <langUsage>
+                  <language ident="it-IT">italiano</language>
+              </langUsage>
+          </profileDesc>
+      </teiHeader>
+      <facsimile><!-- coordinate per interfaccia finale ############## -->
+
+          <surface n="1" corresp="#fronte067">    <!-- Fronte -->
+              <graphic url='cartoline/7694-019F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
+              <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
+              <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
+              <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
+          </surface>
+
+          <surface n="2" corresp="#retro067">    <!-- Retro -->
+              <!-- testo lettera -->
+              <graphic url='cartoline/7694-019R.jpg' width='550px' height='355px' xml:id="retro1"/>
+              <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
+              <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
+              <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
+              <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/> <!-- terza riga -->
+              <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/> <!-- quarta riga -->
+              <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/> <!-- quinta riga -->
+              <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <!-- sesta riga -->
+              <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <!-- settima riga -->
+              <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!-- ottava riga -->
+              <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!-- nona riga -->
+              <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!-- decima riga -->
+              <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!-- closer: prima riga -->
+              <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/> <!-- closer: seconda riga -->
+              <!-- francobollo e timbri -->
+              <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/> <!-- timbro a destra -->
+              <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/> <!-- timbro in alto -->
+              <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!-- timbro a sinistra -->
+              <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/> <!-- francobollo -->
+              <!-- stampa -->
+              <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!--stampa-->
+              <!-- address -->
+              <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!-- address: prima riga -->
+              <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <!-- address: seconda riga -->
+              <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-- address: terza riga -->
+              <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <!-- address: quarta riga -->
+              <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <!-- address: Arona -->
+              <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <!-- address: Lago Maggiore -->
+          </surface>
+
+      </facsimile>
+
+      <text type="cartolina" xml:id="xx" >
+          <front>
+              <div type="stampe">
+                  <ab xml:id="ScritteF1"><s><persName ref="#GG">  Giannino Grossi  </persName></s></ab>
+              </div>
+              <div type="postmark">
+                  <p>
+                      <stamp type="postmark">
+                          <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                              <placeName ref="#MI">Milano Ferrovia</placeName>
+                              <date when="1916-10-31">31.10.16</date>
+                          </mentioned>
+                          <note resp="#MG">Timbro effettuato in data 31/10/1916 a Milano.</note>
+                      </stamp>
+                      <stamp type="postage">
+                          <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                              <orgName ref="#PI">Poste Italiane</orgName>
+                              <s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
+                          </mentioned>
+                          <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
+                    </stamp>
+                  </p>
+              </div>
+          </front>
+          <!-- TRASCRIZIONE -->
+          <body>
+              <div type="fronte" xml:id="fronte067">
+                  <figure>
+                      <figDesc>La cartolina raffigura un albero mosso dal vento sull'estremità di una scogliera di fronte ad un mare agitato.</figDesc>
+                      <head>[Albero fronte mare]</head>
+                  </figure>
+                  <ab n="ab_0" facs="#C1fronte_01">
+                      <lb xml:id="fronte_lb_00"/>
+                      <persName ref="#GG"><choice>Giannino</choice> Grossi</persName>
+                  </ab>
+              </div>
+
+              <div xml:id="retro067" type="retro">
+                <div type="opener">
+                </div>
+                  <div type="letter-body">
+                      <ab type="parag" n="ab_02">
+                          <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
+                          Coi migliori auguri e saluti a
+                          <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
+                          te e famiglia
+                      </ab>
+                  </div>
+                  <div type="closer">
+                      <signed><persName ref="#M">Mario</persName></signed>
+                      <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
+                  </div>
+                  <div type="destination">
+                      <p>
+                          <address>
+
+                              <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
+                                  <abbr>Gent.</abbr>Signorina
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
+                                  <persName ref="#OT">Olivia Turtura</persName>
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_04" facs="#C1retro_address04">
+                                  <name type="street">Via <abbr>G.</abbr><persName>Rossi</persName> <num type="cardinal">58</num></name>
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05">
+                                  <placeName ref="#RV">Ravenna</placeName>
+                              </addrLine>
+                          </address>
+                      </p>
+                  </div>
+              </div>
+          </body>
+          <back>
+              <div type="note">
+                  <note resp="#PG">
+                  <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#G">Giuseppe</persName>, che invia la cartolina da <placeName>Ravenna</placeName> ad <placeName>Arona</placeName>, situata sul <geogName>Lago Maggiore</geogName>, luogo in cui probabilmente
+                      <persName>Oliva</persName> si trovava in villeggiatura. La cartolina è destinata presso i signori <persName>Cibecchini</persName>.</p></note>
+              </div>
+          </back>
+      </text>
+  </TEI>
+
+<!--seconda cartolina -->
+
+  <TEI n="2">
+      <teiHeader xml:lang="Italy">
+          <fileDesc>
+              <titleStmt>
+                  <title>Cartolina, Gorizia, 14/08/1916</title>
+                  <respStmt>
+                      <resp>Trascrizione realizzata da</resp>
+                      <name ref="#MG">Matteo Giannettoni</name>
+                      <name ref="#PG">Giulia Pes</name>
+                  </respStmt>
+                  <!-- ENTE DI APPARTENENZA -->
+                  <respStmt>
+                      <resp>Ente di Appartenenza</resp>
+                      <name type="comune" ref="#SP">Comune della Spezia</name>
+                  </respStmt>
+              </titleStmt>
+              <editionStmt>
+                  <edition>
+                      Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                      <!-- COMPILAZIONE -->
+                      <date when="2018">2018</date>  <!-- chiedere di date################## -->
+                  </edition>
+                  <!-- NOME COMPILATORE -->
+                  <respStmt>
+                      <resp>Codifica realizzata da</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                  </respStmt>
+                  <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                  <respStmt>
+                      <resp>Compilatore</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                      <!--<name xml:id="XZ1">XZ</name>-->
+                  </respStmt>
+                  <respStmt>
+                      <resp>Responsabile scientifico</resp>
+                      <name ref="#GP">Giacomo Paolicchi</name>
+                      <name ref="#ES">Enrica Salvatori</name>
+                  </respStmt>
+                  <respStmt>
+                      <resp>Funzionario responsabile</resp>
+                      <name ref="#ER">E. Ratti</name>
+                  </respStmt>
+              </editionStmt>
+              <publicationStmt>
+                  <publisher>Unipi</publisher>
+                  <pubPlace>Pisa</pubPlace>
+                  <availability>
+                      <p>Available under licence only</p>
+                  </availability>
+                  <date when="2019">2019</date><!-- chiedere di date################## -->
+                  <distributor>LabCD</distributor>
+                  <address>
+                      <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                      <addrLine>Pisa</addrLine>
+                  </address>
+              </publicationStmt>
+
+              <notesStmt>
+                  <note resp="#PG">Sul fronte troviamo la frase in tedesco "In Freud' und Leid bewährt sich deutsche Einigkeit" che tradotto in italiano "L'unità tedesca si dimostra nella gioia e nel dolore". Sul retro troviamo la
+                      stampa "Nr. 708" in basso a sinistra e centralmente la stampa "A. F. W III/2"</note>
+              </notesStmt>
+              <sourceDesc>
+                  <bibl>
+                      <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
+                          non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
+                          registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
+                      <title>[Pausa dalla battaglia]</title>
+                    <!--  <author ref="#M">Mastroianni</author> -->
+                      <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+
+                      <!-- LUOGO -->
+                      <pubPlace> </pubPlace>
+                      <!-- CRONOLOGIA, attenzione si riferisce solo alla data di stampa -->
+                      <date when="1916">1916</date>
+                  </bibl>
+                  <msDesc>
+                      <msIdentifier>
+                          <country>Italia</country>
+                          <settlement>La Spezia (SP)</settlement>
+                          <!-- COLLOCAZIONE SPECIFICA -->
+                          <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei
+                              cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                          <!-- CODICE IDENTIFICATIVO -->
+                          <idno>7694_71_001/002</idno>
+                      </msIdentifier>
+
+                      <!-- Informazioni sul contenuto della cartolina -->
+                      <!-- DESCRIZIONE -->
+                      <msContents>
+                          <summary>Cartolina Artistica</summary>
+                          <textLang>Italiano</textLang>
+                          <msItem n="1" facs="#fronte2">
+                              <!-- <author><persName ref="#M">Mastroianni</persName></author> ##########-->
+                              <title>[Pausa dalla battaglia]</title>
+                          </msItem>
+                          <msItem n="2" facs="#retro2">
+                            <!--  <author><persName ref="#GI">Giovanni Coliola</persName></author> -->
+                              <title>Cartolina <!-- rivedere -->, Gorizia, 14/08/1916</title>
+                          </msItem>
+                      </msContents>
+
+                      <physDesc>
+                          <objectDesc>
+                              <supportDesc>
+                                  <support>
+                                      <objectType>Cartolina</objectType>
+                                      <!-- MATERIALI -->
+                                      <material>Carta</material>
+                                      <!-- DIMENSIONE -->
+                                      <dimensions unit="cm">
+                                          <height>9</height>
+                                          <width>14</width>
+                                      </dimensions>
+                                      <stamp>Non sono presenti o non sono leggibili
+                                          francobolli.</stamp>
+                                  </support>
+
+                                  <!-- CONSERVAZIONE
+                                  buono = non occorrono interventi di restauro;
+                                  discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                  mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                  cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                  <condition>Buono</condition>
+                              </supportDesc>
+                          </objectDesc>
+                          <handDesc>
+                              <summary>Scrittura eseguita a mano leggibile, con una annotazione nella
+                                  parte superiore del retro.</summary>
+                              <handNote n="1">Annotazione di un catalogatore che presenta il numero
+                                  71, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                          </handDesc>
+                      </physDesc>
+                     <history>
+                         <p>La cartolina è stata scritta il <origDate>14 Agosto 1916</origDate> a <origPlace ref="#GO">Gorizia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918">Prima Guerra Mondiale</date>.
+                        <!--#####--> La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+                     </history>
+
+                  </msDesc>
+                  <!-- NOMI -->
+                  <listPlace>
+                      <place xml:id="GO">
+                          <placeName>Gorizia</placeName>
+                          <location>
+                              <settlement type="comune">Gorizia</settlement>
+                              <district type="provincia">GO</district>
+                              <region>Friuli-Venezia Giulia</region>
+                              <country type="nazione">IT</country>
+                          </location>
+
+                      </place>
+                  </listPlace>
+              </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+              <correspDesc><!-- si possono eliminare questi tag se non servono -->
+                  <correspAction type="sent">
+                      <placeName ref="#GO">Gorizia</placeName>
+                      <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                      <date type="writing" when="1916-08-14">1916/08/14</date>
+                  </correspAction>
+                  <correspAction type="received">
+                      <note resp="#MG">Nella cartolina non vengono specificati nè il luogo nè la data di arrivo della cartolina. Non è presente neanche il nome del destinatario ne quello del mittente.
+                      </note>
+                  </correspAction>
+              </correspDesc>
+
+              <textClass>
+                  <keywords>
+                      <!-- soggettario -->
+                      <!-- tipologia -->
+                      <!-- descrizione -->
+                      <term>Cartolina </term>
+                      <term>Cartolina Artistica </term>
+                      <term>Coppia di soldati</term>
+                  </keywords>
+              </textClass>
+
+              <langUsage>
+                  <language ident="de-DE">tedesco</language>
+                  <language ident="it-IT">italiano</language>
+              </langUsage>
+          </profileDesc>
+      </teiHeader>
+
+      <facsimile>
+          <surface n="1" xml:id="fronte" corresp="#fronte71">
+              <!-- Fronte -->
+              <graphic url="cartoline/7694-071F.jpg" width="527px" height="825px" xml:id="fronte2"/>
+              <zone points=" 32,804 162,804 158,824 32,826 " rendition="Line" xml:id="C2fronte_01"/>
+          </surface>
+
+          <surface n="2" xml:id="retro" corresp="#retro171">
+              <!-- Retro -->
+              <graphic url='cartoline/7694-071R.jpg' width='550px' height='355px' xml:id="retro2" />
+              <zone ulx="7" uly="158" lrx="49" lry="341" xml:id="C2stampa1"/>
+              <!--stampa1-->
+              <zone ulx="256" uly="156" lrx="264" lry="249" xml:id="C2stampa2" />
+              <!--stampa2-->
+              <zone ulx="181" uly="6" lrx="523" lry="71"  xml:id="C2retro_01"/>
+              <!--Spezia li ecc.-->
+              <zone ulx="30" uly="67" lrx="508" lry="118"  xml:id="C2retro_02"/>
+              <!--prima riga-->
+              <zone ulx="46" uly="114" lrx="511" lry="189"  xml:id="C2retro_03"/>
+              <!--seconda riga-->
+              <zone ulx="61" uly="184" lrx="530" lry="260"  xml:id="C2retro_04"/>
+              <!--terza riga-->
+
+
+          </surface>
+
+      </facsimile>
+
+      <text type="cartolina" xml:id="C71">
+          <front>
+              <div type="stampe">
+                  <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
+                  <ab xml:id="ScritteR2">
+                      <s xml:id="scritte2" facs="#C2stampa1" style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName></s><!-- chiedere fra tag s e orientation -->
+                  <s xml:id="scritte3" facs="#C2stampa2" style="text-orientation: sideways-left">A. F. W III/2</s></ab>
+              </div>
+          </front>
+          <!-- TRASCRIZIONE -->
+          <body>
+              <div type="fronte" xml:id="fronte187">
+                  <figure>
+                      <figDesc>La cartolina raffigura due soldati che brindano con due bicchieri di birra. I due soldati
+                          sono in piedi, in un ambiente tranquillo sotto un orologio che segna un orario vicino alle 12:00.</figDesc>
+                      <head>[Pausa dalla battaglia]</head>
+                  </figure>
+                  <ab n="ab_00" facs="#C2fronte_01">
+                      <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
+                    <!--  <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName> -->
+                  </ab>
+              </div>
+              <div xml:id="retro187" type="retro">
+                  <div type="opener">
+                      <ab type="parag" n="ab_01">
+                          <s type="sentence" n="retro_s_01">
+                              <lb xml:id="retro_lb_1" facs="#C2retro_01"/>
+                              <placeName ref="#SP">Gorizia</placeName>
+                              <choice>
+                                  <orig xml:id="orig1">li</orig>
+                                  <reg>il</reg>
+                              </choice>
+                              <date xml:id="data_4" when="1916-08-14">14/8.1916</date>
+                          </s>
+                      </ab>
+                  </div>
+                  <div type="letter-body">
+                      <ab type="parag" n="ab_02">
+                          <s type="sentence" n="retro_s_02">
+                              <lb xml:id="retro_lb_2" facs="#C2retro_02"/>Prego l'imminente presa di
+                              <lb xml:id="retro_lb_3" facs="#C2retro_03"/>M. tanto dopo 12 ore d'intenso
+                              <lb xml:id="retro_lb_4" facs="#C2retro_04"/>bombardamento.</s>
+                      </ab>
+                  </div>
+              </div>
+          </body>
+          <back>
+              <div type="note">
+                  <note resp="#PG">
+                  <p>La cartolina non presenta alcuna specifica riguardante il mittente e il destinatario.</p>
+              </note></div>
+          </back>
+      </text>
+  </TEI>
+
+<!-- terza cartolina -->
+
+  <TEI n="3">
+      <teiHeader xml:lang="Italy">
+          <fileDesc>
+              <titleStmt>
+                  <title>Cartolina di Giovannino a Antonietta Turtura, Modena, 12/06/1917</title>
+                  <respStmt>
+                      <resp>Trascrizione realizzata da</resp>
+                      <name ref="#MG">Matteo Giannettoni</name>
+                      <name ref="#PG">Giulia Pes</name>
+                  </respStmt>
+                  <!-- ENTE DI APPARTENENZA -->
+                  <respStmt>
+                      <resp>Ente di Appartenenza</resp>
+                      <name type="comune" ref="#SP">Comune della Spezia</name>
+                  </respStmt>
+              </titleStmt>
+              <editionStmt>
+                  <edition>
+                      Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                      <!-- COMPILAZIONE -->
+                      <date when="2018">2018</date>
+                  </edition>
+                  <!-- NOME COMPILATORE -->
+                  <respStmt>
+                      <resp>Codifica realizzata da</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                  </respStmt>
+                  <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+                  <respStmt>
+                      <resp>Compilatore</resp>
+                      <name ref="#TC">Tommaso Castagneto</name>
+                      <!--<name xml:id="XZ1">XZ</name>-->
+                  </respStmt>
+                  <respStmt>
+                      <resp>Responsabile scientifico</resp>
+                      <name ref="#GP">Giacomo Paolicchi</name>
+                      <name ref="#ES">Enrica Salvatori</name>
+                  </respStmt>
+                  <respStmt>
+                      <resp>Funzionario responsabile</resp>
+                      <name ref="#ER">E. Ratti</name>
+                  </respStmt>
+              </editionStmt>
+              <publicationStmt>
+                  <publisher>Unipi</publisher>
+                  <pubPlace>Pisa</pubPlace>
+                  <availability>
+                      <p>Available under licence only</p>
+                  </availability>
+                  <date when="2019">2019</date>
+                  <distributor>LabCD</distributor>
+                  <address>
+                      <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+                      <addrLine>Pisa</addrLine>
+                  </address>
+              </publicationStmt>
+              <notesStmt>
+                  <note resp="#MG">Sul retro riporta la stampa “Proprietà artistica riservata - N.  8” sul lato sinistro, mentre in basso è presente la stampa "STEFANO BERSANI - Madonnina Petite Madone Kleine Madonne Little Madonna"</note>
+              </notesStmt>
+              <sourceDesc>
+                  <bibl>
+                      <!-- TITOLO -->
+                      <title>Madonnina</title>
+                      <author ref="#SB">Stefano Bersani</author>
+                      <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
+                      <publisher>Ars Minima</publisher>
+                      <!-- LUOGO -->
+
+                      <!-- CRONOLOGIA, attenzione si rPDF version for downloading and printing.ePub version for mobile devices.Mobi version (for Kindle).Front Matter Title i. Releases of the TEI Guideiferisce solo alla data di stampa -->
+                      <date notAfter="1914">1914</date>
+                  </bibl>
+
+                  <msDesc>
+                      <msIdentifier>
+                          <country type="nation">Italia</country>
+                          <settlement type="city">La Spezia (SP)</settlement>
+                          <!-- COLLOCAZIONE SPECIFICA -->
+                          <repository>Museo Civico Etnografico "Giovanni Podenzana", Sezione dei cimeli garibaldini e della Prima Guerrra Mondiale</repository>
+                          <!-- CODICE IDENTIFICATIVO -->
+                          <idno>7694_083_001/002</idno>
+                      </msIdentifier>
+
+                      <!-- Informazioni sul contenuto della cartolina -->
+                      <!-- DESCRIZIONE -->
+                      <msContents>
+                          <summary>Cartolina Artistica</summary>
+                           <textLang>Italiano</textLang>
+                          <msItem n="1" facs="#fronte1">
+                              <author><persName ref="#SB">Stefano Bersani</persName></author>
+                              <title>Madonnina</title>
+                          </msItem>
+                          <msItem n="2" facs="#retro1">
+                              <author><persName ref="#G">Giovannino</persName></author>
+                              <title>Cartolina di Giovannino a Antonietta Turtura, Ravenna, 12/06/1917</title>
+                          </msItem>
+                      </msContents>
+
+                      <physDesc>
+                          <objectDesc>
+                              <supportDesc>
+                                  <support>
+                                      <objectType>Cartolina</objectType>
+                                      <!-- MATERIALI -->
+                                      <material>Carta</material>
+                                      <!-- DIMENSIONE -->
+                                      <dimensions unit="cm">
+                                          <height>9</height>
+                                          <width>14</width>
+                                      </dimensions>
+                                      <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in discreto stato. Inoltre sono presenti presenti due timbri:
+                                      Il primo, quasi del tutto leggibile, è posizionato sull'estremità destra della cartolina e copre quasi per intero il timbro sopra descritto. Il secondo, proprio della casa editrice, dal lato opposto totalmente leggibile.</stamp> <!-- descrivere francobolli-->
+                                  </support>
+                                  <!-- CONSERVAZIONE
+                                  buono = non occorrono interventi di restauro;
+                                  discreto = perfettamente leggibile in tutte le componenti ma con rischi di deterioramento per usura;
+                                  mediocre = perfettamente leggibile, ma mancano alcune sue parti;
+                                  cattivo = intaccato da parassiti o deteriorato da cattivi interventi passati o mancanti di parti rilevanti, necessita di restauro-->
+                                  <condition>Discreto</condition>
+                              </supportDesc>
+                          </objectDesc>
+                          <handDesc>
+                              <summary>Scrittura eseguita a mano leggibile, con una annotazione nella parte superiore del retro.</summary>
+                              <handNote n="1">Annotazione di un catalogatore che presenta il numero 83, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                          </handDesc>
+                      </physDesc>
+                      <history>
+                          <p>La cartolina è stata scritta il <origDate>12 Giugno 1917</origDate>. Oggi
+                              si trova presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
+                      </history>
+                  </msDesc>
+
+                  <!-- NOMI -->
+                  <listPerson>
+                      <person xml:id="G">
+                          <persName>
+                              <forename>Giovannino</forename>
+                          </persName>
+                          <sex>M</sex>
+                          <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+                      </person>
+                      <person xml:id="M">
+                          <persName>
+                              <ref target="http://www.icontemporanei.it/indice/omaggi/bersani/stefano_bersani_pittore_e_poeta.htm"/>
+                              <forename>
+                                      <choice>Stefano</choice>
+                              </forename>
+                              <surname>Bersani</surname>
+                          </persName>
+                          <sex>M</sex>
+                          <birth when="1872-03-29">29/03/1872<placeName type="comune">Malegnano</placeName>,<country>Italia</country></birth>
+                          <death when="1914-07-20">20/07/1914<placeName type="city">Lora</placeName>,<country>Italia</country></death>
+                          <occupation>Pittore e poeta</occupation>
+                          <note resp="#MG">Autore della cartolina</note>
+                      </person>
+                      <person>
+                          <persName ref="#AT">
+                              <forename>Antonietta</forename>
+                              <surname>Turtura</surname>
+                          </persName>
+                          <sex>F</sex>
+                          <note resp="#PG">Destinataria della cartolina. Non abbiamo alcuna informazione su di lei</note>
+
+                      </person>
+
+                  </listPerson>
+                  <listOrg>
+                      <org xml:id="AM">
+                          <orgName type="Editore"> Ars Minima</orgName>
+                          <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
+                      </org>
+                      <org xml:id="PI">
+                          <orgName type="Poste">Poste Italiane</orgName><!-- chiedere se francobollo? -->
+                          <desc>Società che si occupa del servizio postale italiano</desc>
+                      </org>
+                  </listOrg>
+                  <listPlace>
+                      <place xml:id="MO">
+                          <placeName>Modena</placeName>
+                          <location>
+                              <settlement type="comune">Modena</settlement>
+                              <district type="provincia">MO</district>
+                              <region>Emilia-Romagna</region>
+                              <country type="nazione">IT</country>
+                          </location>
+                      </place>
+                      <place xml:id="RV">
+                          <placeName>Ravenna</placeName>
+                          <location>
+                              <settlement type="comune">Ravenna</settlement>
+                              <district type="provincia">RV</district>
+                              <region>Emilia-Romagna</region>
+                              <country type="nation">IT</country>
+                          </location>
+                      </place>
+                  </listPlace>
+              </sourceDesc>
+          </fileDesc>
+          <profileDesc>
+              <correspDesc>
+                  <correspAction type="sent">
+                      <persName ref="#G">Giovannino</persName>
+                      <placeName ref="#MO">Modena</placeName>
+                      <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
+                      <date type="writing" when="1917-06-12">12/06/1917</date>
+                  </correspAction>
+                  <correspAction type="received">
+                      <persName ref="#AT">Antonietta Turtura</persName>
+                      <placeName ref="#RV">Ravenna</placeName>
+                  </correspAction>
+              </correspDesc>
+
+              <textClass>
+                  <keywords>
+                      <!-- soggettario -->
+                      <!-- tipologia -->
+                      <!-- descrizione -->
+                      <term>Cartolina </term>
+                      <term>Cartolina Artistica </term>
+                      <term>Donna che tiene con amore in braccio un bambino</term>
+                  </keywords>
+              </textClass>
+
+              <langUsage>
+                  <language ident="it-IT">italiano</language>
+              </langUsage>
+          </profileDesc>
+      </teiHeader>
+      <facsimile>
+
+          <surface n="1" corresp="#fronte067">    <!-- Fronte -->
+              <graphic url='cartoline/7694-083F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
+              <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
+              <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
+              <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
+          </surface>
+
+          <surface n="2" corresp="#retro067">    <!-- Retro -->
+              <!-- testo lettera -->
+              <graphic url='cartoline/7694-083R.jpg' width='550px' height='355px' xml:id="retro1"/>
+              <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
+              <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
+              <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
+              <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/> <!-- terza riga -->
+              <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/> <!-- quarta riga -->
+              <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/> <!-- quinta riga -->
+              <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <!-- sesta riga -->
+              <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <!-- settima riga -->
+              <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!-- ottava riga -->
+              <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!-- nona riga -->
+              <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!-- decima riga -->
+              <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!-- closer: prima riga -->
+              <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/> <!-- closer: seconda riga -->
+              <!-- francobollo e timbri -->
+              <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/> <!-- timbro a destra -->
+              <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/> <!-- timbro in alto -->
+              <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!-- timbro a sinistra -->
+              <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/> <!-- francobollo -->
+              <!-- stampa -->
+              <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!--stampa-->
+              <!-- address -->
+              <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!-- address: prima riga -->
+              <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <!-- address: seconda riga -->
+              <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-- address: terza riga -->
+              <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <!-- address: quarta riga -->
+              <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <!-- address: Arona -->
+              <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <!-- address: Lago Maggiore -->
+          </surface>
+
+      </facsimile>
+
+      <text type="cartolina" xml:id="xx" >
+          <front>
+              <div type="postmark">
+                  <p>
+                      <stamp type="postmark">
+                          <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                              <placeName ref="#MO">Modena</placeName>Ferrovia
+                              <date when="1917-06-12">12.6.17</date>.21
+                              <gap reason="deteriorato">
+                                  <desc>La parte inferiore del timbro è poco leggibile per cui ipotizziamo la parola "Ferrovia"</desc>
+                              </gap>
+                          </mentioned>
+                          <note resp="#MG">Timbro effettuato in data 12/06/1917 a Modena. Sul timbro è possibile vedere la data seguita da .21.</note>
+                      </stamp>
+                      <stamp type="postmark">
+                          <mentioned facs="#C1retro_timbro02" xml:id="stamp2">
+                              <orgName ref="AM">Ars Minima</orgName>
+                          </mentioned>
+                          <note resp="#MG">Timbro effettuato dalla casa editrice "Ars Minima" detenendone cosi il copyright</note>
+                      </stamp>
+                      <stamp type="postage">
+                          <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                              <orgName ref="#PI">Poste Italiane</orgName>
+                              <s><num type="cardinal">5</num>  <num type="cardinal">5</num></s>
+                              <gap reason="illegible">
+                                  <desc>La parte inferiore del francobollo è illeggibile</desc>
+                              </gap>
+                          </mentioned>
+                          <note resp="#PG">Francobollo da 5 centesimi delle poste italiane.</note>
+                    </stamp>
+                  </p>
+              </div>
+          </front>
+          <!-- TRASCRIZIONE -->
+          <body>
+              <div type="fronte" xml:id="fronte083">
+                  <figure>
+                      <figDesc>La cartolina raffigura una donna che tiene in braccio un bambino.</figDesc>
+                      <head>Madonnina</head>
+                  </figure>
+              </div>
+
+              <div type="retro" xml:id="retro083">
+                  <div type="opener">
+                      <ab type="parag" n="ab_01">
+                          <s type="sentence" n="retro_s_01">
+                              <lb xml:id="retro_lb_00" facs="#C1retro_data" />
+                              <placeName ref="#MO">Modena</placeName>, <date xml:id="data_1" when="1917-06-12">12-06-1917</date>
+                          </s>
+                      </ab>
+                  </div>
+                  <div type="letter-body">
+                      <ab type="parag" n="ab_02">
+                          <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
+                          Cordiali auguri e
+                          <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
+                          felicitazioni vivissime per
+                          <lb xml:id="retro_lb_03" facs="#C1retro_03"/>
+                          il suo onomastico.
+                      </ab>
+                  </div>
+                  <div type="closer">
+                      <lb xml:id="retro_lb_11" facs="#C1retro_11"/>
+                      <signed><persName ref="#G">Giovannino</persName></signed>
+                  </div>
+                  <div type="destination">
+                      <p>
+                          <address>
+
+                              <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
+                                  <abbr>Gent.ma </abbr><abbr>Sig.na</abbr>
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
+                                  <persName ref="#OT">Antonietta Turtura</persName>
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_03" facs="#C1retro_address03">
+                                  <name type="street">Via <persName>Girolamo Rossi</persName> <num type="cardinal">58</num></name>
+                              </addrLine>
+
+                              <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05">
+                                  <placeName ref="#RV">Ravenna</placeName>
+                              </addrLine>
+
+                          </address>
+                      </p>
+                  </div>
+              </div>
+          </body>
+          <back>
+              <div type="note">
+                  <note resp="#MG">
+                  <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#G">Giovannino</persName>, che invia la cartolina da <placeName>Modena</placeName> a <placeName>Ravenna</placeName> indirizzata ad <persName>Antonietta Turtura</persName>.</p></note>
+              </div>
+          </back>
+      </text>
+  </TEI>
+</teiCorpus>
