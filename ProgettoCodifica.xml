@@ -370,7 +370,7 @@
                   </figure>
                   <ab n="ab_0" facs="#C1fronte_01">
                       <lb xml:id="fronte_lb_00"/>
-                      <persName ref="#GG"><choice>Giannino</choice> Grossi</persName>
+                      <persName ref="#GG">Giannino Grossi</persName>
                   </ab>
               </div>
 
@@ -387,7 +387,9 @@
                   </div>
                   <div type="closer">
                       <signed><persName ref="#M">Mario</persName></signed>
+                      <ab>
                       <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
+                      </ab>
                   </div>
                   <div type="destination">
                       <p>

@@ -585,7 +585,8 @@
             <xsl:element name="area">
                 <xsl:attribute name="shape">rect</xsl:attribute>
                 <xsl:attribute name="class">CursorePointer</xsl:attribute>
-                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
+
+                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute> 
                 <xsl:attribute name="onmouseover">Highlight(<xsl:value-of select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
                 <xsl:attribute name="onmouseout">UnHighlight(<xsl:apply-templates select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
             </xsl:element>

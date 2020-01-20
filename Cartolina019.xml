@@ -235,34 +235,55 @@
 
         <surface n="2" corresp="#retro067">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='cartoline/7694-019R.jpg' width='550px' height='355px' xml:id="retro1"/>
-            <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
-            <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
-            <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
-            <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/> <!-- terza riga -->
-            <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/> <!-- quarta riga -->
-            <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/> <!-- quinta riga -->
-            <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <!-- sesta riga -->
-            <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <!-- settima riga -->
-            <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!-- ottava riga -->
-            <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!-- nona riga -->
-            <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!-- decima riga -->
-            <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!-- closer: prima riga -->
-            <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/> <!-- closer: seconda riga -->
-            <!-- francobollo e timbri -->
-            <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/> <!-- timbro a destra -->
-            <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/> <!-- timbro in alto -->
-            <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!-- timbro a sinistra -->
-            <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/> <!-- francobollo -->
-            <!-- stampa -->
-            <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!--stampa-->
-            <!-- address -->
-            <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!-- address: prima riga -->
-            <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <!-- address: seconda riga -->
-            <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-- address: terza riga -->
-            <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <!-- address: quarta riga -->
-            <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <!-- address: Arona -->
-            <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <!-- address: Lago Maggiore -->
+            <graphic url='cartoline/7694-019R.jpg'  xml:id="retro1" />
+            <zone ulx="77" uly="13" lrx="122" lry="51" xml:id="C1retro_03"/>
+            <zone ulx="299" uly="20" lrx="345" lry="501" xml:id="C1retro_01" />
+            <zone ulx="262" uly="7" lrx="283" lry="184" xml:id="C1retro_02" />
+
+            <!-- <zone points = ' 150,27 230,28 236,84 153,96 ' xml:id="C1retro_num"/>
+            <zone points = ' 600,37 771,41 763,251 673,266 650,265 648,429 665,449 647,466 650,666 674,896 718,912 692,948 668,994 609,1003 596,671 570,592 584,536 566,329 595,244 ' xml:id="C1retro_01"/>
+            <zone points = ' 542,6 590,7 593,178 594,220 566,245 556,247 546,247 544,239 535,203 530,193 537,187 529,103 ' xml:id="C1retro_03"/>
+            <zone points = ' 495,183 526,183 545,245 569,245 588,245 578,262 544,273 541,305 552,310 543,323 528,341 509,345 509,274 483,290 471,309 473,329 460,338 451,315 461,284 483,267 504,247 495,208 ' xml:id="C1retro_04" />
+            <zone points = ' 40,95 95,100 103,134 119,147 111,174 114,200 89,224 89,259 89,304 101,323 120,337 131,365 130,406 122,439 110,487 118,513 145,540 148,583 133,597 122,593 124,574 125,560 121,548 111,550 95,556 84,553 73,542 49,410 27,390 50,370 38,224 ' xml:id="C1retro_data" />
+            <!-
+            <zone points = ' 798,276 857,275 868,391 914,367 932,367 952,405 983,399 1003,268 1033,267 1048,361 1172,364 1221,423 1233,446 1226,481 1205,481 1200,458 1081,459 1083,489 1064,489 1063,461 844,461 843,493 814,493 813,432 790,431 ' xml:id="C1retro_address01"/>
+            <zone points = ' 852,481 893,481 927,500 1126,502 1199,486 1212,498 1212,543 1308,546 1318,499 1340,498 1350,547 1458,546 1492,527 1533,600 1525,613 1408,627 1408,586 1086,588 1038,598 892,587 867,604 838,604 837,506 ' xml:id="C1retro_address02"/>
+            <zone points = ' 849,672 878,640 938,629 991,628 1019,614 1047,626 1105,629 1154,598 1182,598 1182,643 1412,640 1443,628 1463,645 1439,700 1212,712 1173,722 1144,711 1070,711 1038,755 1009,755 1007,713 860,713 ' xml:id="C1retro_address03"/>
+            <zone points = ' 1133,817 1284,727 1314,729 1312,831 1352,831 1438,766 1460,766 1459,845 1537,842 1565,898 1596,899 1599,915 1585,920 1554,920 1458,955 1452,900 1337,899 1339,960 1327,962 1261,921 1130,921 1114,883 ' xml:id="C1retro_address04"/>
+            <!>
+            <zone points = ' 1231,177 1247,136 1271,96 1304,67 1340,43 1384,27 1436,21 1483,32 1524,47 1565,76 1589,111 1608,148 1618,191 1623,238 1610,287 1588,318 1560,354 1512,385 1455,395 1385,392 1335,381 1288,345 1253,295 1238,241 1234,208 ' xml:id="C1retro_timbro01"/>
+            <zone points = ' 1302,132 1350,130 1549,132 1551,369 1550,381 1499,430 1304,437 1302,407 1299,276 ' xml:id="C1retro_francobollo"/>
+            <zone points = ' 744,1012 838,1012 839,1032 741,1035 ' xml:id="C1stampa"/>
+            <zone points = ' 355,158 471,156 485,144 493,142 505,149 506,160 528,157 558,139 573,148 598,155 630,141 685,119 725,108 763,102 805,102 849,109 884,117 915,125 944,139 982,145 1011,145 1087,145 1105,154 1138,159 1157,160 1177,161 1200,162 1202,169 1089,176 1064,182 1007,185 979,187 952,176 932,186 909,202 883,210 845,223 824,230 805,242 796,259 793,296 804,309 809,325 807,342 794,351 792,382 792,430 799,448 802,464 799,480 792,495 791,611 790,1002 769,1003 770,608 773,494 761,473 758,453 767,429 771,381 771,347 762,335 751,321 760,301 774,263 759,244 733,231 686,219 657,207 631,191 610,179 596,175 577,180 554,189 539,181 521,175 500,188 490,188 479,183 455,177 355,172 347,167 ' xml:id="C1stampa2" /> -->
+
+            <!-- <graphic url='cartoline/7694-019R.jpg' width='550px' height='355px' xml:id="retro1"/>
+            <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/>
+            <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/>
+            <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/>
+            <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/>
+            <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/>
+            <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/>
+            <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <>
+            <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <
+            <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!
+            <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!
+            <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!
+            <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!
+            <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/>
+            <!-
+            <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/>
+            <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/>
+            <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!
+            <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/>
+            <!-
+            <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!-
+            <>
+            <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!
+            <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <
+            <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-
+            <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <
+            <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <
+            <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <! -->
         </surface>
 
     </facsimile>
@@ -275,7 +296,7 @@
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
-                        <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                        <mentioned facs="#C1retro_timbro01" xml:id="stamp1">
                             <placeName ref="#MI">Milano Ferrovia</placeName>
                             <date when="1916-10-31">31.10.16</date>
                         </mentioned>
@@ -316,11 +337,11 @@
                     </ab>
                 </div>
                 <div type="closer">
-                    
-                    <signed><persName ref="#M">Mario</persName></signed>
+
+                    <signed><persName ref="#M" facs="#C1retro_03">Mario</persName></signed>
                     <ab>
                     <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
-                      </ab>  
+                      </ab>
                 </div>
                 <div type="destination">
                     <p>
