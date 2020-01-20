@@ -134,14 +134,14 @@
 
                 <!-- NOMI -->
                 <listPerson>
-                    <person xml:id="G">
+                    <person xml:id="MA">
                         <persName>
                             <forename>Mario</forename>
                         </persName>
                         <sex>M</sex>
                         <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
                     </person>
-                    <person xml:id="M">
+                    <person xml:id="GI">
                         <persName>
                             <ref target="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"/>
                             <forename>Giannino</forename>
@@ -227,7 +227,7 @@
     <facsimile><!-- coordinate per interfaccia finale ############## -->
 
         <surface n="1" corresp="#fronte067">    <!-- Fronte -->
-            <graphic url='img/067F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
+            <graphic url='cartoline/7694-019F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
             <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
             <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
             <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
@@ -235,7 +235,7 @@
 
         <surface n="2" corresp="#retro067">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='img/067R.jpg' width='550px' height='355px' xml:id="retro1"/>
+            <graphic url='cartoline/7694-019R.jpg' width='550px' height='355px' xml:id="retro1"/>
             <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
             <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
             <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
@@ -300,7 +300,7 @@
                 </figure>
                 <ab n="ab_0" facs="#C1fronte_01">
                     <lb xml:id="fronte_lb_00"/>
-                    <persName ref="#GG"><choice>Giannino</choice> Grossi</persName>
+                    <persName ref="#GG">Giannino Grossi</persName>
                 </ab>
             </div>
 
@@ -316,8 +316,11 @@
                     </ab>
                 </div>
                 <div type="closer">
+                    
                     <signed><persName ref="#M">Mario</persName></signed>
+                    <ab>
                     <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
+                      </ab>  
                 </div>
                 <div type="destination">
                     <p>

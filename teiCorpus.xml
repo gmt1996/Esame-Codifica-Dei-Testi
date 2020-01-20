@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/xsl" href="prog.xsl"?>
+<!DOCTYPE teiCorpus SYSTEM "myTEI.dtd">
+
+<teiCorpus xmlns:xi="http://www.w3.org/2001/XInclude" >
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title> Cartoline</title>
+        <!-- TRASCRITTORE nome e cognome-->
+        <respStmt>
+          <resp>Trascrizione realizzata da</resp>
+          <name xml:id="MG">Matteo Giannettoni</name>
+          <name xml:id="PG">Giulia Pes</name>
+        </respStmt>
+        <!-- ENTE DI APPARTENENZA -->
+        <respStmt>
+          <resp>Ente di Appartenenza</resp>
+          <name type="comune" ref="SP">Comune della Spezia</name>
+        </respStmt>
+      </titleStmt>
+      <editionStmt>
+        <edition>
+                    Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
+                    <!-- COMPILAZIONE -->
+                    <date when="2018">2018</date>
+                </edition>
+        <!-- NOME COMPILATORE -->
+        <respStmt>
+          <resp>Codifica realizzata da</resp>
+          <name xml:id="TC">Tommaso Castagneto</name>
+        </respStmt>
+        <!-- REFERENTE SCIENTIFICO sempre Nome Cognome, XY2 è sempre Tommaso Castagneto, XZ1 è chi interviene sulla schedatura già fatta per correzioni e aggiunte-->
+        <respStmt>
+          <resp>Compilatore</resp>
+          <name ref="#TC">Tommaso Castagneto</name>
+          <!--<name xml:id="XZ1">XZ</name>-->
+        </respStmt>
+        <respStmt>
+          <resp>Responsabile scientifico</resp>
+          <name xml:id="GP">Giacomo Paolicchi</name>
+          <name xml:id="ES">Enrica Salvatori</name>
+        </respStmt>
+        <respStmt>
+          <resp>Funzionario responsabile</resp>
+          <name xml:id="ER">E. Ratti</name>
+        </respStmt>
+      </editionStmt>
+      <publicationStmt>
+        <publisher>Unipi</publisher>
+        <pubPlace>Pisa</pubPlace>
+        <availability>
+          <p>Available under licence only</p>
+        </availability>
+        <date when="2019">2019</date>
+        <distributor>LabCD</distributor>
+        <address>
+          <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
+          <addrLine>Pisa</addrLine>
+        </address>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+                    <!--Cartoline risalenti al periodo della Prima Guerra Mondiale-->
+                </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <encodingDesc>
+      <p><!-- inserire introduzione preliminare --></p>
+    </encodingDesc>
+  </teiHeader>
+  <xi:include href = "Cartolina019.xml" />
+  <xi:include href = "Cartolina071.xml" />
+  <xi:include href = "Cartolina083.xml" />
+</teiCorpus>

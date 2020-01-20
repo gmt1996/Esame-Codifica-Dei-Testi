@@ -145,7 +145,7 @@
                         <persName>
                             <ref target="http://www.icontemporanei.it/indice/omaggi/bersani/stefano_bersani_pittore_e_poeta.htm"/>
                             <forename>
-                                    <choice>Stefano</choice>
+                                   Stefano
                             </forename>
                             <surname>Bersani</surname>
                         </persName>
@@ -171,7 +171,7 @@
                         <orgName type="Editore"> Ars Minima</orgName>
                         <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
                     </org>
-                    <org xml:id="PI">
+                    <org xml:id="PI1">
                         <orgName type="Poste">Poste Italiane</orgName><!-- chiedere se francobollo? -->
                         <desc>Società che si occupa del servizio postale italiano</desc>
                     </org>
@@ -186,7 +186,7 @@
                             <country type="nazione">IT</country>
                         </location>
                     </place>
-                    <place xml:id="RV">
+                    <place xml:id="RV1">
                         <placeName>Ravenna</placeName>
                         <location>
                             <settlement type="comune">Ravenna</settlement>
@@ -231,52 +231,52 @@
     <facsimile>
 
         <surface n="1" corresp="#fronte067">    <!-- Fronte -->
-            <graphic url='img/067F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
-            <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
-            <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
-            <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
+            <graphic url='cartoline/7694-083F.jpg' width='1038px' height='1642px' xml:id="fronte3"/>
+            <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C3fronte_01"/> <!-- 219 AN Paris -->
+            <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C3fronte_02"/> <!-- firma Mastroianni -->
+            <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C3fronte_03"/> <!-- titolo: Sommel Interrompu -->
         </surface>
 
         <surface n="2" corresp="#retro067">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='img/067R.jpg' width='550px' height='355px' xml:id="retro1"/>
-            <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C1retro_data"/> <!-- 24-VII-913 -->
-            <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C1retro_01"/> <!-- prima riga -->
-            <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C1retro_02"/> <!-- seconda riga -->
-            <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C1retro_03"/> <!-- terza riga -->
-            <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C1retro_04"/> <!-- quarta riga -->
-            <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C1retro_05"/> <!-- quinta riga -->
-            <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C1retro_06"/> <!-- sesta riga -->
-            <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C1retro_07"/> <!-- settima riga -->
-            <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C1retro_08"/> <!-- ottava riga -->
-            <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C1retro_09"/> <!-- nona riga -->
-            <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C1retro_10"/> <!-- decima riga -->
-            <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C1retro_11"/> <!-- closer: prima riga -->
-            <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C1retro_12"/> <!-- closer: seconda riga -->
+            <graphic url='cartoline/7694-083R.jpg' width='550px' height='355px' xml:id="retro3"/>
+            <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C3retro_data"/> <!-- 24-VII-913 -->
+            <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C3retro_01"/> <!-- prima riga -->
+            <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C3retro_02"/> <!-- seconda riga -->
+            <zone ulx="10" uly="86" lrx="284" lry="108" xml:id="C3retro_03"/> <!-- terza riga -->
+            <zone ulx="16" uly="110" lrx="284" lry="140" xml:id="C3retro_04"/> <!-- quarta riga -->
+            <zone ulx="32" uly="152" lrx="256" lry="179" xml:id="C3retro_05"/> <!-- quinta riga -->
+            <zone ulx="38" uly="176" lrx="279" lry="206" xml:id="C3retro_06"/> <!-- sesta riga -->
+            <zone ulx="32" uly="209" lrx="280" lry="242" xml:id="C3retro_07"/> <!-- settima riga -->
+            <zone ulx="32" uly="241" lrx="273" lry="267" xml:id="C3retro_08"/> <!-- ottava riga -->
+            <zone ulx="31" uly="268" lrx="284" lry="300" xml:id="C3retro_09"/> <!-- nona riga -->
+            <zone ulx="22" uly="299" lrx="213" lry="316" xml:id="C3retro_10"/> <!-- decima riga -->
+            <zone ulx="24" uly="314" lrx="247" lry="333" xml:id="C3retro_11"/> <!-- closer: prima riga -->
+            <zone ulx="134" uly="334" lrx="301" lry="354" xml:id="C3retro_12"/> <!-- closer: seconda riga -->
             <!-- francobollo e timbri -->
-            <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C1retro_timbro02"/> <!-- timbro a destra -->
-            <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C1retro_timbro01"/> <!-- timbro in alto -->
-            <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C1retro_timbro03"/> <!-- timbro a sinistra -->
-            <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C1retro_francobollo"/> <!-- francobollo -->
+            <zone ulx="389" uly="57" lrx="503" lry="163"  xml:id="C3retro_timbro02"/> <!-- timbro a destra -->
+            <zone ulx="287" uly="14" lrx="414" lry="121" xml:id="C3retro_timbro01"/> <!-- timbro in alto -->
+            <zone ulx="202" uly="132" lrx="319" lry="245" xml:id="C3retro_timbro03"/> <!-- timbro a sinistra -->
+            <zone ulx="448" uly="9" lrx="548" lry="104" xml:id="C3retro_francobollo"/> <!-- francobollo -->
             <!-- stampa -->
-            <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C1stampa"/><!--stampa-->
+            <zone ulx="1" uly="128" lrx="35" lry="293" xml:id="C3stampa"/><!--stampa-->
             <!-- address -->
-            <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C1retro_address01"/> <!-- address: prima riga -->
-            <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C1retro_address02"/> <!-- address: seconda riga -->
-            <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C1retro_address03"/> <!-- address: terza riga -->
-            <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C1retro_address04"/> <!-- address: quarta riga -->
-            <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C1retro_address05"/> <!-- address: Arona -->
-            <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C1retro_address06"/> <!-- address: Lago Maggiore -->
+            <zone ulx="288" uly="114" lrx="510" lry="173" xml:id="C3retro_address01"/> <!-- address: prima riga -->
+            <zone ulx="285" uly="178" lrx="534" lry="215"  xml:id="C3retro_address02"/> <!-- address: seconda riga -->
+            <zone ulx="289" uly="219" lrx="541" lry="244" xml:id="C3retro_address03"/> <!-- address: terza riga -->
+            <zone ulx="288" uly="247" lrx="476" lry="269" xml:id="C3retro_address04"/> <!-- address: quarta riga -->
+            <zone ulx="424" uly="260" lrx="548" lry="304" xml:id="C3retro_address05"/> <!-- address: Arona -->
+            <zone ulx="288" uly="290" lrx="372" lry="343" xml:id="C3retro_address06"/> <!-- address: Lago Maggiore -->
         </surface>
 
     </facsimile>
 
-    <text type="cartolina" xml:id="xx" >
+    <text type="cartolina" xml:id="xx1" >
         <front>
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
-                        <mentioned facs="C1retro_timbro01" xml:id="stamp1">
+                        <mentioned facs="C3retro_timbro01" xml:id="stamp11">
                             <placeName ref="#MO">Modena</placeName>Ferrovia
                             <date when="1917-06-12">12.6.17</date>.21
                             <gap reason="deteriorato">
@@ -286,13 +286,13 @@
                         <note resp="#MG">Timbro effettuato in data 12/06/1917 a Modena. Sul timbro è possibile vedere la data seguita da .21.</note>
                     </stamp>
                     <stamp type="postmark">
-                        <mentioned facs="#C1retro_timbro02" xml:id="stamp2">
-                            <orgName ref="AM">Ars Minima</placeName>
+                        <mentioned facs="#C3retro_timbro02" xml:id="stamp2">
+                            <orgName ref="AM">Ars Minima</orgName>
                         </mentioned>
                         <note resp="#MG">Timbro effettuato dalla casa editrice "Ars Minima" detenendone cosi il copyright</note>
                     </stamp>
                     <stamp type="postage">
-                        <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                        <mentioned facs="#C3retro_francobollo" xml:id="stamp41">
                             <orgName ref="#PI">Poste Italiane</orgName>
                             <s><num type="cardinal">5</num>  <num type="cardinal">5</num></s>
                             <gap reason="illegible">
@@ -317,43 +317,43 @@
                 <div type="opener">
                     <ab type="parag" n="ab_01">
                         <s type="sentence" n="retro_s_01">
-                            <lb xml:id="retro_lb_00" facs="#C1retro_data" />
-                            <placeName ref="#MO">Modena</placeName>, <date xml:id="data_1" when="1917-06-12">12-06-1917</date>
+                            <lb xml:id="retro_lb_00" facs="#C3retro_data" />
+                            <placeName ref="#MO">Modena</placeName>, <date xml:id="data_11" when="1917-06-12">12-06-1917</date>
                         </s>
                     </ab>
                 </div>
                 <div type="letter-body">
                     <ab type="parag" n="ab_02">
-                        <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
+                        <lb xml:id="retro_lb_011" facs="#C3retro_01"/>
                         Cordiali auguri e
-                        <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
+                        <lb xml:id="retro_lb_021" facs="#C3retro_02"/>
                         felicitazioni vivissime per
-                        <lb xml:id="retro_lb_03" facs="#C1retro_03"/>
+                        <lb xml:id="retro_lb_031" facs="#C3retro_03"/>
                         il suo onomastico.
                     </ab>
                 </div>
                 <div type="closer">
-                    <lb xml:id="retro_lb_11" facs="#C1retro_11"/>
+                    <lb xml:id="retro_lb_11" facs="#C3retro_11"/>
                     <signed><persName ref="#G">Giovannino</persName></signed>
                 </div>
                 <div type="destination">
                     <p>
                         <address>
 
-                            <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
+                            <addrLine xml:id="retro_add_lb_011" facs="#C3retro_address01">
                                 <abbr>Gent.ma </abbr><abbr>Sig.na</abbr>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
+                            <addrLine xml:id="retro_add_lb_021" facs="#C3retro_address02">
                                 <persName ref="#OT">Antonietta Turtura</persName>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_03" facs="#C1retro_address03">
+                            <addrLine xml:id="retro_add_lb_031" facs="#C3retro_address03">
                                 <name type="street">Via <persName>Girolamo Rossi</persName> <num type="cardinal">58</num></name>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05">
-                                <placeName ref="#RV">Ravenna</placeName>
+                            <addrLine xml:id="retro_add_lb_051" facs="#C3retro_address05">
+                                <placeName ref="#RV1">Ravenna</placeName>
                             </addrLine>
 
                         </address>
