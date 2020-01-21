@@ -277,7 +277,7 @@
                 <p>
                     <stamp type="postmark">
                         <mentioned facs="C3retro_timbro01" xml:id="stamp11">
-                            <placeName ref="#MO">Modena</placeName>Ferrovia
+                            <lb/><placeName ref="#MO">Modena</placeName>Ferrovia
                             <date when="1917-06-12">12.6.17</date>.21
                             <gap reason="deteriorato">
                                 <desc>La parte inferiore del timbro è poco leggibile per cui ipotizziamo la parola "Ferrovia"</desc>
@@ -287,13 +287,13 @@
                     </stamp>
                     <stamp type="postmark">
                         <mentioned facs="#C3retro_timbro02" xml:id="stamp2">
-                            <orgName ref="AM">Ars Minima</orgName>
+                            <lb/><orgName ref="AM">Ars Minima</orgName>
                         </mentioned>
                         <note resp="#MG">Timbro effettuato dalla casa editrice "Ars Minima" detenendone cosi il copyright</note>
                     </stamp>
                     <stamp type="postage">
                         <mentioned facs="#C3retro_francobollo" xml:id="stamp41">
-                            <orgName ref="#PI">Poste Italiane</orgName>
+                            <lb/><orgName ref="#PI">Poste Italiane</orgName>
                             <s><num type="cardinal">5</num>  <num type="cardinal">5</num></s>
                             <gap reason="illegible">
                                 <desc>La parte inferiore del francobollo è illeggibile</desc>
@@ -341,19 +341,19 @@
                         <address>
 
                             <addrLine xml:id="retro_add_lb_011" facs="#C3retro_address01">
-                                <abbr>Gent.ma </abbr><abbr>Sig.na</abbr>
+                                <lb/><abbr>Gent.ma </abbr><abbr>Sig.na</abbr>
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_021" facs="#C3retro_address02">
-                                <persName ref="#OT">Antonietta Turtura</persName>
+                                <lb/><persName ref="#OT">Antonietta Turtura</persName>
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_031" facs="#C3retro_address03">
-                                <name type="street">Via <persName>Girolamo Rossi</persName> <num type="cardinal">58</num></name>
+                                <lb/><name type="street">Via <persName>Girolamo Rossi</persName> <num type="cardinal">58</num></name>
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_051" facs="#C3retro_address05">
-                                <placeName ref="#RV1">Ravenna</placeName>
+                                <lb/><placeName ref="#RV1">Ravenna</placeName>
                             </addrLine>
 
                         </address>

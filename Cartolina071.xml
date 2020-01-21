@@ -216,7 +216,7 @@
         <front>
             <div type="stampe">
                 <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
-                <ab xml:id="ScritteR2">
+                <lb/><ab xml:id="ScritteR2">
                     <s xml:id="scritte2" facs="#C2stampa1" style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s><!-- chiedere fra tag s e orientation -->
                 <s xml:id="scritte3" facs="#C2stampa2" style="text-orientation: sideways-left">A. F. W III/2</s></ab>
             </div>

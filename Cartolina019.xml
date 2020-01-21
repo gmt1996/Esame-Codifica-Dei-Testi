@@ -64,7 +64,7 @@
                 <bibl>
                     <!-- TITOLO -->
                     <title>[Albero fronte mare]</title>
-                    <author ref="#GG">Giovannino Grossi</author>
+                    <author ref="#GG">Giannino Grossi</author>
                     <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
                     <publisher>FPM</publisher>
                     <!-- LUOGO -->
@@ -89,7 +89,7 @@
                         <summary>Cartolina Artistica</summary>
                          <textLang>Italiano</textLang>
                         <msItem n="1" facs="#fronte1">
-                            <author><persName ref="#GG">Giovannino Grossi</persName></author>
+                            <author><persName ref="#GG">Giannino Grossi</persName></author>
                             <title>[Albero fronte mare]</title>
                         </msItem>
                         <msItem n="2" facs="#retro1">
@@ -297,15 +297,15 @@
                 <p>
                     <stamp type="postmark">
                         <mentioned facs="#C1retro_timbro01" xml:id="stamp1">
-                            <placeName ref="#MI">Milano Ferrovia</placeName>
+                            <lb/><placeName ref="#MI">Milano Ferrovia</placeName>
                             <date when="1916-10-31">31.10.16</date>
                         </mentioned>
                         <note resp="#MG">Timbro effettuato in data 31/10/1916 a Milano.</note>
                     </stamp>
                     <stamp type="postage">
                         <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
-                            <orgName ref="#PI">Poste Italiane</orgName>
-                            <s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
+                            <lb/><orgName ref="#PI">Poste Italiane</orgName><s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
+
                         </mentioned>
                         <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
@@ -338,9 +338,9 @@
                 </div>
                 <div type="closer">
 
-                    <signed><persName ref="#M" facs="#C1retro_03">Mario</persName></signed>
+                    <lb/><signed><persName ref="#M" facs="#C1retro_03">Mario</persName></signed>
                     <ab>
-                    <placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
+                    <lb/><placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
                       </ab>
                 </div>
                 <div type="destination">
@@ -348,19 +348,19 @@
                         <address>
 
                             <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
-                                <abbr>Gent.</abbr>Signorina
+                                <lb/><abbr>Gent.</abbr>Signorina
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
-                                <persName ref="#OT">Olivia Turtura</persName>
+                                <lb/><persName ref="#OT">Olivia Turtura</persName>
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_04" facs="#C1retro_address04">
-                                <name type="street">Via <abbr>G.</abbr><persName>Rossi</persName> <num type="cardinal">58</num></name>
+                                <lb/><name type="street">Via <abbr>G.</abbr><persName>Rossi</persName> <num type="cardinal">58</num></name>
                             </addrLine>
 
                             <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05">
-                                <placeName ref="#RV">Ravenna</placeName>
+                                <lb/><placeName ref="#RV">Ravenna</placeName>
                             </addrLine>
                         </address>
                     </p>
