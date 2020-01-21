@@ -16,10 +16,17 @@
               <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
             </head>
             <body>
-              <h1>Cartoline</h1>
-
               <div id='intro' class="jumbotron text-center">
                 <h1>PRIMA PAGINA</h1>
+                <div id="descr">
+                  <p>Nel seguente sito sono state digitalmente rappresentate, dopo essere state codificate, tre cartoline del Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini di La Spezia.
+                      Sono state catalogate tramite un numero riportato sopra le cartoline:</p>
+                      <p>- Cartolina n°019: Inviata da Milano dal signor Mario a Ravenna per la signorina Oliva Turtura.</p>
+                      <p>- Cartolina n°071: Inviata da Gorizia, non abbiamo alcuna infomrazione del mittente o del destinatario, possiamo però presumere che è stata mandata da Giovanni Coliola ad Olivia Turtura, sua fidanzata .</p>
+                      <p>- Cartolina n°083: Inviata da Modena da parte di Giovanni Coliola alla signorina Antonella Turtura, parente di Olivia Turtura</p>
+                    <p>Le tre cartoline sopra citate fanno parte di una collezione contenente 227 cartoline, dove la maggior parte sono scambiate tra Olivia Turtura e il suo fidanzato Giovanni Coliola.
+                      Le cartoline sono state scritte durante la Prima Guerra mondiale, infatti presentano le date 1916 e 1917.</p>
+                </div>
               </div>
               <div class="container">
               <div class="row">
@@ -30,7 +37,7 @@
                       <div id="demo" class="collapse">
                         questa è la prima cartolina
                         ffffffffffffffffffff
-                
+
                         fffffffffffffffffffff
 
                         fffffffffffffff
@@ -39,8 +46,9 @@
                 <div class="col-sm-4">
                   <h3>cartoliona 2</h3>
                   <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
-                  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2">descrizione</button>
+                  <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
+                        <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre" id='prova'></img>
                         questa è la seconda cartolina
                       </div>
                 </div>
