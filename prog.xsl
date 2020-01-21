@@ -22,18 +22,13 @@
                 <h1>Cartoline ad Oliva</h1>
 
                 <div id="descr">
-                    <p>In questa pagina sono presentate digitalmente, dopo essere state codificate, tre cartoline appartenenti ad una collezione di 227 cartoline attualmente presenti al
-                    Museo Civico Etnografico "Giovanni Podenzana" presso La Spezia. Queste sono identificabili nella pagina tramite il loro numero di catalogazione e sono rispettivamente:</p>
-                    <p>- Cartolina n°067: Inviata da Ravenna da parte di Giuseppe ad Arona per la signorina Oliva Turtura.</p>
-                    <p>- Cartolina n°187: Inviata da Spezia da parte di Giovanni Coliola alla signorina Oliva Turtura</p>
-                    <p>- Cartolina n°197: Inviata da Modena da parte di Giovanni Coliola alla signorina Oliva Turtura</p>
-                </div>
-                <div id="accorgimenti">
-                   <p>Per una migliore ed efficiente navigazione sulla pagina qua di seguito alcuni accorgimenti:</p>
-                   <p> Cliccando sul menù a tendina è possibile scegliere la cartolina che si desidera visualizzare, di ognuna di esse è possibile scegliere il fronte o il retro tramite i due pulsanti soprastanti l'immagine.
-                    Per una migliore lettura del testo, è stato inserito un collegamento testo-immagine, per cui spostando il puntatore su una frase presente nell'immagine si colorerà una freccetta che indicherà il corrispettivo testo.
-                    Sul lato destro sono inoltre presenti due pulsanti: uno per la galleria e uno per ulteriori informazioni. Cliccando su quest'ultimo sarà possibile avere maggiore informazioni
-                    sulle cartoline, sulle persone e sui luoghi citati nella cartolina.</p>
+                  <p>Nel seguente sito sono state digitalmente rappresentate, dopo essere state codificate, tre cartoline del Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini di La Spezia.
+                      Sono state catalogate tramite un numero riportato sopra le cartoline:</p>
+                      <p>- Cartolina n°019: Inviata da Milano dal signor Mario a Ravenna per la signorina Oliva Turtura.</p>
+                      <p>- Cartolina n°071: Inviata da Gorizia, non abbiamo alcuna infomrazione del mittente o del destinatario, possiamo però presumere che è stata mandata da Giovanni Coliola ad Olivia Turtura, sua fidanzata .</p>
+                      <p>- Cartolina n°083: Inviata da Modena da parte di Giovanni Coliola alla signorina Antonella Turtura, parente di Olivia Turtura</p>
+                    <p>Le tre cartoline sopra citate fanno parte di una collezione contenente 227 cartoline, dove la maggior parte sono scambiate tra Olivia Turtura e il suo fidanzato Giovanni Coliola.
+                      Le cartoline sono state scritte durante la Prima Guerra mondiale, infatti presentano le date 1916 e 1917.</P>
                 </div>
 
            <xsl:element name="div">
@@ -586,7 +581,7 @@
                 <xsl:attribute name="shape">rect</xsl:attribute>
                 <xsl:attribute name="class">CursorePointer</xsl:attribute>
 
-                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute> 
+                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
                 <xsl:attribute name="onmouseover">Highlight(<xsl:value-of select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
                 <xsl:attribute name="onmouseout">UnHighlight(<xsl:apply-templates select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
             </xsl:element>
