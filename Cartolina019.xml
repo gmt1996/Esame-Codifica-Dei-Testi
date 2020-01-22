@@ -227,7 +227,7 @@
     <facsimile><!-- coordinate per interfaccia finale ############## -->
 
         <surface n="1" corresp="#fronte067">    <!-- Fronte -->
-            <graphic url='cartoline/7694-019F.jpg' width='1038px' height='1642px' xml:id="fronte1"/>
+            <graphic url='cartoline/7694-019F1.jpg' width='100%'  xml:id="fronte1"/>
             <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C1fronte_01"/> <!-- 219 AN Paris -->
             <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C1fronte_02"/> <!-- firma Mastroianni -->
             <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C1fronte_03"/> <!-- titolo: Sommel Interrompu -->
@@ -235,7 +235,7 @@
 
         <surface n="2" corresp="#retro067">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='cartoline/7694-019R.jpg'  xml:id="retro1" />
+            <graphic url='cartoline/7694-019R.jpg' width='100%' xml:id="retro1" />
             <zone ulx="77" uly="13" lrx="122" lry="51" xml:id="C1retro_03"/>
             <zone ulx="299" uly="20" lrx="345" lry="501" xml:id="C1retro_01" />
             <zone ulx="262" uly="7" lrx="283" lry="184" xml:id="C1retro_02" />

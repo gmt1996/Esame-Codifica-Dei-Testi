@@ -188,12 +188,12 @@
     <facsimile>
         <surface n="1" xml:id="fronte" corresp="#fronte71">
             <!-- Fronte -->
-            <graphic url="cartoline/7694-071F.jpg" width="527px" height="825px" xml:id="fronte2"/>
+            <graphic url="cartoline/7694-071F.jpg" width="100%" xml:id="fronte2"/>
         </surface>
 
         <surface n="2" xml:id="retro" corresp="#retro171">
             <!-- Retro -->
-            <graphic url='cartoline/7694-071R.jpg' width='550px' height='355px' xml:id="retro2" />
+            <graphic url='cartoline/7694-071R.jpg' width='100%' xml:id="retro2" />
             <zone ulx="7" uly="158" lrx="49" lry="341" xml:id="C2stampa1"/>
             <!--stampa1-->
             <zone ulx="256" uly="156" lrx="264" lry="249" xml:id="C2stampa2" />

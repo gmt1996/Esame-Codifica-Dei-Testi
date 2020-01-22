@@ -7,6 +7,7 @@
          , Gorizia, 14/08/1916 Cartolina di Giovannino a Antonietta Turtura, Modena, 12/06/1917
          Madonnina Madonnina Cartolina di Giovannino a Antonietta Turtura, Ravenna, 12/06/1917
       </title>
+      <link rel="stylesheet" type="text/css" href="style.css" media="screen"></link>
       <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link><script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script><script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script><script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script><script src="main1.js" charset="utf-8"></script></head>
    <body>
       <div id="intro" class="jumbotron text-center">
@@ -38,14 +39,103 @@
       <div class="container">
          <div class="row">
             <div class="col-sm-4">
-               <h3>cartolina 1</h3><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button><div id="demo" class="collapse">
-                  questa è la prima cartolina
-                  ffffffffffffffffffff
-                  
-                  fffffffffffffffffffff
-                  
-                  fffffffffffffff
-                  
+               <h3>cartolina 1</h3><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img><button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button><div id="demo" class="collapse" width="200%">
+                  <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro">Turn</button><button type="button" class="btn btn-outline-info" id="Ruota">Ruota</button><div class="container-fluid">
+                        <div class="row">
+                           <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="" id="fotoCart1"></img></div>
+                           <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina1InfoFronte">
+                              <table class="table_fronte">
+                                 <tr>
+                                    <td class="td_1">TITOLO DELLA CARTOLINA</td>
+                                    <td class="td_2"><em>[Albero fronte mare]</em></td>
+                                 </tr>
+                                 <tr>
+                                    <td class="td_1">AUTORE</td>
+                                    <td class="td_2"><em>Giannino Grossi  Giannino Grossi  Giannino Grossi</em></td>
+                                 </tr>
+                                 <tr>
+                                    <td class="td_1">DESCRIZIONE</td>
+                                    <td class="td_2">La cartolina raffigura un albero mosso dal vento sull'estremità di una scogliera di
+                                       fronte ad un mare agitato.
+                                    </td>
+                                 </tr>
+                              </table><br></br><p>Sul fronte della cartolina troviamo riportate le scritte:</p>
+                              <p style="text-align:center;">"<b>  Giannino Grossi  </b>"
+                              </p>
+                           </div>
+                           <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina1InfoRetro" style="display:none;">
+                              <div class="text_retro1">
+                                 <p class="p_retro"><em>
+                                       </em></p>
+                                 <p class="p_retro">
+                                    
+                                    <br></br><span class="line" id="retro_lb_01">
+                                       ➤
+                                       </span>
+                                    Coi migliori auguri e saluti a
+                                    <br></br><span class="line" id="retro_lb_02">
+                                       ➤
+                                       </span>
+                                    te e famiglia
+                                    
+                                    
+                                 </p>
+                                 <p class="p_retro">
+                                    
+                                    <br></br><span class="line" id="">
+                                       ➤
+                                       </span>Mario
+                                    
+                                    <br></br><span class="line" id="">
+                                       ➤
+                                       </span>Milano 18/X-16
+                                    
+                                    <br></br></p>
+                              </div>
+                              <div class="p_retro" id="p_destination">
+                                 <p id="retro_add_lb_01"><em><u>
+                                          <br></br><span class="line" id="">
+                                             ➤
+                                             </span>Gent.Signorina
+                                          </u></em></p>
+                                 <p id="retro_add_lb_02"><em><u>
+                                          <br></br><span class="line" id="">
+                                             ➤
+                                             </span>Olivia Turtura
+                                          </u></em></p>
+                                 <p id="retro_add_lb_04"><em><u>
+                                          <br></br><span class="line" id="">
+                                             ➤
+                                             </span>Via G.Rossi 58
+                                          </u></em></p>
+                                 <p id="retro_add_lb_05"><em><u>
+                                          <br></br><span class="line" id="">
+                                             ➤
+                                             </span>Ravenna
+                                          </u></em></p>
+                              </div>
+                              <div class="text_retro2">
+                                 <div class="p_retro" id="p_francobolli"><b>FRANCOBOLLI, TIMBRI E STAMPE</b><br></br><p id="stamp1">
+                                       <br></br><span class="line" id="">
+                                          ➤
+                                          </span>Milano Ferrovia
+                                       31.10.16
+                                       
+                                    </p>
+                                    <p id="stamp4">
+                                       <br></br><span class="line" id="">
+                                          ➤
+                                          </span>Poste Italiane5 centesimi 5
+                                       
+                                       
+                                    </p>
+                                    <p id=""></p>
+                                 </div>
+                              </div>
+                           </div>
+                        </div>
+                     </div>
+                  </div>
                </div>
             </div>
             <div class="col-sm-4">
@@ -62,104 +152,10 @@
             </div>
          </div>
       </div>
-      <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro">Info</button><div class="container-fluid">
+      <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro2">Turn</button><button type="button" class="btn btn-outline-info" id="ruota2">Ruota</button><div class="container-fluid">
             <div class="row">
-               <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-019R1.jpg" class="img-thumbnail" alt="Cinque Terre" id="fotoCart1">e</img></div>
-               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">
-                  <table class="table_fronte">
-                     <tr>
-                        <td class="td_1">TITOLO DELLA CARTOLINA</td>
-                        <td class="td_2"><em>[Albero fronte mare]</em></td>
-                     </tr>
-                     <tr>
-                        <td class="td_1">AUTORE</td>
-                        <td class="td_2"><em>Giannino Grossi  Giannino Grossi  Giannino Grossi</em></td>
-                     </tr>
-                     <tr>
-                        <td class="td_1">DESCRIZIONE</td>
-                        <td class="td_2">La cartolina raffigura un albero mosso dal vento sull'estremità di una scogliera di
-                           fronte ad un mare agitato.
-                        </td>
-                     </tr>
-                  </table><br></br><p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                  <p style="text-align:center;">"<b>  Giannino Grossi  </b>"
-                  </p>
-                  <div class="text_retro1">
-                     <p class="p_retro"><em>
-                           </em></p>
-                     <p class="p_retro">
-                        
-                        <br></br><span class="line" id="retro_lb_01">
-                           ➤
-                           </span>
-                        Coi migliori auguri e saluti a
-                        <br></br><span class="line" id="retro_lb_02">
-                           ➤
-                           </span>
-                        te e famiglia
-                        
-                        
-                     </p>
-                     <p class="p_retro">
-                        
-                        <br></br><span class="line" id="">
-                           ➤
-                           </span>Mario
-                        
-                        <br></br><span class="line" id="">
-                           ➤
-                           </span>Milano 18/X-16
-                        
-                        <br></br></p>
-                  </div>
-                  <div class="p_retro" id="p_destination">
-                     <p id="retro_add_lb_01"><em><u>
-                              <br></br><span class="line" id="">
-                                 ➤
-                                 </span>Gent.Signorina
-                              </u></em></p>
-                     <p id="retro_add_lb_02"><em><u>
-                              <br></br><span class="line" id="">
-                                 ➤
-                                 </span>Olivia Turtura
-                              </u></em></p>
-                     <p id="retro_add_lb_04"><em><u>
-                              <br></br><span class="line" id="">
-                                 ➤
-                                 </span>Via G.Rossi 58
-                              </u></em></p>
-                     <p id="retro_add_lb_05"><em><u>
-                              <br></br><span class="line" id="">
-                                 ➤
-                                 </span>Ravenna
-                              </u></em></p>
-                  </div>
-                  <div class="text_retro2">
-                     <div class="p_retro" id="p_francobolli"><b>FRANCOBOLLI, TIMBRI E STAMPE</b><br></br><p id="stamp1">
-                           <br></br><span class="line" id="">
-                              ➤
-                              </span>Milano Ferrovia
-                           31.10.16
-                           
-                        </p>
-                        <p id="stamp4">
-                           <br></br><span class="line" id="">
-                              ➤
-                              </span>Poste Italiane5 centesimi 5
-                           
-                           
-                        </p>
-                        <p id=""></p>
-                     </div>
-                  </div>
-               </div>
-            </div>
-         </div>
-      </div>
-      <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro2">Info</button><div class="container-fluid">
-            <div class="row">
-               <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-071R.jpg" class="img-thumbnail" alt="Cinque Terre" id="fotoCart2">e</img></div>
-               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">
+               <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="" id="fotoCart2"></img></div>
+               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina2InfoFronte">
                   <table class="table_fronte">
                      <tr>
                         <td class="td_1">TITOLO DELLA CARTOLINA</td>
@@ -180,6 +176,8 @@
                   </table><br></br><p>Sul fronte della cartolina troviamo riportate le scritte:</p>
                   <p style="text-align:center;">"<b>In Freud' und Leid bewährt sich deutsche Einigkeit</b>"
                   </p>
+               </div>
+               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina2InfoRetro" style="display:none;">
                   <div class="text_retro1">
                      <p class="p_retro"><em>
                            
@@ -225,10 +223,10 @@
             </div>
          </div>
       </div>
-      <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro3">Info</button><div class="container-fluid">
+      <div class="container-fluid"><button type="button" class="btn btn-outline-info" id="retro3">Turn</button><button type="button" class="btn btn-outline-info" id="ruota3">Ruota</button><div class="container-fluid">
             <div class="row">
-               <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-083R.jpg" class="img-thumbnail" alt="Cinque Terre" id="fotoCart3">e</img></div>
-               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning">
+               <div class="col-sm-3 col-md-6 col-lg-4 bg-success"><img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="" id="fotoCart3"></img></div>
+               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina3InfoFronte">
                   <table class="table_fronte">
                      <tr>
                         <td class="td_1">TITOLO DELLA CARTOLINA</td>
@@ -245,6 +243,8 @@
                   </table><br></br><p>Sul fronte della cartolina troviamo riportate le scritte:</p>
                   <p style="text-align:center;">"<b></b>"
                   </p>
+               </div>
+               <div class="col-sm-9 col-md-6 col-lg-8 bg-warning" id="cartolina3InfoRetro" style="display:none;">
                   <div class="text_retro1">
                      <p class="p_retro"><em>
                            

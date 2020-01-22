@@ -231,7 +231,7 @@
     <facsimile>
 
         <surface n="1" corresp="#fronte067">    <!-- Fronte -->
-            <graphic url='cartoline/7694-083F.jpg' width='1038px' height='1642px' xml:id="fronte3"/>
+            <graphic url='cartoline/7694-083F.jpg' width='100%' xml:id="fronte3"/>
             <zone ulx="16" uly="1448" lrx="81" lry="1554" xml:id="C3fronte_01"/> <!-- 219 AN Paris -->
             <zone ulx="194" uly="1519" lrx="444" lry="1571" xml:id="C3fronte_02"/> <!-- firma Mastroianni -->
             <zone ulx="461" uly="1555" lrx="827" lry="1583" xml:id="C3fronte_03"/> <!-- titolo: Sommel Interrompu -->
@@ -239,7 +239,7 @@
 
         <surface n="2" corresp="#retro067">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='cartoline/7694-083R.jpg' width='550px' height='355px' xml:id="retro3"/>
+            <graphic url='cartoline/7694-083R.jpg' width='100%' xml:id="retro3"/>
             <zone ulx="104" uly="4" lrx="274" lry="28"  xml:id="C3retro_data"/> <!-- 24-VII-913 -->
             <zone ulx="28" uly="18" lrx="285" lry="57"  xml:id="C3retro_01"/> <!-- prima riga -->
             <zone ulx="14" uly="61" lrx="283" lry="84"  xml:id="C3retro_02"/> <!-- seconda riga -->
