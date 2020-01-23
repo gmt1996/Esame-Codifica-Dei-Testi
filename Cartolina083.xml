@@ -273,6 +273,18 @@
 
     <text type="cartolina" xml:id="xx1" >
         <front>
+          <div type="catalogazione">
+            <p>
+            <stamp type="postmark">
+                <mentioned facs="C3retro_timbro01" xml:id="stamp12">
+                    <lb/><num type="cardinal">83</num>
+                </mentioned>
+              <note resp="#PG">Numero di catalogazione presente nel retro della cartolina</note>
+            </stamp>
+          </p>
+
+
+          </div>
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
@@ -301,8 +313,21 @@
                         </mentioned>
                         <note resp="#PG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
-                </p>
+                  <stamp type="postmark">
+                      <mentioned facs="C3retro_tipografia01" xml:id="stamp23">
+                          <lb/><s>Proprietà artistica riservata - N. <num type="cardinal">8</num></s>
+                      </mentioned>
+                      <note resp="#MG">Stampa riportata sul retro della cartolina</note>
+                  </stamp>
+                  <stamp type="postmark">
+                      <mentioned facs="C3retro_tipografia02" xml:id="stamp24">
+                          <lb/><s><persName> STEFANO BERSANI</persName> - Madonnina Petite Madone Kleine Madonne Little Madonna</s>
+                      </mentioned>
+                      <note resp="#MG">Stampa riportata sul retro della cartolina</note>
+                  </stamp>
+              </p>
             </div>
+
         </front>
         <!-- TRASCRIZIONE -->
         <body>
@@ -325,10 +350,10 @@
                 <div type="letter-body">
                     <ab type="parag" n="ab_02">
                         <lb xml:id="retro_lb_011" facs="#C3retro_01"/>
-                        Cordiali auguri e
-                        <lb xml:id="retro_lb_021" facs="#C3retro_02"/>
-                        felicitazioni vivissime per
-                        <lb xml:id="retro_lb_031" facs="#C3retro_03"/>
+                        Cordiali auguri e</ab>
+                        <ab type="parag" n="ab_0222"><lb xml:id="retro_lb_021" facs="#C3retro_02"/>
+                        felicitazioni vivissime per</ab>
+                        <ab type="parag" n="ab_0233"><lb xml:id="retro_lb_031" facs="#C3retro_03"/>
                         il suo onomastico.
                     </ab>
                 </div>

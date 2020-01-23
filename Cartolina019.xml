@@ -290,6 +290,18 @@
 
     <text type="cartolina" xml:id="xx" >
         <front>
+          <div type="catalogazione">
+            <p>
+            <stamp type="postmark">
+                <mentioned facs="C1retro_tipografia01" xml:id="stamp1244">
+                    <lb/><num type="cardinal">19</num>
+                </mentioned>
+              <note resp="#PG">Numero di catalogazione presente nel retro della cartolina</note>
+            </stamp>
+          </p>
+
+
+          </div>
             <div type="stampe">
                 <ab xml:id="ScritteF1"><s><persName ref="#GG">  Giannino Grossi  </persName></s></ab>
             </div>
@@ -309,6 +321,13 @@
                         </mentioned>
                         <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
+                  <stamp type="typography">
+                      <mentioned facs="#C1retro_tipografia" xml:id="stamp5"><!-- -->
+                          <lb/><num type="cardinal">582-3</num>
+
+                      </mentioned>
+                      <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
+                </stamp>
                 </p>
             </div>
         </front>
@@ -331,14 +350,16 @@
                 <div type="letter-body">
                     <ab type="parag" n="ab_02">
                         <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
-                        Coi migliori auguri e saluti a
+                        Coi migliori auguri e saluti a</ab>
+                    <ab type="parag" n="ab_06">
                         <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
                         te e famiglia
                     </ab>
+                    <ab>
+                    <lb/><persName ref="#M" facs="#C1retro_03">Mario</persName></ab>
+
                 </div>
                 <div type="closer">
-
-                    <lb/><signed><persName ref="#M" facs="#C1retro_03">Mario</persName></signed>
                     <ab>
                     <lb/><placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
                       </ab>

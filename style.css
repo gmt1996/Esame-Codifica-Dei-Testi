@@ -1,3 +1,8 @@
-#cartolina1InfoRetro, #cartolina1InfoRetro, #cartolina1InfoRetro {
-  display='none';
+.line {
+    padding-right: 0.5em;
+    font-weight: normal;
+    line-height: 100%;
+}
+#retro_lb_02 {
+  word-wrap: break-word;
 }

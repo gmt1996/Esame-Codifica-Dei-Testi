@@ -214,6 +214,18 @@
 
     <text type="cartolina" xml:id="C71">
         <front>
+          <div type="catalogazione">
+            <p>
+            <stamp type="postmark">
+                <mentioned facs="C2retro_tipografia01" xml:id="stamp121">
+                    <lb/><num type="cardinal">71</num>
+                </mentioned>
+              <note resp="#PG">Numero di catalogazione presente nel retro della cartolina</note>
+            </stamp>
+          </p>
+
+
+          </div>
             <div type="stampe">
                 <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
                 <lb/><ab xml:id="ScritteR2">
@@ -250,10 +262,10 @@
                 </div>
                 <div type="letter-body">
                     <ab type="parag" n="ab_02">
-                        <s type="sentence" n="retro_s_02">
-                            <lb xml:id="retro_lb_2" facs="#C2retro_02"/>Prego l'imminente presa di
-                            <lb xml:id="retro_lb_3" facs="#C2retro_03"/>M. tanto dopo 12 ore d'intenso
-                            <lb xml:id="retro_lb_4" facs="#C2retro_04"/>bombardamento.</s>
+                      <!--  <s type="sentence" n="retro_s_02"> -->
+                            <lb xml:id="retro_lb_2" facs="#C2retro_02"/>Prego l'imminente presa di</ab>
+                            <ab type="parag" n="ab_022"><lb xml:id="retro_lb_3" facs="#C2retro_03"/>M. tanto dopo 12 ore d'intenso</ab>
+                            <ab type="parag" n="ab_023"><lb xml:id="retro_lb_4" facs="#C2retro_04"/>bombardamento.<!--</s>-->
                     </ab>
                 </div>
             </div>

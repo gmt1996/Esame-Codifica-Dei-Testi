@@ -1,4 +1,5 @@
 function gestoreRotate(){
+      alert('ci')
       nodoFotoCart1.style.transform = "rotate(270deg)";
       nodoFotoCart1.style.marginTop = "40%";
       nodoFotoCart1.style.height = "100%"
