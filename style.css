@@ -33,6 +33,6 @@
 .btn{
   margin:1%;
 }
-/* #fotoCart1, #fotoCart2, #fotoCart3{
-  width: 60%;
-} */
+ #fotoCart1, #fotoCart2, #fotoCart3{
+  padding: 5%;
+}
