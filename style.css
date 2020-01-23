@@ -6,3 +6,33 @@
 #retro_lb_02 {
   word-wrap: break-word;
 }
+#info {
+  background-color: aliceblue;
+}
+#info2 {
+  background-color: #FAEBD7;
+}
+#info3 {
+  background-color: #F5F5DC;
+}
+.divinfo{
+  padding:1%;
+}
+#cartolina1InfoFronte, #cartolina1InfoRetro{
+  background-color: aliceblue;
+}
+#cartolina2InfoFronte, #cartolina2InfoRetro{
+  background-color: #FAEBD7;
+}
+#cartolina3InfoFronte, #cartolina3InfoRetro{
+  background-color: #F5F5DC;
+}
+.col{
+    padding:1%;
+}
+.btn{
+  margin:1%;
+}
+/* #fotoCart1, #fotoCart2, #fotoCart3{
+  width: 60%;
+} */

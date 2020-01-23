@@ -34,37 +34,87 @@
               <div class="row">
                 <div class="col-sm-4">
                   <h3>cartolina 1</h3>
-                  <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
+                  <a href='#primaCartolina'><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button>
                       <div id="demo" class="collapse">
                         <div class="container-fluid">
-                           Questa è la cartolina N019.
-                        Il fronte della cartolina presenta un albero vista mare firmato Giannino Grossi.
-                        Sul retro possiamo trovare il mittente Mario che con un augurio saluta il destinatario Olivia Turtura e la famiglia.
+                          <xsl:element name="div">
+                              <xsl:attribute name="class">divinfo</xsl:attribute>
+                              <xsl:attribute name="id">info</xsl:attribute>
 
+                              <div id="div_msdesc">
+                                      <h3>Cartolina 019</h3>
+                                      <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
+
+                              </div>
+
+                              <div id="div_persone">
+                                  <h2>PERSONE</h2>
+                                      <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person"/>
+
+                              </div>
+
+                              <div id="div_luoghi">
+                                  <h2>LUOGHI</h2>
+                                      <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
+                                      <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
+
+                              </div>
+                          </xsl:element>
                         </div>
                       </div>
                 </div>
                 <div class="col-sm-4">
                   <h3>cartoliona 2</h3>
-                  <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
+                  <a href='#secondaCartolina'><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
-                        Questa è la cartolina n071.
-                        Nella cartolina sono rappresentati due soldati che brindano sotto un orologio circorndato da fiori
-                        sotto troviamo la scritta:"In Freud' und Leid bewährt sich deutsche Einigkeit".
-                        Non abbiamo notizie sul mittente e il destinatario, ma probabilmente, in riferimento al testo e alla data 14 agosto 1916 sul retro della stessa cartolina, possiamo evincere
-                        che il mittente stesse parlando della battaglia dell'Isonzo (Battaglia di Gorizia), combattuta tra il 4 e il 17 agosto.
+                        <xsl:element name="div">
+                            <xsl:attribute name="class">divinfo</xsl:attribute>
+                            <xsl:attribute name="id">info2</xsl:attribute>
+
+                            <div id="div_msdesc">
+                                    <h3>Cartolina 071</h3>
+                                    <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
+
+                            </div>
+
+                            <div id="div_luoghi">
+                                <h2>LUOGHI</h2>
+
+                                    <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
+                                    <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
+
+                            </div>
+                        </xsl:element>
                       </div>
                 </div>
                 <div class="col-sm-4">
                   <h3>Cartolina 3</h3>
-                  <img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
+                  <a href='#terzaCartolina'><img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">descrizione</button>
                       <div id="demo3" class="collapse">
-                        Questa è la cartolina n083.
-                        La cartolina n083 presenta l'illustrazione della Madonnina di Stefano Bersani, pittore italiano. La cartolina infatti,
-                        è un augurio di buon onomastico mandato da Giovannino ad Antonella Turtura, parente di Olivia Turtura.
+                        <xsl:element name="div">
+                            <xsl:attribute name="class">divinfo</xsl:attribute>
+                            <xsl:attribute name="id">info3</xsl:attribute>
+
+                            <div id="div_msdesc">
+                                    <h3>Cartolina 083</h3>
+                                    <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
+                            </div>
+
+                            <div id="div_persone">
+                                <h2>PERSONE</h2>
+                                    <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person"/>
+
+                            </div>
+
+                            <div id="div_luoghi">
+                                <h2>LUOGHI</h2>
+                                    <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
+                                    <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
+                            </div>
+                        </xsl:element>
 
                       </div>
                 </div>
@@ -75,37 +125,49 @@
             <div class="container-fluid">
               <button type="button" class="btn btn-outline-info" id='retro'>Turn</button>
               <button type="button" class="btn btn-outline-info" id='Ruota'>Ruota</button>
-              <div class="container-fluid">
+              <div class="container-fluid" id='primaCartolina'>
                 <div class="row">
                   <div class="col">
                     <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>
                   </div>
-                  <div class="col bg-success" id='cartolina1InfoFronte'>
+                  <div class="col" id='cartolina1InfoFronte'>
 
 
                         <table class="table_fronte" >
                             <tr>
-                                <td class="td_1">TITOLO DELLA CARTOLINA</td>
+                                <td class="td_1">TITOLO DELLA CARTOLINA: </td>
                                 <td class="td_2"><em><xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:figure/tei:head"/></em></td>
                             </tr>
                             <tr>
-                                <td class="td_1">AUTORE</td>
+                                <td class="td_1">AUTORE: </td>
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[1]//tei:persName[@ref[1]='#GG']"/></em></td>
                             </tr>
                             <tr>
-                                <td class="td_1">CODICE IDENTIFICATIVO</td>
+                                <td class="td_1">CODICE IDENTIFICATIVO:</td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:msIdentifier/tei:idno"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">DESCRIZIONE</td>
+                                <td class="td_1">EDITORE: </td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:sourceDesc/tei:bibl/tei:publisher"/></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:msDesc/tei:msContents/tei:summary"/></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">DESCRIZIONE: </td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">SCRITTE PRESENTI: </td>
+                                <td class="td_2"><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></td>
                             </tr>
                         </table>
 
-
+<!--
                         <br/>
                         <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></b>"</p>
+                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></b>"</p>-->
                     </div>
                     <div class="col" id='cartolina1InfoRetro' style="display:none;" >
                         <xsl:element name="div">
@@ -173,7 +235,7 @@
               </div>
               <button type="button" class="btn btn-outline-info" id='retro2'>Turn</button>
               <button type="button" class="btn btn-outline-info" id='ruota2'>Ruota</button>
-              <div class="container-fluid">
+              <div class="container-fluid" id='secondaCartolina'>
                 <div class="row">
                   <div class="col">
                     <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt=""  id='fotoCart2'></img>
@@ -189,13 +251,27 @@
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:ab/tei:persName[@ref='#M']"/></em></td>
                             </tr>
                             <tr>
+                                <td class="td_1">CODICE IDENTIFICATIVO:</td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]//tei:msIdentifier/tei:idno"/></td>
+                            </tr>
+                            
+                            <tr>
+                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]//tei:msDesc/tei:msContents/tei:summary"/></td>
+                            </tr>
+                            <tr>
                                 <td class="td_1">DESCRIZIONE</td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
                             </tr>
+                            <tr>
+                                <td class="td_1">SCRITTE PRESENTI</td>
+                                <td class="td_2"><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF2']"/></td>
+                            </tr>
                         </table>
                         <br/>
+                        <!--
                         <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF2']"/></b>"</p>
+                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF2']"/></b>"</p>-->
                     </div>
                     <div class="col" id='cartolina2InfoRetro' style="display:none;" >
                         <xsl:element name="div">
@@ -263,10 +339,10 @@
                 </div>
               </div>
             </div>
-            <div class="container-fluid">
+
               <button type="button" class="btn btn-outline-info" id='retro3'>Turn</button>
               <button type="button" class="btn btn-outline-info" id='ruota3'>Ruota</button>
-              <div class="container-fluid">
+              <div class="container-fluid" id='terzaCartolina'>
                 <div class="row">
                   <div class="col">
                     <img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt=""  id='fotoCart3'></img>
@@ -282,13 +358,27 @@
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[3]//tei:persName[@ref='#SB']"/></em></td>
                             </tr>
                             <tr>
+                                <td class="td_1">CODICE IDENTIFICATIVO:</td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:msIdentifier/tei:idno"/></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">EDITORE: </td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:sourceDesc/tei:bibl/tei:publisher"/></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:msDesc/tei:msContents/tei:summary"/></td>
+                            </tr>
+                            <tr>
                                 <td class="td_1">DESCRIZIONE</td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
                             </tr>
+
                         </table>
                         <br/>
+                        <!--
                         <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF3']"/></b>"</p>
+                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF3']"/></b>"</p>-->
                   </div>
                   <div class="col" id='cartolina3InfoRetro' style="display:none;">
                         <xsl:element name="div">
@@ -331,7 +421,7 @@
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <xsl:attribute name="id">p_francobolli</xsl:attribute>
                                 <b>FRANCOBOLLI, TIMBRI E STAMPE</b><br/>
-                                <xsl:for-each select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div/tei:p/tei:stamp/tei:mentioned">
+                                <xsl:for-each select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div[2]/tei:p/tei:stamp/tei:mentioned">
                                     <xsl:element name="p">
                                         <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
                                         <xsl:apply-templates select="."/>
@@ -354,7 +444,7 @@
                           </xsl:element>
                         </xsl:element>
                   </div>
-                </div>
+
               </div>
             </div>
             <div id="edition">
@@ -415,8 +505,68 @@
           <p>Copyright: <xsl:value-of select="//current()/tei:availability"/></p>
           <p>Distributor: <xsl:value-of select="//current()/tei:address/tei:addrLine[1]"/></p>
       </xsl:template>
+      <!--TEMPLATE PER MSDESC-->
 
+      <xsl:template match="//tei:msIdentifier">
+          <p><em>Collocazione: </em>
+              <xsl:value-of select="current()/tei:country"/>, <xsl:value-of select="current()/tei:settlement"/>.</p>
+          <p><em>Identificativo: </em><xsl:value-of select="current()/tei:idno"/></p>
+      </xsl:template>
 
+      <xsl:template match="//tei:msContents">
+          <p><em>Contenuto: </em>
+              <xsl:value-of select="current()/tei:summary"/> in <xsl:value-of select="current()/tei:textLang"/>.</p>
+      </xsl:template>
+
+      <xsl:template match="//tei:physDesc">
+          <p><em>Caratteristiche: </em>
+              <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType"/> di <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:material"/>,
+              con dimensioni in cm <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/>
+              x <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/>.</p>
+          <p><em>Francobolli/timbri: </em>
+              <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:stamp"/></p>
+      </xsl:template>
+
+      <!--TEMPLATE PER PERSONE-->
+
+      <xsl:template match="//tei:person">
+          <em><xsl:apply-templates select="//current()/tei:persName"/></em>: <xsl:value-of select="current()/tei:note"/>.<br/>
+      </xsl:template>
+      <xsl:template match="//tei:surname[node()='Grossi']">
+          <a href="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"><xsl:value-of select="current()"/></a>
+      </xsl:template>
+      <xsl:template match="//tei:surname[node()='Bersani']">
+          <a href="http://www.icontemporanei.it/indice/omaggi/bersani/stefano_bersani_pittore_e_poeta.htm"><xsl:value-of select="current()"/></a>
+      </xsl:template>
+      <xsl:template match="//tei:addName">
+          (<xsl:value-of select="."/>)
+      </xsl:template>
+
+      <!--TEMPLATE PER LUOGHI-->
+
+      <xsl:template match="//tei:place">
+         <xsl:apply-templates />
+
+      </xsl:template>
+      <xsl:template match="//tei:placeName">
+          <xsl:value-of select="current()"/>
+      </xsl:template>
+      <xsl:template match="//tei:location">
+          <xsl:if test="//current()/tei:district">
+              (<xsl:value-of select="//current()/tei:district[@type='provincia']"/>), <xsl:value-of select="//current()/tei:region"/></xsl:if>,
+          <xsl:value-of select="//current()/tei:country"/> <br/>
+      </xsl:template>
+      <xsl:template match="//tei:correspAction[@type='sent']">
+          La cartolina è stata inviata da: <em><xsl:value-of select="//current()/tei:placeName"/></em>, il <xsl:value-of select="//current()/tei:date"/> <br/>
+      </xsl:template>
+      <xsl:template match="//tei:correspAction[@type='received']">
+          <xsl:if test="//current()/tei:placeName">
+         ed è giunta a: <em><xsl:value-of select="//current()/tei:placeName"/></em>
+      </xsl:if>
+          <xsl:if test="not(//current()/tei:placeName)">
+           <xsl:value-of select="//current()/tei:note"/>
+          </xsl:if>
+      </xsl:template>
 
 
   </xsl:stylesheet>
