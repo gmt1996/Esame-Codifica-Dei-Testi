@@ -36,9 +36,12 @@
                   <h3>cartolina 1</h3>
                   <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button>
-                      <div id="demo" class="collapse" width='200%'>
+                      <div id="demo" class="collapse">
                         <div class="container-fluid">
-                          <h1>ciao</h1>
+                           Questa è la cartolina N019.
+                        Il fronte della cartolina presenta un albero vista mare firmato Giannino Grossi.
+                        Sul retro possiamo trovare il mittente Mario che con un augurio saluta il destinatario Olivia Turtura e la famiglia.
+
                         </div>
                       </div>
                 </div>
@@ -47,8 +50,11 @@
                   <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
-                        <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"  ></img>
-                        questa è la seconda cartolina
+                        Questa è la cartolina n071.
+                        Nella cartolina sono rappresentati due soldati che brindano sotto un orologio circorndato da fiori
+                        sotto troviamo la scritta:"In Freud' und Leid bewährt sich deutsche Einigkeit".
+                        Non abbiamo notizie sul mittente e il destinatario, ma probabilmente, in riferimento al testo e alla data 14 agosto 1916 sul retro della stessa cartolina, possiamo evincere
+                        che il mittente stesse parlando della battaglia dell'Isonzo (Battaglia di Gorizia), combattuta tra il 4 e il 17 agosto.
                       </div>
                 </div>
                 <div class="col-sm-4">
@@ -56,7 +62,10 @@
                   <img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cinque Terre"></img>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">descrizione</button>
                       <div id="demo3" class="collapse">
-                        questa è la terza cartolina
+                        Questa è la cartolina n083.
+                        La cartolina n083 presenta l'illustrazione della Madonnina di Stefano Bersani, pittore italiano. La cartolina infatti,
+                        è un augurio di buon onomastico mandato da Giovannino ad Antonella Turtura, parente di Olivia Turtura.
+
                       </div>
                 </div>
               </div>
@@ -82,6 +91,10 @@
                             <tr>
                                 <td class="td_1">AUTORE</td>
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[1]//tei:persName[@ref[1]='#GG']"/></em></td>
+                            </tr>
+                            <tr>
+                                <td class="td_1">CODICE IDENTIFICATIVO</td>
+                                <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:msIdentifier/tei:idno"/></td>
                             </tr>
                             <tr>
                                 <td class="td_1">DESCRIZIONE</td>
@@ -152,7 +165,7 @@
                         <xsl:element name="div">
                           <b>CATALOGAZIONE</b>
                           <xsl:element name="p">
-                              <xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:num"/>
+                              <xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div[1]/tei:p/tei:stamp/tei:mentioned/tei:num"/>
                           </xsl:element>
                         </xsl:element>
                   </div>
@@ -243,7 +256,7 @@
                         <xsl:element name="div">
                           <b>CATALOGAZIONE</b>
                           <xsl:element name="p">
-                              <xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:num"/>
+                              <xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div[1]/tei:p/tei:stamp/tei:mentioned/tei:num"/>
                           </xsl:element>
                         </xsl:element>
                   </div>

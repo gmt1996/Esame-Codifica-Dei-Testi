@@ -67,8 +67,8 @@
                     <!-- TITOLO Quello che si ricava dalla cartolina; Se un documento composto da immagini
                         non presenta un titolo o altri elementi considerabili come titolo, si formula un titolo sintetico
                         registrandolo entro parentesi quadre [Venere al bagno] ma indicando dentro la codifica come qui sotto esemplificato-->
-                    <title>[Pausa dalla battaglia]</title>
-                  <!--  <author ref="#M">Mastroianni</author> -->
+                    <title>In Freud' und Leid bewährt sich deutsche Einigkeit</title>
+
                     <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
 
                     <!-- LUOGO -->
@@ -237,9 +237,8 @@
         <body>
             <div type="fronte" xml:id="fronte187">
                 <figure>
-                    <figDesc>La cartolina raffigura due soldati che brindano con due bicchieri di birra. I due soldati
-                        sono in piedi, in un ambiente tranquillo sotto un orologio che segna un orario vicino alle 12:00.</figDesc>
-                    <head>[Pausa dalla battaglia]</head>
+                    <figDesc>Nella cartolina vengono rappresentati due soldati tedeschi, cioè si evince dal titolo scritto in tedesco che tradotto riporta: “Nella gioia e nel dolore, preserva l’unità tedesca”. I soldati bevono birra vicino ad un orologio circondato da fiori. </figDesc>
+                    <head>In Freud' und Leid bewährt sich deutsche Einigkeit</head>
                 </figure>
                 <ab n="ab_00" facs="#C2fronte_01">
                     <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit

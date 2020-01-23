@@ -63,7 +63,7 @@
             <sourceDesc>
                 <bibl>
                     <!-- TITOLO -->
-                    <title>[Albero fronte mare]</title>
+                    <title>[Scorcio di mare]</title>
                     <author ref="#GG">Giannino Grossi</author>
                     <!-- PRODUZIONE Chi ha prodotto / pubblicato la cartolina. Se non presente togliere il tag  -->
                     <publisher>FPM</publisher>
@@ -303,7 +303,7 @@
 
           </div>
             <div type="stampe">
-                <ab xml:id="ScritteF1"><s><persName ref="#GG">  Giannino Grossi  </persName></s></ab>
+                <ab xml:id="ScritteF1"><s><persName>  Giannino Grossi  </persName></s></ab>
             </div>
             <div type="postmark">
                 <p>
@@ -335,12 +335,12 @@
         <body>
             <div type="fronte" xml:id="fronte067">
                 <figure>
-                    <figDesc>La cartolina raffigura un albero mosso dal vento sull'estremità di una scogliera di fronte ad un mare agitato.</figDesc>
-                    <head>[Albero fronte mare]</head>
+                    <figDesc>L’illustrazione della cartolina rappresenta un albero cresciuto vicino ad una scogliera che viene scosso dal vento.</figDesc>
+                    <head>[Scorcio di mare]</head>
                 </figure>
                 <ab n="ab_0" facs="#C1fronte_01">
                     <lb xml:id="fronte_lb_00"/>
-                    <persName ref="#GG">Giannino Grossi</persName>
+                    <persName>Giannino Grossi</persName>
                 </ab>
             </div>
 
