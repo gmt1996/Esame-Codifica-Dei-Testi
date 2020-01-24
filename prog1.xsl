@@ -124,12 +124,28 @@
 
 
             <div class="container-fluid">
-              <button type="button" class="btn btn-outline-info" id='retro'>Turn</button>
-              <button type="button" class="btn btn-outline-info" id='Ruota'>Ruota</button>
+              <button type="button" class="btn btn-outline-info" id='retro'>Retro</button>
+              <button type="button" class="btn btn-outline-info" id='fronte'>Fronte</button>
+
               <div class="container-fluid" id='primaCartolina'>
                 <div class="row">
-                  <div class="col">
-                    <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>
+                  <div class="col" id='fronte1'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart1</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+
+                    </xsl:element>
+                    <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
+                  </div>
+                  <div class="col" id='retro1'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart1</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+
+                    </xsl:element>
+                    <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
                   </div>
                   <div class="col" id='cartolina1InfoFronte'>
 
@@ -240,12 +256,25 @@
                   </div>
                 </div>
               </div>
-              <button type="button" class="btn btn-outline-info" id='retro2'>Turn</button>
-              <button type="button" class="btn btn-outline-info" id='ruota2'>Ruota</button>
+              <button type="button" class="btn btn-outline-info" id='retro2'>Retro</button>
+              <button type="button" class="btn btn-outline-info" id='fronte2'>Fronte</button>
               <div class="container-fluid" id='secondaCartolina'>
                 <div class="row">
-                  <div class="col">
-                    <img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt=""  id='fotoCart2'></img>
+                  <div class="col" id='frontec2'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart2</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+
+                    </xsl:element>
+                  </div>
+                  <div class="col" id='retroc2'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart2</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+
+                    </xsl:element>
                   </div>
                   <div class="col" id='cartolina2InfoFronte'>
                         <table class="table_fronte">
@@ -344,12 +373,24 @@
               </div>
             </div>
 
-              <button type="button" class="btn btn-outline-info" id='retro3'>Turn</button>
-              <button type="button" class="btn btn-outline-info" id='ruota3'>Ruota</button>
+              <button type="button" class="btn btn-outline-info" id='retro3'>Retro</button>
+              <button type="button" class="btn btn-outline-info" id='fronte3'>Fronte</button>
               <div class="container-fluid" id='terzaCartolina'>
                 <div class="row">
-                  <div class="col">
-                    <img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt=""  id='fotoCart3'></img>
+                  <div class="col" id='frontec3'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart3</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+
+                    </xsl:element>
+                  </div>
+                  <div class="col" id='retroc3'>
+                    <xsl:element name="img">
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="id">fotoCart3</xsl:attribute>
+                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+                    </xsl:element>
                   </div>
                   <div class="col" id='cartolina3InfoFronte'>
                         <table class="table_fronte">

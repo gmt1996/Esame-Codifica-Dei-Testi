@@ -36,9 +36,13 @@
  #fotoCart1, #fotoCart2, #fotoCart3{
   padding: 5%;
 }
+
 td{
   line-height: 200%;
 }
 td{
   vertical-align: baseline;
+}
+#retro1, #retroc2, #retroc3{
+  display: none;
 }
