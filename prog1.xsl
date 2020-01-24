@@ -566,15 +566,15 @@
 
       <xsl:template match="//tei:msContents">
           <p><em>Contenuto: </em>
-              <xsl:value-of select="current()/tei:summary"/> in <xsl:value-of select="current()/tei:textLang"/>.</p>
+              <xsl:value-of select="current()/tei:summary"/>.</p>
       </xsl:template>
 
       <xsl:template match="//tei:physDesc">
           <p><em>Caratteristiche: </em>
               <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType"/> di <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:material"/>,
-              con dimensioni in cm <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/>
-              x <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/>.</p>
-          <p><em>Francobolli/timbri: </em>
+              con dimensioni in <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/>
+              x <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/> cm.</p>
+          <p><em>Francobolli/timbri/stampi: </em>
               <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:stamp"/></p>
       </xsl:template>
 

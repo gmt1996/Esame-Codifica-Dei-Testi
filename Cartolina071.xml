@@ -159,7 +159,7 @@
                 <correspAction type="sent">
                     <placeName ref="#GO">Gorizia</placeName>
                     <!-- DATA data di invio da timbro (postage) o da manoscritto (writing) -->
-                    <date type="writing" when="1916-08-14">1916/08/14</date>
+                    <date type="writing" when="1916-08-14">14/08/1916</date>
                 </correspAction>
                 <correspAction type="received">
                     <note resp="#MG">Nella cartolina non vengono specificati nè il luogo nè la data di arrivo della cartolina. Non è presente neanche il nome del destinatario ne quello del mittente.
