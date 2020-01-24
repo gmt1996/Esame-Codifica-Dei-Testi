@@ -34,7 +34,7 @@
   margin:1%;
 }
  #fotoCart1, #fotoCart2, #fotoCart3{
-  padding: 5%;
+
 }
 
 td{
@@ -46,3 +46,10 @@ td{
 #retro1, #retroc2, #retroc3{
   display: none;
 }
+/*#retro11{
+  background: #FF4136;
+  color: #fff;
+  fill: #FF4136;
+  stroke: #ff4136;
+}
+*/

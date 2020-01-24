@@ -235,10 +235,9 @@
 
         <surface n="2" corresp="#retro019">    <!-- Retro -->
             <!-- testo lettera -->
-            <graphic url='cartoline/7694-019R.jpg'  xml:id="retro1" />
-            <zone ulx="77" uly="13" lrx="122" lry="51" xml:id="C1retro_03"/>
-            <zone ulx="299" uly="20" lrx="345" lry="501" xml:id="C1retro_01" />
-            <zone ulx="262" uly="7" lrx="283" lry="184" xml:id="C1retro_02" />
+            <graphic url='cartoline/7694-019R.jpg'   xml:id="retro1" />
+            <zone ulx="79" uly="12" lrx="121" lry="47" xml:id="retro11"/>
+            <zone ulx="20" uly="48" lrx="78" lry="302" xml:id="retro12"/>
 
             <!-- <zone points = ' 150,27 230,28 236,84 153,96 ' xml:id="C1retro_num"/>
             <zone points = ' 600,37 771,41 763,251 673,266 650,265 648,429 665,449 647,466 650,666 674,896 718,912 692,948 668,994 609,1003 596,671 570,592 584,536 566,329 595,244 ' xml:id="C1retro_01"/>

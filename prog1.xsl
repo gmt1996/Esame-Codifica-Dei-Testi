@@ -135,16 +135,34 @@
                         <xsl:attribute name="id">fotoCart1</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
 
+
                     </xsl:element>
                     <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
                   </div>
                   <div class="col" id='retro1'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart1</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+                        <xsl:attribute name="usemap">#re</xsl:attribute>
 
-                    </xsl:element>
+
+                        </xsl:element>
+                        <xsl:element name="map">
+                              <xsl:attribute name="name">re</xsl:attribute>
+                              <xsl:attribute name="class">re</xsl:attribute>
+                            <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
+                            <xsl:element name="area">
+                                <xsl:attribute name="shape">rect</xsl:attribute>
+                                <xsl:attribute name="class">CursorePointer</xsl:attribute>
+                                <xsl:attribute name="href">www.google.com</xsl:attribute>
+                                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
+                                <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                            </xsl:element>
+                          </xsl:for-each>
+                        </xsl:element>
+
                     <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
                   </div>
                   <div class="col" id='cartolina1InfoFronte'>
@@ -208,11 +226,17 @@
                                         <em><xsl:apply-templates select="."/></em>
                                     </xsl:element>
                                 </xsl:for-each>
+                                <!--<xsl:element name="map">
+                                  <xsl:attribute name="name">Map1</xsl:attribute>
+                                  <xsl:attribute name="class">Map</xsl:attribute>
+                                   <xsl:apply-templates select="//TEI[@n='1']/tei:facsimile/tei:surface/tei:zone"/>
+                                 </xsl:element>-->
                             </xsl:element>
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']"/><br/>
                             </xsl:element>
+
                         </xsl:element>
                         <!--div per address cartolina-->
                         <xsl:element name="div">
@@ -619,5 +643,14 @@
           </xsl:if>
       </xsl:template>
 
-
+        <!--<xsl:template match="//tei:zone">
+            <xsl:variable name="idZ" select="@xml:id"/>
+            <xsl:element name="area">
+                <xsl:attribute name="shape">rect</xsl:attribute>
+                <xsl:attribute name="class">CursorePointer</xsl:attribute>
+                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
+                <xsl:attribute name="onmouseover">Highlight(<xsl:value-of select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
+                <xsl:attribute name="onmouseout">UnHighlight(<xsl:apply-templates select="//tei:lb[translate(@facs, '#', '')=$idZ]/@xml:id"/>)</xsl:attribute>
+            </xsl:element>
+        </xsl:template>-->
   </xsl:stylesheet>

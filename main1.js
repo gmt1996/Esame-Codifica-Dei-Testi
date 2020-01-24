@@ -118,3 +118,7 @@ function gestoreLoad(){
 }
 
 window.onload=gestoreLoad;
+function test(item){
+    $(item).css("color", "red");
+
+}
