@@ -118,7 +118,13 @@ function gestoreLoad(){
 }
 
 window.onload=gestoreLoad;
+var blueHighlight = 'background: #FF4136; color: #fff; fill: #0074D9; stroke: #0074D9;'
+
 function test(item){
+    $(item).css("fill", "rgb(255,65,54)");
+    $(item).css("background", "red");
+    $(item).css("stroke", "red");
     $(item).css("color", "red");
+    $(item).css("opacity", "0.5");
 
 }

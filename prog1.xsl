@@ -142,13 +142,13 @@
                   <div class="col" id='retro1'>
                     <xsl:element name="img">
                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
-                        <xsl:attribute name="id">fotoCart1</xsl:attribute>
+                        <xsl:attribute name="id">fotoCart1R</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
-                        <xsl:attribute name="usemap">#re</xsl:attribute>
+                        <xsl:attribute name="usesvg">#re</xsl:attribute>
 
 
                         </xsl:element>
-                        <xsl:element name="map">
+                        <!--<xsl:element name="map">
                               <xsl:attribute name="name">re</xsl:attribute>
                               <xsl:attribute name="class">re</xsl:attribute>
                             <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
@@ -158,6 +158,21 @@
                                 <xsl:attribute name="href">www.google.com</xsl:attribute>
                                 <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
                                 <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
+                                <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                            </xsl:element>
+                          </xsl:for-each>
+                        </xsl:element>-->
+                        <xsl:element name="svg">
+                              <xsl:attribute name="name">re</xsl:attribute>
+                              <xsl:attribute name="class">re</xsl:attribute>
+                              <xsl:attribute name="height">525</xsl:attribute>
+                              <xsl:attribute name="weight">825</xsl:attribute>
+                            <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
+                            <xsl:element name="polygon">
+                                <xsl:attribute name="class">CursorePointer</xsl:attribute>
+                                <xsl:attribute name="href">www.google.com</xsl:attribute>
+                                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                                <xsl:attribute name="points"><xsl:value-of select="@points"/></xsl:attribute>
                                 <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
                             </xsl:element>
                           </xsl:for-each>
@@ -295,7 +310,7 @@
                   <div class="col" id='retroc2'>
                     <xsl:element name="img">
                          <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
-                        <xsl:attribute name="id">fotoCart2</xsl:attribute>
+                        <xsl:attribute name="id">fotoCart2R</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
 
                     </xsl:element>
@@ -412,7 +427,7 @@
                   <div class="col" id='retroc3'>
                     <xsl:element name="img">
                          <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
-                        <xsl:attribute name="id">fotoCart3</xsl:attribute>
+                        <xsl:attribute name="id">fotoCart3R</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
                     </xsl:element>
                   </div>
