@@ -121,6 +121,42 @@ window.onload=gestoreLoad;
 var blueHighlight = 'background: #FF4136; color: #fff; fill: #0074D9; stroke: #0074D9;'
 
 function test(item){
+    if(item.id=='retro13'){
+      $(p1c1).css("color", "red");
+    }
+    if(item.id=='retro14'){
+      $(p2c1).css("color", "red");
+    }
+    if(item.id=='retro15'){
+      $(p3c1).css("color", "red");
+    }
+    if(item.id=='retro12'){
+      $(p4c1).css("color", "red");
+    }
+    if(item.id=='retro16'){
+      $(p5c1).css("color", "red");
+    }
+    if(item.id=='retro17'){
+      $(p6c1).css("color", "red");
+    }
+    if(item.id=='retro18'){
+      $(p7c1).css("color", "red");
+    }
+    if(item.id=='retro19'){
+      $(p8c1).css("color", "red");
+    }
+    if(item.id=='retro11'){
+      $(catc1).css("color", "red");
+    }
+    if(item.id=='retro110'){
+      $(stamp1c1).css("color", "red");
+    }
+    if(item.id=='retro111'){
+      $(stamp2c1).css("color", "red");
+    }
+    if(item.id=='retro112'){
+      $(stamp3c1).css("color", "red");
+    }
     $(item).css("fill", "rgb(255,65,54)");
     $(item).css("background", "red");
     $(item).css("stroke", "red");
@@ -129,6 +165,42 @@ function test(item){
 
 }
 function testout(item){
+    if(item.id=='retro13'){
+      $(p1c1).css("color", "black");
+    }
+    if(item.id=='retro14'){
+      $(p2c1).css("color", "black");
+    }
+    if(item.id=='retro15'){
+      $(p3c1).css("color", "black");
+    }
+    if(item.id=='retro12'){
+      $(p4c1).css("color", "black");
+    }
+    if(item.id=='retro16'){
+      $(p5c1).css("color", "black");
+    }
+    if(item.id=='retro17'){
+      $(p6c1).css("color", "black");
+    }
+    if(item.id=='retro18'){
+      $(p7c1).css("color", "black");
+    }
+    if(item.id=='retro19'){
+      $(p8c1).css("color", "black");
+    }
+    if(item.id=='retro11'){
+      $(catc1).css("color", "black");
+    }
+    if(item.id=='retro110'){
+      $(stamp1c1).css("color", "black");
+    }
+    if(item.id=='retro111'){
+      $(stamp2c1).css("color", "black");
+    }
+    if(item.id=='retro112'){
+      $(stamp3c1).css("color", "black");
+    }
     $(item).css("fill", "transparent");
     $(item).css("background", "inherit");
     $(item).css("stroke", "transparent");

@@ -123,7 +123,7 @@
                         </objectDesc>
                         <handDesc>
                             <summary>Scritta a mano in modo leggibile, é inoltre presente una annotazione nella parte superiore sinistra del retro.</summary>
-                            <handNote n="1">Annotazione di un catalogatore che presenta il numero 19, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero <num type="cardinal">19</num>, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -244,7 +244,7 @@
             <zone points = ' 333,118 346,113 355,118 354,127 354,151 355,165 367,165 371,154 384,152 384,162 397,159 408,147 408,131 409,114 418,107 427,111 427,121 427,135 427,145 427,156 437,142 445,145 445,158 454,158 464,158 476,147 482,149 482,158 487,166 498,166 507,168 508,181 507,193 505,201 495,199 492,189 456,189 448,189 446,199 436,201 430,186 391,186 360,190 350,190 348,200 339,204 328,196 325,178 323,153 323,136 ' xml:id="retro16"/>
             <zone points = ' 342,209 342,222 342,240 355,249 370,248 394,250 412,250 449,251 472,244 492,246 518,250 532,250 553,249 569,247 573,256 588,256 600,256 623,255 635,251 635,235 628,221 619,210 604,211 588,211 571,211 555,215 556,201 540,201 534,213 514,215 497,219 497,205 492,200 480,200 468,201 457,206 454,209 441,209 425,209 414,213 406,205 396,205 388,201 380,200 370,200 361,197 352,199 ' xml:id="retro17"/>
             <zone points = ' 348,268 348,283 348,295 364,295 389,297 405,299 411,309 426,317 437,300 453,300 476,299 507,300 531,301 555,300 577,300 601,300 602,285 605,262 585,259 574,261 561,259 539,256 516,257 499,257 488,250 471,247 458,251 449,257 436,256 424,252 412,254 402,261 387,256 372,256 358,260 ' xml:id="retro18"/>
-<zone points = ' 460,333 483,311 507,301 521,298 534,297 545,303 542,318 535,330 540,339 554,333 571,318 587,314 601,314 603,322 591,326 579,335 593,338 608,339 629,339 636,350 641,358 645,363 658,365 659,377 658,383 648,382 637,382 619,387 607,393 598,391 597,381 546,382 552,390 549,395 537,397 522,384 471,384 458,381 456,369 457,359 460,344 ' xml:id="retro19"/>
+            <zone points = ' 460,333 483,311 507,301 521,298 534,297 545,303 542,318 535,330 540,339 554,333 571,318 587,314 601,314 603,322 591,326 579,335 593,338 608,339 629,339 636,350 641,358 645,363 658,365 659,377 658,383 648,382 637,382 619,387 607,393 598,391 597,381 546,382 552,390 549,395 537,397 522,384 471,384 458,381 456,369 457,359 460,344 ' xml:id="retro19"/>
             <zone points = ' 507,69 514,52 524,36 537,22 556,13 575,9 592,8 607,9 621,15 633,23 645,36 659,51 662,63 666,80 665,96 664,108 654,122 646,135 633,147 620,152 598,163 581,163 562,161 545,154 529,143 519,131 513,122 508,107 506,89 ' xml:id="retro110"/>
             <zone points = ' 535,56 535,176 614,177 635,157 636,59 ' xml:id="retro111"/>
             <zone points = ' 301,413 348,413 347,426 301,426 ' xml:id="retro112"/>
@@ -301,39 +301,27 @@
 
     <text type="cartolina" xml:id="xx" >
         <front>
-          <div type="catalogazione">
-            <p>
-            <stamp type="postmark">
-                <mentioned facs="C1retro_tipografia01" xml:id="stamp1244">
-                    <lb/><num type="cardinal">19</num>
-                </mentioned>
-              <note resp="#PG">Numero di catalogazione presente nel retro della cartolina</note>
-            </stamp>
-          </p>
-
-
-          </div>
             <div type="stampe">
                 <ab xml:id="ScritteF1"><s><persName>  Giannino Grossi  </persName></s></ab>
             </div>
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
-                        <mentioned facs="#C1retro_timbro01" xml:id="stamp1">
+                        <mentioned facs="#C1retro_timbro01" xml:id="stamp1c1">
                             <lb/><placeName ref="#MI">Milano Ferrovia</placeName>
                             <date when="1916-10-31">31.10.16</date>
                         </mentioned>
                         <note resp="#MG">Timbro effettuato in data 31/10/1916 a Milano.</note>
                     </stamp>
                     <stamp type="postage">
-                        <mentioned facs="#C1retro_francobollo" xml:id="stamp4">
+                        <mentioned facs="#C1retro_francobollo" xml:id="stamp2c1">
                             <lb/><orgName ref="#PI">Poste Italiane</orgName><s><num type="cardinal">5</num> centesimi <num type="cardinal">5</num></s>
 
                         </mentioned>
                         <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
                   <stamp type="typography">
-                      <mentioned facs="#C1retro_tipografia" xml:id="stamp5"><!-- -->
+                      <mentioned facs="#C1retro_tipografia" xml:id="stamp3c1"><!-- -->
                           <lb/><num type="cardinal">582-3</num>
 
                       </mentioned>
@@ -359,39 +347,39 @@
               <div type="opener">
               </div>
                 <div type="letter-body">
-                    <ab type="parag" n="ab_02">
-                        <lb xml:id="retro_lb_01" facs="#C1retro_01"/>
+                    <ab type="parag" n="ab_02" xml:id="p1c1">
+                        <lb  facs="#C1retro_01"/>
                         Coi migliori auguri e saluti a</ab>
-                    <ab type="parag" n="ab_06">
-                        <lb xml:id="retro_lb_02" facs="#C1retro_02"/>
+                    <ab type="parag" n="ab_06" xml:id="p2c1">
+                        <lb facs="#C1retro_02"/>
                         te e famiglia
                     </ab>
-                    <ab>
-                    <lb/><persName ref="#M" facs="#C1retro_03">Mario</persName></ab>
+                    <ab xml:id="p3c1">
+                    <lb /><persName ref="#M" facs="#C1retro_03">Mario</persName></ab>
 
                 </div>
                 <div type="closer">
-                    <ab>
-                    <lb/><placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
+                    <ab xml:id="p4c1">
+                    <lb /><placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
                       </ab>
                 </div>
                 <div type="destination">
                     <p>
                         <address>
 
-                            <addrLine xml:id="retro_add_lb_01" facs="#C1retro_address01">
+                            <addrLine xml:id="p5c1" facs="#C1retro_address01">
                                 <lb/><abbr>Gent.</abbr>Signorina
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_02" facs="#C1retro_address02">
+                            <addrLine xml:id="p6c1" facs="#C1retro_address02">
                                 <lb/><persName ref="#OT">Olivia Turtura</persName>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_04" facs="#C1retro_address04">
+                            <addrLine xml:id="p7c1" facs="#C1retro_address04">
                                 <lb/><name type="street">Via <abbr>G.</abbr><persName>Rossi</persName> <num type="cardinal">58</num></name>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_05" facs="#C1retro_address05">
+                            <addrLine xml:id="p8c1" facs="#C1retro_address05">
                                 <lb/><placeName ref="#RV">Ravenna</placeName>
                             </addrLine>
                         </address>

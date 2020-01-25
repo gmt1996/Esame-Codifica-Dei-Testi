@@ -169,7 +169,7 @@
                               <xsl:attribute name="width">825</xsl:attribute>
                             <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
                             <xsl:element name="polygon">
-                                <xsl:attribute name="class">coordinate</xsl:attribute>
+                                <xsl:attribute name="class">CursorePointer</xsl:attribute>
                                 <xsl:attribute name="href">www.google.com</xsl:attribute>
                                 <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
                                 <xsl:attribute name="points"><xsl:value-of select="@points"/></xsl:attribute>
@@ -248,10 +248,13 @@
                                    <xsl:apply-templates select="//TEI[@n='1']/tei:facsimile/tei:surface/tei:zone"/>
                                  </xsl:element>-->
                             </xsl:element>
-                            <xsl:element name="p">
-                                <xsl:attribute name="class">p_retro</xsl:attribute>
-                                <xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']"/><br/>
-                            </xsl:element>
+                            <xsl:for-each select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']/tei:ab">
+                                <xsl:element name="p">
+                                    <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
+                                    <em><xsl:apply-templates select="."/></em>
+                                </xsl:element>
+                            </xsl:for-each>
+
 
                         </xsl:element>
                         <!--div per address cartolina-->
@@ -290,7 +293,8 @@
                         <xsl:element name="div">
                           <b>CATALOGAZIONE</b>
                           <xsl:element name="p">
-                              <xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div[1]/tei:p/tei:stamp/tei:mentioned/tei:num"/>
+                              <xsl:attribute name="id">catc1</xsl:attribute>
+                              <xsl:value-of select="/teiCorpus/TEI[1]//handDesc/tei:handNote/tei:num"/>
                           </xsl:element>
                         </xsl:element>
                   </div>
