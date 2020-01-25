@@ -247,7 +247,7 @@
                                    <xsl:apply-templates select="//TEI[@n='1']/tei:facsimile/tei:surface/tei:zone"/>
                                  </xsl:element>-->
                             </xsl:element>
-                            <xsl:for-each select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']/tei:ab">
+                            <xsl:for-each select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']">
                                 <xsl:element name="p">
                                     <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
                                     <em><xsl:apply-templates select="."/></em>
