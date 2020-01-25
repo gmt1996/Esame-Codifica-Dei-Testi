@@ -170,7 +170,6 @@
                             <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
                             <xsl:element name="polygon">
                                 <xsl:attribute name="class">CursorePointer</xsl:attribute>
-                                <xsl:attribute name="href">www.google.com</xsl:attribute>
                                 <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
                                 <xsl:attribute name="points"><xsl:value-of select="@points"/></xsl:attribute>
                                 <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
@@ -319,6 +318,21 @@
                         <xsl:attribute name="class"></xsl:attribute>
 
                     </xsl:element>
+                    <xsl:element name="svg">
+                          <xsl:attribute name="name">re</xsl:attribute>
+                          <xsl:attribute name="class">re</xsl:attribute>
+                          <xsl:attribute name="height">525</xsl:attribute>
+                          <xsl:attribute name="width">825</xsl:attribute>
+                        <xsl:for-each select="//TEI[@n='2']//tei:surface[position()=2]/tei:zone">
+                        <xsl:element name="polygon">
+                            <xsl:attribute name="class">CursorePointer</xsl:attribute>
+                            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                            <xsl:attribute name="points"><xsl:value-of select="@points"/></xsl:attribute>
+                            <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                            <xsl:attribute name="onmouseout">testout(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                        </xsl:element>
+                      </xsl:for-each>
+                    </xsl:element>
                   </div>
                   <div class="col" id='cartolina2InfoFronte'>
                         <table class="table_fronte">
@@ -356,7 +370,9 @@
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <b>CORPO DELLA CARTOLINA</b><br/>
-                                <em><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:div[@type='opener']"/></em>
+
+                                <em id='op1c2'><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:div[@type='opener']"/></em>
+
                             </xsl:element>
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
@@ -391,16 +407,13 @@
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <xsl:attribute name="id">p_francobolli</xsl:attribute>
                                 <b>FRANCOBOLLI, TIMBRI E STAMPE</b><br/>
-                                <xsl:for-each select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:p/tei:stamp/tei:mentioned">
+                                <xsl:for-each select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div[position()=1]/tei:ab[@xml:id='ScritteR2']/tei:s">
                                     <xsl:element name="p">
                                         <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
                                         <xsl:apply-templates select="."/>
                                     </xsl:element>
                                 </xsl:for-each>
-                                <xsl:element name="p">
-                                    <xsl:attribute name="id"><xsl:value-of select="//tei:ab[@xml:id='ScritteR2']/tei:s/@xml:id"/></xsl:attribute>
-                                    <xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div[position()=2]/tei:ab[@xml:id='ScritteR2']"/>
-                                </xsl:element>
+
                             </xsl:element>
 
 
@@ -409,7 +422,8 @@
                         <xsl:element name="div">
                           <b>CATALOGAZIONE</b>
                           <xsl:element name="p">
-                              <xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div[1]/tei:p/tei:stamp/tei:mentioned/tei:num"/>
+                              <xsl:attribute name="id">catc2</xsl:attribute>
+                              <xsl:value-of select="/teiCorpus/TEI[2]//handDesc/tei:handNote/tei:num"/>
                           </xsl:element>
                         </xsl:element>
                   </div>
@@ -434,6 +448,21 @@
                          <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart3R</xsl:attribute>
                         <xsl:attribute name="class"></xsl:attribute>
+                    </xsl:element>
+                    <xsl:element name="svg">
+                          <xsl:attribute name="name">re</xsl:attribute>
+                          <xsl:attribute name="class">re</xsl:attribute>
+                          <xsl:attribute name="height">525</xsl:attribute>
+                          <xsl:attribute name="width">825</xsl:attribute>
+                        <xsl:for-each select="//TEI[@n='3']//tei:surface[position()=2]/tei:zone">
+                        <xsl:element name="polygon">
+                            <xsl:attribute name="class">CursorePointer</xsl:attribute>
+                            <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
+                            <xsl:attribute name="points"><xsl:value-of select="@points"/></xsl:attribute>
+                            <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                            <xsl:attribute name="onmouseout">testout(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
+                        </xsl:element>
+                      </xsl:for-each>
                     </xsl:element>
                   </div>
                   <div class="col" id='cartolina3InfoFronte'>
@@ -475,7 +504,7 @@
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <b>CORPO DELLA CARTOLINA</b><br/>
-                                <em><xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:div[@type='opener']"/></em>
+                                <em id='op1c3'><xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:div[@type='opener']"/></em>
                             </xsl:element>
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
@@ -486,10 +515,12 @@
                                     </xsl:element>
                                 </xsl:for-each>
                             </xsl:element>
-                            <xsl:element name="p">
-                                <xsl:attribute name="class">p_retro</xsl:attribute>
-                                <xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:div[@type='closer']"/><br/>
-                            </xsl:element>
+                            <xsl:for-each select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:div[@type='closer']">
+                                <xsl:element name="p">
+                                    <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
+                                    <em><xsl:apply-templates select="."/></em>
+                                </xsl:element>
+                            </xsl:for-each>
                         </xsl:element>
                         <!--div per address cartolina-->
                         <xsl:element name="div">
@@ -529,7 +560,8 @@
                         <xsl:element name="div">
                           <b>CATALOGAZIONE</b>
                           <xsl:element name="p">
-                              <xsl:value-of select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div/tei:p/tei:stamp/tei:mentioned/tei:num"/>
+                              <xsl:attribute name="id">catc3</xsl:attribute>
+                              <xsl:value-of select="/teiCorpus/TEI[3]//handDesc/tei:handNote/tei:num"/>
                           </xsl:element>
                         </xsl:element>
                   </div>

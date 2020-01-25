@@ -157,6 +157,72 @@ function test(item){
     if(item.id=='retro112'){
       $(stamp3c1).css("color", "red");
     }
+    if(item.id=='retro22'){
+      $(op1c2).css("color", "red");
+    }
+    if(item.id=='retro23'){
+      $(p1c2).css("color", "red");
+    }
+    if(item.id=='retro24'){
+      $(p2c2).css("color", "red");
+    }
+    if(item.id=='retro25'){
+      $(p3c2).css("color", "red");
+    }
+    if(item.id=='retro21'){
+      $(catc2).css("color", "red");
+    }
+    if(item.id=='retro26'){
+      $(stamp1c2).css("color", "red");
+    }
+    if(item.id=='retro27'){
+      $(stamp2c2).css("color", "red");
+    }
+    if(item.id=='retro32'){
+      $(op1c3).css("color", "red");
+    }
+    if(item.id=='retro33'){
+      $(p1c3).css("color", "red");
+    }
+    if(item.id=='retro34'){
+      $(p2c3).css("color", "red");
+    }
+    if(item.id=='retro35'){
+      $(p3c3).css("color", "red");
+    }
+    if(item.id=='retro36'){
+      $(p4c3).css("color", "red");
+    }
+    if(item.id=='retro37'){
+      $(p5c3).css("color", "red");
+    }
+    if(item.id=='retro38'){
+      $(p6c3).css("color", "red");
+    }
+    if(item.id=='retro39'){
+      $(p7c3).css("color", "red");
+    }
+    if(item.id=='retro310'){
+      $(p8c3).css("color", "red");
+    }
+    if(item.id=='retro311'){
+      $(stamp1c3).css("color", "red");
+    }
+    if(item.id=='retro312'){
+      $(stamp3c3).css("color", "red");
+    }
+    if(item.id=='retro313'){
+      $(stamp2c3).css("color", "red");
+    }
+    if(item.id=='retro314'){
+      $(stamp4c3).css("color", "red");
+    }
+    if(item.id=='retro315'){
+      $(stamp5c3).css("color", "red");
+    }
+    if(item.id=='retro31'){
+      $(catc3).css("color", "red");
+    }
     $(item).css("fill", "rgb(255,65,54)");
     $(item).css("background", "red");
     $(item).css("stroke", "red");
@@ -200,6 +266,72 @@ function testout(item){
     }
     if(item.id=='retro112'){
       $(stamp3c1).css("color", "black");
+    }
+    if(item.id=='retro22'){
+      $(op1c2).css("color", "black");
+    }
+    if(item.id=='retro23'){
+      $(p1c2).css("color", "black");
+    }
+    if(item.id=='retro24'){
+      $(p2c2).css("color", "black");
+    }
+    if(item.id=='retro25'){
+      $(p3c2).css("color", "black");
+    }
+    if(item.id=='retro21'){
+      $(catc2).css("color", "black");
+    }
+    if(item.id=='retro26'){
+      $(stamp1c2).css("color", "black");
+    }
+    if(item.id=='retro27'){
+      $(stamp2c2).css("color", "black");
+    }
+    if(item.id=='retro32'){
+      $(op1c3).css("color", "black");
+    }
+    if(item.id=='retro33'){
+      $(p1c3).css("color", "black");
+    }
+    if(item.id=='retro34'){
+      $(p2c3).css("color", "black");
+    }
+    if(item.id=='retro35'){
+      $(p3c3).css("color", "black");
+    }
+    if(item.id=='retro36'){
+      $(p4c3).css("color", "black");
+    }
+    if(item.id=='retro37'){
+      $(p5c3).css("color", "black");
+    }
+    if(item.id=='retro38'){
+      $(p6c3).css("color", "black");
+    }
+    if(item.id=='retro39'){
+      $(p7c3).css("color", "black");
+    }
+    if(item.id=='retro310'){
+      $(p8c3).css("color", "black");
+    }
+    if(item.id=='retro311'){
+      $(stamp1c3).css("color", "black");
+    }
+    if(item.id=='retro312'){
+      $(stamp3c3).css("color", "black");
+    }
+    if(item.id=='retro313'){
+      $(stamp2c3).css("color", "black");
+    }
+    if(item.id=='retro314'){
+      $(stamp4c3).css("color", "black");
+    }
+    if(item.id=='retro315'){
+      $(stamp5c3).css("color", "black");
+    }
+    if(item.id=='retro31'){
+      $(catc3).css("color", "black");
     }
     $(item).css("fill", "transparent");
     $(item).css("background", "inherit");

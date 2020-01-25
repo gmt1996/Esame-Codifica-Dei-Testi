@@ -123,7 +123,7 @@
                         </objectDesc>
                         <handDesc>
                             <summary>Scrittura eseguita a mano leggibile, con una annotazione nella parte superiore del retro.</summary>
-                            <handNote n="1">Annotazione di un catalogatore che presenta il numero 83, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                            <handNote n="1">Annotazione di un catalogatore che presenta il numero <num type="cardinal">83</num>, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -276,7 +276,7 @@
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
-                        <mentioned facs="C3retro_timbro01" xml:id="stamp11">
+                        <mentioned facs="C3retro_timbro01" xml:id="stamp1c3">
                             <lb/><placeName ref="#MO">Modena</placeName>Ferrovia
                             <date when="1917-06-12">12.6.17</date>.21
                             <gap reason="deteriorato">
@@ -286,13 +286,13 @@
                         <note resp="#MG">Timbro effettuato in data 12/06/1917 a Modena. Sul timbro è possibile vedere la data seguita da .21.</note>
                     </stamp>
                     <stamp type="postmark">
-                        <mentioned facs="#C3retro_timbro02" xml:id="stamp2">
+                        <mentioned facs="#C3retro_timbro02" xml:id="stamp2c3">
                             <lb/><orgName ref="AM">Ars Minima</orgName>
                         </mentioned>
                         <note resp="#MG">Timbro effettuato dalla casa editrice "Ars Minima" detenendone cosi il copyright</note>
                     </stamp>
                     <stamp type="postage">
-                        <mentioned facs="#C3retro_francobollo" xml:id="stamp41">
+                        <mentioned facs="#C3retro_francobollo" xml:id="stamp3c3">
                             <lb/><orgName ref="#PI">Poste Italiane</orgName>
                             <s><num type="cardinal">5</num>  <num type="cardinal">5</num></s>
                             <gap reason="illegible">
@@ -302,13 +302,13 @@
                         <note resp="#PG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
                   <stamp type="postmark">
-                      <mentioned facs="C3retro_tipografia01" xml:id="stamp23">
+                      <mentioned facs="C3retro_tipografia01" xml:id="stamp4c3">
                           <lb/><s>Proprietà artistica riservata - N. <num type="cardinal">8</num></s>
                       </mentioned>
                       <note resp="#MG">Stampa riportata sul retro della cartolina</note>
                   </stamp>
                   <stamp type="postmark">
-                      <mentioned facs="C3retro_tipografia02" xml:id="stamp24">
+                      <mentioned facs="C3retro_tipografia02" xml:id="stamp5c3">
                           <lb/><s><persName> STEFANO BERSANI</persName> - Madonnina Petite Madone Kleine Madonne Little Madonna</s>
                       </mentioned>
                       <note resp="#MG">Stampa riportata sul retro della cartolina</note>
@@ -336,36 +336,36 @@
                     </ab>
                 </div>
                 <div type="letter-body">
-                    <ab type="parag" n="ab_02">
-                        <lb xml:id="retro_lb_011" facs="#C3retro_01"/>
+                    <ab xml:id="p1c3" n="ab_02">
+                        <lb  facs="#C3retro_01"/>
                         Cordiali auguri e</ab>
-                        <ab type="parag" n="ab_0222"><lb xml:id="retro_lb_021" facs="#C3retro_02"/>
+                        <ab xml:id="p2c3" n="ab_0222"><lb  facs="#C3retro_02"/>
                         felicitazioni vivissime per</ab>
-                        <ab type="parag" n="ab_0233"><lb xml:id="retro_lb_031" facs="#C3retro_03"/>
+                        <ab xml:id="p3c3" n="ab_0233"><lb  facs="#C3retro_03"/>
                         il suo onomastico.
                     </ab>
                 </div>
-                <div type="closer">
-                    <lb xml:id="retro_lb_11" facs="#C3retro_11"/>
+                <div type="closer" xml:id='p4c3'>
+                  <lb/>
                     <signed><persName ref="#G">Giovannino</persName></signed>
                 </div>
                 <div type="destination">
                     <p>
                         <address>
 
-                            <addrLine xml:id="retro_add_lb_011" facs="#C3retro_address01">
+                            <addrLine xml:id="p5c3" facs="#C3retro_address01">
                                 <lb/><abbr>Gent.ma </abbr><abbr>Sig.na</abbr>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_021" facs="#C3retro_address02">
+                            <addrLine xml:id="p6c3" facs="#C3retro_address02">
                                 <lb/><persName ref="#OT">Antonietta Turtura</persName>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_031" facs="#C3retro_address03">
+                            <addrLine xml:id="p7c3" facs="#C3retro_address03">
                                 <lb/><name type="street">Via <persName>Girolamo Rossi</persName> <num type="cardinal">58</num></name>
                             </addrLine>
 
-                            <addrLine xml:id="retro_add_lb_051" facs="#C3retro_address05">
+                            <addrLine xml:id="p8c3" facs="#C3retro_address05">
                                 <lb/><placeName ref="#RV1">Ravenna</placeName>
                             </addrLine>
 

@@ -358,10 +358,8 @@
                     <lb /><persName ref="#M" facs="#C1retro_03">Mario</persName></ab>
 
                 </div>
-                <div type="closer">
-                    <ab xml:id="p4c1">
+                <div type="closer" xml:id="p4c1">
                     <lb /><placeName ref="#MI">Milano</placeName> <date xml:id="data_1" when="1916-10-18">18/X-16</date>
-                      </ab>
                 </div>
                 <div type="destination">
                     <p>
