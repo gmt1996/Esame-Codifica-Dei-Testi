@@ -316,7 +316,7 @@
                     <xsl:element name="img">
                          <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart2R</xsl:attribute>
-                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+                        <xsl:attribute name="class"></xsl:attribute>
 
                     </xsl:element>
                   </div>
@@ -433,7 +433,7 @@
                     <xsl:element name="img">
                          <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart3R</xsl:attribute>
-                        <xsl:attribute name="class">img-thumbnail</xsl:attribute>
+                        <xsl:attribute name="class"></xsl:attribute>
                     </xsl:element>
                   </div>
                   <div class="col" id='cartolina3InfoFronte'>
