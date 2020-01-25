@@ -128,3 +128,11 @@ function test(item){
     $(item).css("opacity", "0.5");
 
 }
+function testout(item){
+    $(item).css("fill", "transparent");
+    $(item).css("background", "inherit");
+    $(item).css("stroke", "transparent");
+    $(item).css("color", "inherit");
+    $(item).css("opacity", "1");
+
+}
