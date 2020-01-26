@@ -123,10 +123,10 @@
             </div>
 
 
-            <div class="container-fluid">
+            <div class="container-fluid" id='firstcontainer'>
               <div class='but'>
-              <button type="button" class="btn btn-outline-info" id='retro'>Retro</button>
-              <button type="button" class="btn btn-outline-info" id='fronte'>Fronte</button>
+              <button type="button" class="btn btn-outline-secondary" id='retro'>Retro</button>
+              <button type="button" class="btn btn-outline-secondary" id='fronte'>Fronte</button>
             </div>
               <div class="container-fluid" id='primaCartolina'>
                 <div class="row">
@@ -149,20 +149,7 @@
 
 
                         </xsl:element>
-                        <!--<xsl:element name="map">
-                              <xsl:attribute name="name">re</xsl:attribute>
-                              <xsl:attribute name="class">re</xsl:attribute>
-                            <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
-                            <xsl:element name="area">
-                                <xsl:attribute name="shape">rect</xsl:attribute>
-                                <xsl:attribute name="class">CursorePointer</xsl:attribute>
-                                <xsl:attribute name="href">www.google.com</xsl:attribute>
-                                <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
-                                <xsl:attribute name="coords"><xsl:value-of select="@ulx"/>,<xsl:value-of select="@uly"/>,<xsl:value-of select="@lrx"/>,<xsl:value-of select="@lry"/></xsl:attribute>
-                                <xsl:attribute name="onmouseover">test(<xsl:value-of select="//current()/@xml:id"/>)</xsl:attribute>
-                            </xsl:element>
-                          </xsl:for-each>
-                        </xsl:element>-->
+
                         <xsl:element name="svg">
                               <xsl:attribute name="name">re</xsl:attribute>
                               <xsl:attribute name="class">re</xsl:attribute>
@@ -301,8 +288,8 @@
                 </div>
               </div>
               <div class='but'>
-              <button type="button" class="btn btn-outline-info" id='retro2'>Retro</button>
-              <button type="button" class="btn btn-outline-info" id='fronte2'>Fronte</button>
+              <button type="button" class="btn btn-outline-secondary" id='retro2'>Retro</button>
+              <button type="button" class="btn btn-outline-secondary" id='fronte2'>Fronte</button>
             </div>
               <div class="container-fluid" id='secondaCartolina'>
                 <div class="row">
@@ -432,10 +419,9 @@
                   </div>
                 </div>
               </div>
-            </div>
               <div class='but'>
-              <button type="button" class="btn btn-outline-info" id='retro3'>Retro</button>
-              <button type="button" class="btn btn-outline-info" id='fronte3'>Fronte</button>
+              <button type="button" class="btn btn-outline-secondary" id='retro3'>Retro</button>
+              <button type="button" class="btn btn-outline-secondary" id='fronte3'>Fronte</button>
             </div>
               <div class="container-fluid" id='terzaCartolina'>
                 <div class="row">
@@ -572,6 +558,8 @@
 
               </div>
             </div>
+          </div>
+          <div class='container-fluid'>
             <div class="row" id='footer'>
             <div id="edition" class="col">
                 <h3>Responsabili dell'edizione:</h3>
@@ -591,6 +579,7 @@
                 <xsl:value-of select="/teiCorpus/TEI[1]//tei:respStmt[1]/tei:name[2]"/>
             </div>
             </div>
+          </div>
             </body>
         </html>
 

@@ -132,8 +132,7 @@
                         </handDesc>
                     </physDesc>
                    <history>
-                       <p>La cartolina è stata scritta il <origDate>14 Agosto 1916</origDate> a <origPlace ref="#GO">Gorizia</origPlace>, da un tenente colonnello chiamato Giovanni Coliola, probabilmente impegnato in guerra in occasione della <date from="1914" to="1918">Prima Guerra Mondiale</date>.
-                      <!--#####--> La cartolina è spedita infatti alla sua amata, dalla quale purtroppo la guerra lo tiene lontano.</p>
+                       <p>La cartolina è stata scritta il <origDate>14 Agosto 1916</origDate> a <origPlace ref="#GO">Gorizia</origPlace></p>
                    </history>
 
                 </msDesc>
