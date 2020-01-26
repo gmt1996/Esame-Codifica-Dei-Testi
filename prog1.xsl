@@ -186,37 +186,37 @@
 
                         <table class="table_fronte" >
                             <tr>
-                                <td class="td_1">TITOLO: </td>
+                                <td class="td_1"><b>TITOLO: </b></td>
                                 <td class="td_2"><em><xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:figure/tei:head"/></em></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">AUTORE: </td>
+                                <td class="td_1"><b>AUTORE: </b></td>
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[1]//tei:persName[@ref[1]='#GG']"/></em></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">CODICE ID:</td>
+                                <td class="td_1"><b>CODICE ID: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:msIdentifier/tei:idno"/></td>
                             </tr>
                             <br/>
                             <tr>
-                                <td class="td_1">EDITORE: </td>
+                                <td class="td_1"><b>EDITORE: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:sourceDesc/tei:bibl/tei:publisher"/></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_1"><b>TIPOLOGIA: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]//tei:msDesc/tei:msContents/tei:summary"/></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">DESCRIZIONE: </td>
+                                <td class="td_1"><b>DESCRIZIONE: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">SCRITTE: </td>
+                                <td class="td_1"><b>SCRITTE: </b></td>
                                 <td class="td_2"><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></td>
                             </tr>
                         </table>
@@ -340,25 +340,25 @@
                   <div class="col" id='cartolina2InfoFronte'>
                         <table class="table_fronte">
                             <tr>
-                                <td class="td_1">TITOLO: </td>
+                                <td class="td_1"><b>TITOLO: </b></td>
                                 <td class="td_2"><em><xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:figure/tei:head"/></em></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">CODICE ID: </td>
+                                <td class="td_1"><b>CODICE ID: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]//tei:msIdentifier/tei:idno"/></td>
                             </tr>
 
                             <tr>
-                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_1"><b>TIPOLOGIA: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]//tei:msDesc/tei:msContents/tei:summary"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">DESCRIZIONE:</td>
+                                <td class="td_1"><b>DESCRIZIONE: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[2]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">SCRITTE: </td>
+                                <td class="td_1"><b>SCRITTE: </b></td>
                                 <td class="td_2"><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF2']"/></td>
                             </tr>
                         </table>
@@ -472,27 +472,27 @@
                   <div class="col" id='cartolina3InfoFronte'>
                         <table class="table_fronte">
                             <tr>
-                                <td class="td_1">TITOLO: </td>
+                                <td class="td_1"><b>TITOLO: </b></td>
                                 <td class="td_2"><em><xsl:value-of select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:figure/tei:head"/></em></td>
                             </tr>
                             <tr>
-                                <td class="td_1">AUTORE: </td>
+                                <td class="td_1"><b>AUTORE: </b></td>
                                 <td class="td_2"><em><xsl:apply-templates select="/teiCorpus/TEI[3]//tei:persName[@ref='#SB']"/></em></td>
                             </tr>
                             <tr>
-                                <td class="td_1">CODICE ID: </td>
+                                <td class="td_1"><b>CODICE ID: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:msIdentifier/tei:idno"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">EDITORE: </td>
+                                <td class="td_1"><b>EDITORE: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:sourceDesc/tei:bibl/tei:publisher"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">TIPOLOGIA: </td>
+                                <td class="td_1"><b>TIPOLOGIA: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]//tei:msDesc/tei:msContents/tei:summary"/></td>
                             </tr>
                             <tr>
-                                <td class="td_1">DESCRIZIONE: </td>
+                                <td class="td_1"><b>DESCRIZIONE: </b></td>
                                 <td class="td_2"><xsl:value-of select="/teiCorpus/TEI[3]/tei:text/tei:body/tei:div/tei:figure/tei:figDesc"/></td>
                             </tr>
 
@@ -639,29 +639,29 @@
       <!--TEMPLATE PER MSDESC-->
 
       <xsl:template match="//tei:msIdentifier">
-          <p><em>Collocazione: </em>
+          <p><b>Collocazione: </b>
               <xsl:value-of select="current()/tei:country"/>, <xsl:value-of select="current()/tei:settlement"/>.</p>
-          <p><em>Identificativo: </em><xsl:value-of select="current()/tei:idno"/></p>
+          <p><b>Identificativo: </b><xsl:value-of select="current()/tei:idno"/></p>
       </xsl:template>
 
       <xsl:template match="//tei:msContents">
-          <p><em>Contenuto: </em>
+          <p><b>Contenuto: </b>
               <xsl:value-of select="current()/tei:summary"/>.</p>
       </xsl:template>
 
       <xsl:template match="//tei:physDesc">
-          <p><em>Caratteristiche: </em>
+          <p><b>Caratteristiche: </b>
               <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:objectType"/> di <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:material"/>,
               con dimensioni in <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:height"/>
               x <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:dimensions/tei:width"/> cm.</p>
-          <p><em>Francobolli/timbri/stampi: </em>
+          <p><b>Francobolli/timbri/stampe: </b>
               <xsl:value-of select="current()/tei:objectDesc/tei:supportDesc/tei:support/tei:stamp"/></p>
       </xsl:template>
 
       <!--TEMPLATE PER PERSONE-->
 
       <xsl:template match="//tei:person">
-          <em><xsl:apply-templates select="//current()/tei:persName"/></em>: <xsl:value-of select="current()/tei:note"/>.<br/>
+          <b><xsl:apply-templates select="//current()/tei:persName"/></b>: <xsl:value-of select="current()/tei:note"/>.<br/>
       </xsl:template>
       <xsl:template match="//tei:surname[node()='Grossi']">
           <a href="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"><xsl:value-of select="current()"/></a>
@@ -688,11 +688,11 @@
           <xsl:value-of select="//current()/tei:country"/> <br/>
       </xsl:template>
       <xsl:template match="//tei:correspAction[@type='sent']">
-          La cartolina è stata inviata da: <em><xsl:value-of select="//current()/tei:placeName"/></em>, il <xsl:value-of select="//current()/tei:date"/> <br/>
+          <b>La cartolina è stata inviata da: </b> <em><xsl:value-of select="//current()/tei:placeName"/></em>, il <xsl:value-of select="//current()/tei:date"/> <br/>
       </xsl:template>
       <xsl:template match="//tei:correspAction[@type='received']">
           <xsl:if test="//current()/tei:placeName">
-         ed è giunta a: <em><xsl:value-of select="//current()/tei:placeName"/></em>
+         <b>Ed è giunta a: </b><em><xsl:value-of select="//current()/tei:placeName"/></em>
       </xsl:if>
           <xsl:if test="not(//current()/tei:placeName)">
            <xsl:value-of select="//current()/tei:note"/>
