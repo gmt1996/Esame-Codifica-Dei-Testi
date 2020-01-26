@@ -100,4 +100,14 @@ td{
 #firstcontainer{
   padding-left: 0px;
   padding-right: 0px;
+  display:block;
+}
+#primaCartolina{
+  display:none;
+}
+#secondaCartolina{
+  display: none;
+}
+#terzaCartolina{
+  display: none;
 }

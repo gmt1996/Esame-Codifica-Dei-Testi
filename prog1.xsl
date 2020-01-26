@@ -35,7 +35,7 @@
               <div class="row">
                 <div class="col-sm-4">
                   <h3>cartolina 1</h3>
-                  <a href='#primaCartolina'><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
+                  <a href='#primaCartolina'><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cartolina 019" id="cart19"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button>
                       <div id="demo" class="collapse">
                         <div class="container-fluid">
@@ -67,7 +67,7 @@
                 </div>
                 <div class="col-sm-4">
                   <h3>cartoliona 2</h3>
-                  <a href='#secondaCartolina'><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
+                  <a href='#secondaCartolina'><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cartolina 071" id='cart071'></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
                         <xsl:element name="div">
@@ -92,7 +92,7 @@
                 </div>
                 <div class="col-sm-4">
                   <h3>Cartolina 3</h3>
-                  <a href='#terzaCartolina'><img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cinque Terre"></img></a>
+                  <a href='#terzaCartolina'><img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cartolina 083" id='cart083'></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">descrizione</button>
                       <div id="demo3" class="collapse">
                         <xsl:element name="div">
@@ -124,11 +124,12 @@
 
 
             <div class="container-fluid" id='firstcontainer'>
-              <div class='but'>
-              <button type="button" class="btn btn-outline-secondary" id='retro'>Retro</button>
-              <button type="button" class="btn btn-outline-secondary" id='fronte'>Fronte</button>
-            </div>
+
               <div class="container-fluid" id='primaCartolina'>
+                <div class='but'>
+                <button type="button" class="btn btn-outline-secondary" id='retro'>Retro</button>
+                <button type="button" class="btn btn-outline-secondary" id='fronte'>Fronte</button>
+              </div>
                 <div class="row">
                   <div class="col" id='fronte1'>
                     <xsl:element name="img">
@@ -287,11 +288,12 @@
                   </div>
                 </div>
               </div>
-              <div class='but'>
-              <button type="button" class="btn btn-outline-secondary" id='retro2'>Retro</button>
-              <button type="button" class="btn btn-outline-secondary" id='fronte2'>Fronte</button>
-            </div>
+
               <div class="container-fluid" id='secondaCartolina'>
+                <div class='but'>
+                <button type="button" class="btn btn-outline-secondary" id='retro2'>Retro</button>
+                <button type="button" class="btn btn-outline-secondary" id='fronte2'>Fronte</button>
+              </div>
                 <div class="row">
                   <div class="col" id='frontec2'>
                     <xsl:element name="img">
@@ -419,11 +421,12 @@
                   </div>
                 </div>
               </div>
-              <div class='but'>
-              <button type="button" class="btn btn-outline-secondary" id='retro3'>Retro</button>
-              <button type="button" class="btn btn-outline-secondary" id='fronte3'>Fronte</button>
-            </div>
+
               <div class="container-fluid" id='terzaCartolina'>
+                <div class='but'>
+                <button type="button" class="btn btn-outline-secondary" id='retro3'>Retro</button>
+                <button type="button" class="btn btn-outline-secondary" id='fronte3'>Fronte</button>
+              </div>
                 <div class="row">
                   <div class="col" id='frontec3'>
                     <xsl:element name="img">

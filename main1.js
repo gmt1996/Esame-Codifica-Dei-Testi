@@ -1,5 +1,17 @@
 
+function gestoreClickcart19(){
+  if(this.id=='cart19'){
+    nodoprimaCartolina.style.display='block';
 
+  }
+  if(this.id=='cart071'){
+    nodosecondaCartolina.style.display='block';
+
+  }
+  if(this.id=='cart083'){
+    nodoterzaCartolina.style.display='block';
+  }
+}
 
 
 function gestoreClickRetro(){
@@ -40,6 +52,13 @@ function gestoreClickFronte3(){
       nodocartolina3InfoRetro.style.display='none';
         }
 
+var nodocart19;
+var nodocart071;
+var nodocart083;
+var nodofirstcontainer;
+var nodoprimaCartolina;
+var nodosecondaCartolina;
+var nodoterzaCartolina;
 
 
 
@@ -102,12 +121,25 @@ function gestoreLoad(){
         nodoFrontec3 = document.getElementById("frontec3");
         nodoRetroc3 = document.getElementById("retroc3");
 
+        nodocart19 = document.getElementById("cart19");
+        nodocart071 = document.getElementById("cart071");
+        nodocart083 = document.getElementById("cart083");
+        nodofirstcontainer = document.getElementById("firstcontainer");
+        nodoprimaCartolina = document.getElementById("primaCartolina");
+        nodosecondaCartolina = document.getElementById("secondaCartolina");
+        nodoterzaCartolina = document.getElementById("terzaCartolina");
+
+
         nodoretro.onclick = gestoreClickRetro;
         nodofronte.onclick = gestoreClickFronte;
         nodoretro2.onclick = gestoreClickRetro2;
         nodofronte2.onclick = gestoreClickFronte2;
         nodoretro3.onclick = gestoreClickRetro3;
         nodofronte3.onclick = gestoreClickFronte3;
+
+        nodocart19.onclick = gestoreClickcart19;
+        nodocart071.onclick = gestoreClickcart19;
+        nodocart083.onclick = gestoreClickcart19;
 
 
 
