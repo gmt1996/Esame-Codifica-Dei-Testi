@@ -7,8 +7,8 @@
     <xsl:template match="/">
         <html>
             <head>
-                <title>
-                  <xsl:value-of select="//tei:title"/>
+              <title>
+                  <!--<xsl:value-of select="//TEI[@n='1']//tei:title"/>-->Cartoline 019 071 083
               </title>
               <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
               <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous"></link>
@@ -24,9 +24,9 @@
                 <div id="descr">
                   <p>Nel seguente sito sono state digitalmente rappresentate, dopo essere state codificate, tre cartoline del Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini di La Spezia.
                       Sono state catalogate tramite un numero riportato sopra le cartoline:</p>
-                      <p>- Cartolina n°019: Inviata da Milano dal signor Mario a Ravenna per la signorina Oliva Turtura.</p>
-                      <p>- Cartolina n°071: Inviata da Gorizia, non abbiamo alcuna infomrazione del mittente o del destinatario, possiamo però presumere che è stata mandata da Giovanni Coliola ad Olivia Turtura, sua fidanzata .</p>
-                      <p>- Cartolina n°083: Inviata da Modena da parte di Giovanni Coliola alla signorina Antonella Turtura, parente di Olivia Turtura</p>
+                      <p>Cartolina n°019: <xsl:value-of select="//TEI[@n='1']//tei:titleStmt/tei:title"/></p>
+                      <p>Cartolina n°071: <xsl:value-of select="//TEI[@n='2']//tei:titleStmt/tei:title"/></p>
+                      <p>Cartolina n°083: <xsl:value-of select="//TEI[@n='3']//tei:titleStmt/tei:title"/></p>
                     <p>Le tre cartoline sopra citate fanno parte di una collezione contenente 227 cartoline, dove la maggior parte sono scambiate tra Olivia Turtura e il suo fidanzato Giovanni Coliola.
                       Le cartoline sono state scritte durante la Prima Guerra mondiale, infatti presentano le date 1916 e 1917.</p>
                 </div>
@@ -124,14 +124,15 @@
 
 
             <div class="container-fluid">
+              <div class='but'>
               <button type="button" class="btn btn-outline-info" id='retro'>Retro</button>
               <button type="button" class="btn btn-outline-info" id='fronte'>Fronte</button>
-
+            </div>
               <div class="container-fluid" id='primaCartolina'>
                 <div class="row">
                   <div class="col" id='fronte1'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:facsimile/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart1</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
 
@@ -141,7 +142,7 @@
                   </div>
                   <div class="col" id='retro1'>
                     <xsl:element name="img">
-                        <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                        <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='1']//tei:surface/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart1R</xsl:attribute>
                         <xsl:attribute name="class"></xsl:attribute>
                         <xsl:attribute name="usesvg">#re</xsl:attribute>
@@ -167,7 +168,7 @@
                               <xsl:attribute name="class">re</xsl:attribute>
                               <xsl:attribute name="height">525</xsl:attribute>
                               <xsl:attribute name="width">825</xsl:attribute>
-                            <xsl:for-each select="//TEI[@n='1']//tei:surface[position()=2]/tei:zone">
+                            <xsl:for-each select="//TEI[@n='1']//tei:surface/tei:zone">
                             <xsl:element name="polygon">
                                 <xsl:attribute name="class">CursorePointer</xsl:attribute>
                                 <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -299,13 +300,15 @@
                   </div>
                 </div>
               </div>
+              <div class='but'>
               <button type="button" class="btn btn-outline-info" id='retro2'>Retro</button>
               <button type="button" class="btn btn-outline-info" id='fronte2'>Fronte</button>
+            </div>
               <div class="container-fluid" id='secondaCartolina'>
                 <div class="row">
                   <div class="col" id='frontec2'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:facsimile/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart2</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
 
@@ -313,7 +316,7 @@
                   </div>
                   <div class="col" id='retroc2'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='2']//tei:surface/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart2R</xsl:attribute>
                         <xsl:attribute name="class"></xsl:attribute>
 
@@ -323,7 +326,7 @@
                           <xsl:attribute name="class">re</xsl:attribute>
                           <xsl:attribute name="height">525</xsl:attribute>
                           <xsl:attribute name="width">825</xsl:attribute>
-                        <xsl:for-each select="//TEI[@n='2']//tei:surface[position()=2]/tei:zone">
+                        <xsl:for-each select="//TEI[@n='2']//tei:surface/tei:zone">
                         <xsl:element name="polygon">
                             <xsl:attribute name="class">CursorePointer</xsl:attribute>
                             <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -430,14 +433,15 @@
                 </div>
               </div>
             </div>
-
+              <div class='but'>
               <button type="button" class="btn btn-outline-info" id='retro3'>Retro</button>
               <button type="button" class="btn btn-outline-info" id='fronte3'>Fronte</button>
+            </div>
               <div class="container-fluid" id='terzaCartolina'>
                 <div class="row">
                   <div class="col" id='frontec3'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=1]/tei:graphic/@url"/></xsl:attribute>
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:facsimile/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart3</xsl:attribute>
                         <xsl:attribute name="class">img-thumbnail</xsl:attribute>
 
@@ -445,7 +449,7 @@
                   </div>
                   <div class="col" id='retroc3'>
                     <xsl:element name="img">
-                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface[position()=2]/tei:graphic/@url"/></xsl:attribute>
+                         <xsl:attribute name="src"><xsl:value-of select="//TEI[@n='3']//tei:surface/tei:graphic/@url"/></xsl:attribute>
                         <xsl:attribute name="id">fotoCart3R</xsl:attribute>
                         <xsl:attribute name="class"></xsl:attribute>
                     </xsl:element>
@@ -454,7 +458,7 @@
                           <xsl:attribute name="class">re</xsl:attribute>
                           <xsl:attribute name="height">525</xsl:attribute>
                           <xsl:attribute name="width">825</xsl:attribute>
-                        <xsl:for-each select="//TEI[@n='3']//tei:surface[position()=2]/tei:zone">
+                        <xsl:for-each select="//TEI[@n='3']//tei:surface/tei:zone">
                         <xsl:element name="polygon">
                             <xsl:attribute name="class">CursorePointer</xsl:attribute>
                             <xsl:attribute name="id"><xsl:value-of select="@xml:id"/></xsl:attribute>
@@ -568,7 +572,7 @@
 
               </div>
             </div>
-            <div class="row bg-success">
+            <div class="row" id='footer'>
             <div id="edition" class="col">
                 <h3>Responsabili dell'edizione:</h3>
                 <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:editionStmt/tei:respStmt"/>

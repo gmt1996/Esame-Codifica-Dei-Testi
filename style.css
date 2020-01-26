@@ -69,3 +69,19 @@ td{
   color: inherit;
 
 }
+#footer{
+  background-color: #e9ecef;
+}
+.but{
+  background-color: #e9ecef;
+}
+#fronte1, #frontec2, #frontec3{
+  background-color: white;
+}
+#cartolina1InfoFronte, #cartolina2InfoFronte,#cartolina3InfoFronte{
+  border-radius: 3%;
+  border: 2px solid black;
+}
+.table_fronte{
+  margin-top: 25%;
+}

@@ -92,12 +92,10 @@
                     <msContents>
                         <summary>Cartolina Artistica</summary>
                         <textLang>Italiano</textLang>
-                        <msItem n="1" facs="#fronte2">
-                            <!-- <author><persName ref="#M">Mastroianni</persName></author> ##########-->
-                            <title>[Pausa dalla battaglia]</title>
+                        <msItem n="1">
+                            <title>In Freud' und Leid bewährt sich deutsche Einigkeit</title>
                         </msItem>
-                        <msItem n="2" facs="#retro2">
-                          <!--  <author><persName ref="#GI">Giovanni Coliola</persName></author> -->
+                        <msItem n="2" >
                             <title>Cartolina <!-- rivedere -->, Gorizia, 14/08/1916</title>
                         </msItem>
                     </msContents>
@@ -186,10 +184,8 @@
     </teiHeader>
 
     <facsimile>
-        <surface n="1" xml:id="fronte" corresp="#fronte71">
-            <!-- Fronte -->
-            <graphic url="cartoline/7694-071F.jpg" width="100%" xml:id="fronte2"/>
-        </surface>
+
+        <graphic url="cartoline/7694-071F.jpg" width="100%" xml:id="fronte2"/>
 
         <surface n="2" xml:id="retro" corresp="#retro171">
             <!-- Retro -->
@@ -212,27 +208,27 @@
             <div type="stampe">
                 <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
                 <lb/><ab xml:id="ScritteR2">
-                    <s xml:id="stamp1c2" facs="#C2stampa1" style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s><!-- chiedere fra tag s e orientation -->
-                <s xml:id="stamp2c2" facs="#C2stampa2" style="text-orientation: sideways-left">A. F. W III/2</s></ab>
+                    <s xml:id="stamp1c2"  style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s><!-- chiedere fra tag s e orientation -->
+                <s xml:id="stamp2c2"  style="text-orientation: sideways-left">A. F. W III/2</s></ab>
             </div>
         </front>
         <!-- TRASCRIZIONE -->
         <body>
-            <div type="fronte" xml:id="fronte187">
+            <div type="fronte" xml:id="fronte071">
                 <figure>
                     <figDesc>Nella cartolina vengono rappresentati due soldati tedeschi, cioè si evince dal titolo scritto in tedesco che tradotto riporta: “Nella gioia e nel dolore, preserva l’unità tedesca”. I soldati bevono birra vicino ad un orologio circondato da fiori. </figDesc>
                     <head>In Freud' und Leid bewährt sich deutsche Einigkeit</head>
                 </figure>
-                <ab n="ab_00" facs="#C2fronte_01">
+                <ab n="ab_00" >
                     <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
                   <!--  <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName> -->
                 </ab>
             </div>
-            <div xml:id="retro187" type="retro">
+            <div xml:id="retro071" type="retro">
                 <div type="opener">
                     <ab type="parag" n="ab_01" >
                         <s type="sentence" n="retro_s_01">
-                            <lb  facs="#C2retro_01"/>
+                            <lb  />
                             <placeName ref="#SP">Gorizia</placeName>
                             <choice>
                                 <orig xml:id="orig1">li</orig>
@@ -245,9 +241,9 @@
                 <div type="letter-body">
                     <ab  n="ab_02" xml:id="p1c2">
                       <!--  <s type="sentence" n="retro_s_02"> -->
-                            <lb facs="#C2retro_02"/>Prego l'imminente presa di</ab>
-                            <ab xml:id="p2c2" n="ab_022"><lb facs="#C2retro_03"/>M. tanto dopo 12 ore d'intenso</ab>
-                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb facs="#C2retro_04"/>bombardamento.<!--</s>-->
+                            <lb />Prego l'imminente presa di</ab>
+                            <ab xml:id="p2c2" n="ab_022"><lb />M. tanto dopo 12 ore d'intenso</ab>
+                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb />bombardamento.<!--</s>-->
                     </ab>
                 </div>
             </div>
