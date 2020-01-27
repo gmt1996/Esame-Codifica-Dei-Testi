@@ -20,13 +20,13 @@
             </head>
             <body>
               <div id='intro' class="jumbotron text-center">
-                <h1>PRIMA PAGINA</h1>
+                <h1>Rappresentazione di cartoline della Grande Guerra</h1>
                 <div id="descr">
-                  <p><!-- --></p>
-                      <p>Cartolina n°019: <xsl:value-of select="//TEI[@n='1']//tei:titleStmt/tei:title"/></p>
-                      <p>Cartolina n°071: <xsl:value-of select="//TEI[@n='2']//tei:titleStmt/tei:title"/></p>
-                      <p>Cartolina n°083: <xsl:value-of select="//TEI[@n='3']//tei:titleStmt/tei:title"/></p>
-                    <p>Le tre cartoline sopra citate fanno parte di una collezione contenente 227 cartoline, dove la maggior parte sono scambiate tra Olivia Turtura e il suo fidanzato Giovanni Coliola.
+                  <h3>Le cartoline:</h3>
+                    <p>Cartolina n°019: <xsl:value-of select="//TEI[@n='1']//tei:titleStmt/tei:title"/></p>
+                    <p>Cartolina n°071: <xsl:value-of select="//TEI[@n='2']//tei:titleStmt/tei:title"/></p>
+                    <p>Cartolina n°083: <xsl:value-of select="//TEI[@n='3']//tei:titleStmt/tei:title"/></p>
+                    <p>Le tre cartoline sopra citate fanno parte di una collezione contenente 227 cartoline conservate al museo "Giovanni Podenzana" di La Spezia nella sezione dei cimeli garibaldini.
                       Le cartoline sono state scritte durante la Prima Guerra mondiale, infatti presentano le date 1916 e 1917.</p>
                 </div>
               </div>

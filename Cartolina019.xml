@@ -74,6 +74,7 @@
                 </bibl>
 
                 <msDesc>
+                  
                     <msIdentifier>
                         <country type="nation">Italia</country>
                         <settlement type="city">La Spezia (SP)</settlement>
@@ -82,7 +83,6 @@
                         <!-- CODICE IDENTIFICATIVO -->
                         <idno>7694_019_001/002</idno>
                     </msIdentifier>
-
                     <!-- Informazioni sul contenuto della cartolina -->
                     <!-- DESCRIZIONE -->
                     <msContents>
@@ -128,8 +128,9 @@
                     </physDesc>
                     <history>
                         <p>La cartolina è stata scritta il <origDate>18 ottobre 1916</origDate> a <origPlace>Milano</origPlace>. Oggi
-                            si trovano presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
+                            si trova presso il Museo Civico Etnografico "Giovanni Podenzana" di <placeName>La Spezia</placeName></p>
                     </history>
+
                 </msDesc>
 
                 <!-- NOMI -->
