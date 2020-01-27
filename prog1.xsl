@@ -22,8 +22,7 @@
               <div id='intro' class="jumbotron text-center">
                 <h1>PRIMA PAGINA</h1>
                 <div id="descr">
-                  <p>Nel seguente sito sono state digitalmente rappresentate, dopo essere state codificate, tre cartoline del Museo Civico Etnografico "Giovanni Podenzana", sezione dei cimeli garibaldini di La Spezia.
-                      Sono state catalogate tramite un numero riportato sopra le cartoline:</p>
+                  <p><!-- --></p>
                       <p>Cartolina n°019: <xsl:value-of select="//TEI[@n='1']//tei:titleStmt/tei:title"/></p>
                       <p>Cartolina n°071: <xsl:value-of select="//TEI[@n='2']//tei:titleStmt/tei:title"/></p>
                       <p>Cartolina n°083: <xsl:value-of select="//TEI[@n='3']//tei:titleStmt/tei:title"/></p>
@@ -34,7 +33,7 @@
               <div class="container">
               <div class="row">
                 <div class="col-sm-4">
-                  <h3>cartolina 1</h3>
+                  <h3>cartolina 019</h3>
                   <a href='#primaCartolina'><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cartolina 019" id="cart19"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button>
                       <div id="demo" class="collapse">
@@ -66,7 +65,7 @@
                       </div>
                 </div>
                 <div class="col-sm-4">
-                  <h3>cartoliona 2</h3>
+                  <h3>cartoliona 071</h3>
                   <a href='#secondaCartolina'><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cartolina 071" id='cart071'></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
@@ -91,7 +90,7 @@
                       </div>
                 </div>
                 <div class="col-sm-4">
-                  <h3>Cartolina 3</h3>
+                  <h3>Cartolina 083</h3>
                   <a href='#terzaCartolina'><img src="cartoline/7694-083F.jpg" class="img-thumbnail" alt="Cartolina 083" id='cart083'></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo3">descrizione</button>
                       <div id="demo3" class="collapse">
@@ -599,7 +598,7 @@
          <p class="ScritteR3"><xsl:value-of select="current()"/></p>
       </xsl:template>
       <xsl:template match="//tei:gap">
-      --(<xsl:value-of select="."/>)--
+      (<xsl:value-of select="."/>)
       </xsl:template>
       <!--TEMPLATE PER RESPSTMT INIZIALE-->
 
