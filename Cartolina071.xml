@@ -136,7 +136,7 @@
                    </history>
 
                 </msDesc>
-                <!-- NOMI -->
+             
                 <listPlace>
                     <place xml:id="GO">
                         <placeName>Gorizia</placeName>
@@ -220,7 +220,7 @@
                 </figure>
                 <ab n="ab_00" >
                     <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
-                  <!--  <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName> -->
+                  
                 </ab>
             </div>
             <div xml:id="retro071" type="retro">
