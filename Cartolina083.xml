@@ -225,6 +225,9 @@
 
             <langUsage>
                 <language ident="it-IT">italiano</language>
+                <language ident="fr">Francese</language>
+                <language ident="de-DE">Tedesco</language>
+                <language ident="en-GB">Inglese</language>
             </langUsage>
         </profileDesc>
     </teiHeader>
@@ -272,7 +275,7 @@
                 <p>
                     <stamp type="postmark">
                         <mentioned  xml:id="stamp1c3">
-                            <lb/><placeName ref="#MO">Modena</placeName>Ferrovia
+                            <lb/><placeName ref="#MO">Modena </placeName>Ferrovia
                             <date when="1917-06-12">12.6.17</date>.21
                             <gap reason="deteriorato">
                                 <desc>La parte inferiore del timbro è poco leggibile per cui ipotizziamo la parola "Ferrovia"</desc>
