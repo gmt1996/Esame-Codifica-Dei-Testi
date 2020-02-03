@@ -95,7 +95,7 @@
                             <title>In Freud' und Leid bewährt sich deutsche Einigkeit</title>
                         </msItem>
                         <msItem n="2" >
-                            <title>Cartolina <!-- rivedere -->, Gorizia, 14/08/1916</title>
+                            <title>Cartolina, Gorizia, 14/08/1916</title>
                         </msItem>
                     </msContents>
 
@@ -135,7 +135,7 @@
                    </history>
 
                 </msDesc>
-             
+
                 <listPlace>
                     <place xml:id="GO">
                         <placeName>Gorizia</placeName>
@@ -219,17 +219,13 @@
                 </figure>
                 <ab n="ab_00" >
                     <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
-<<<<<<< HEAD
-=======
-                  
->>>>>>> cd697f69db2d4678512d1c42ea4c2770e640360b
                 </ab>
             </div>
             <div xml:id="retro071" type="retro">
                 <div type="opener">
                     <ab type="parag" n="ab_01" >
                         <s type="sentence" n="retro_s_01">
-                            <lb  />
+                            <lb/>
                             <placeName ref="#SP">Gorizia</placeName>
                             <choice>
                                 <orig xml:id="orig1">li</orig>
@@ -241,7 +237,7 @@
                 </div>
                 <div type="letter-body">
                     <ab  n="ab_02" xml:id="p1c2">
-                            <lb />Prego l'imminente presa di</ab>
+                            <lb/>Prego l'imminente presa di</ab>
                             <ab xml:id="p2c2" n="ab_022"><lb />M. tanto dopo 12 ore d'intenso</ab>
                             <ab xml:id="p3c2" type="parag" n="ab_023"><lb />bombardamento.
                     </ab>

@@ -57,7 +57,7 @@
                 </address>
             </publicationStmt>
             <notesStmt>
-                <note resp="#MG">Sul retro riporta la stampa “FPM 582-3”</note>
+                <note resp="#MG">Sul retro riporta le stampe “FPM” e “582-3”</note>
             </notesStmt>
             <sourceDesc>
                 <bibl>
@@ -87,12 +87,12 @@
                     <msContents>
                         <summary>Cartolina Artistica</summary>
                          <textLang>Italiano</textLang>
-                        <msItem n="1">
+                        <msItem >
                             <author><persName ref="#GG">Giannino Grossi</persName></author>
                             <title>[Scorcio di mare]</title>
                         </msItem>
-                        <msItem n="2">
-                            <author><persName ref="#G">Giuseppe</persName></author>
+                        <msItem >
+                            <author><persName ref="#M">Mario</persName></author>
                             <title>Cartolina di Mario a Oliva Turtura, Ravenna, 18/10/1916</title>
                         </msItem>
                     </msContents>
@@ -110,7 +110,7 @@
                                         <width>14</width>
                                     </dimensions>
                                     <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in buono stato, è presente inoltre sopra di esso un timbro di partenza
-                                    quasi del tutto leggibile .</stamp> <!-- descrivere francobolli-->
+                                    quasi del tutto leggibile .</stamp>
                                 </support>
                                 <!-- CONSERVAZIONE
                                 buono = non occorrono interventi di restauro;
@@ -122,7 +122,7 @@
                         </objectDesc>
                         <handDesc>
                             <summary>Scritta a mano in modo leggibile, é inoltre presente una annotazione nella parte superiore sinistra del retro.</summary>
-                            <handNote n="1">Annotazione di un catalogatore che presenta il numero <num type="cardinal">19</num>, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
+                            <handNote>Annotazione di un catalogatore che presenta il numero <num type="cardinal">19</num>, relativo alla classificazione delle 227 cartoline appartenente al museo di La Spezia.</handNote>
                         </handDesc>
                     </physDesc>
                     <history>
@@ -141,7 +141,7 @@
                         <sex>M</sex>
                         <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
                     </person>
-                    <person xml:id="GI">
+                    <person xml:id="GG">
                         <persName>
                             <ref target="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"/>
                             <forename>Giannino</forename>
@@ -160,8 +160,8 @@
                         </persName>
                         <sex>F</sex>
                         <birth notAfter="1990">Ravenna</birth>
-                        <note resp="#PG">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Sappiamo che nacque a Ravenna
-                            e frequentò nell'anno 1914/1915 il corso di perfezionamento per licenziati della scuola Normale, presso l'Università di Bologna</note>
+                        <note resp="#PG">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Nacque a Ravenna
+                            e frequentò l'istituto magistrale "Margherita Di Savoia" come alunna segretaria. Da una ricerca nell'Annuario del Ministero dell'Educazione nazionale in possiamo supporre in quanto compare il nell'anno 1914/1915 il corso di perfezionamento , presso l'Università di Bologna, per licenziati della scuola Normale</note>
                     </person>
 
                 </listPerson>
@@ -228,7 +228,7 @@
 
         <graphic url='cartoline/7694-019F1.jpg'  xml:id="fronte1"/>
 
-        <surface n="2" corresp="#retro019">    <!-- Retro -->
+        <surface  corresp="#retro019">    <!-- Retro -->
             <!-- testo lettera -->
             <graphic url='cartoline/7694-019R.jpg'  xml:id="retro1" />
             <zone points = ' 65,11 94,10 98,37 63,39 ' xml:id="retro11"/>
@@ -337,8 +337,8 @@
         <back>
             <div type="note">
                 <note resp="#PG">
-                <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#G">Giuseppe</persName>, che invia la cartolina da <placeName>Ravenna</placeName> ad <placeName>Arona</placeName>, situata sul <geogName>Lago Maggiore</geogName>, luogo in cui probabilmente
-                    <persName>Oliva</persName> si trovava in villeggiatura. La cartolina è destinata presso i signori <persName>Cibecchini</persName>.</p></note>
+                <p>Non si hanno notizie sul mittente della cartolina,<persName ref="#M">Mario</persName>, che invia la cartolina da <placeName>Milano</placeName> a
+                    <persName>Oliva</persName> che si trovava a <placeName>Ravenna</placeName>.</p></note>
             </div>
         </back>
     </text>

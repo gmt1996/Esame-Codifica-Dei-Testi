@@ -160,14 +160,14 @@
                             <surname>Turtura</surname>
                         </persName>
                         <sex>F</sex>
-                        <note resp="#PG">Destinataria della cartolina. Non abbiamo alcuna informazione su di lei</note>
+                        <note resp="#PG">Destinataria della cartolina. Supponiamo che sia parente stretta di Olivia Turtura in quanto residenti nella solita abitazione.</note>
 
                     </person>
 
                 </listPerson>
                 <listOrg>
                     <org xml:id="AM">
-                        <orgName type="Editore"> Ars Minima</orgName>
+                        <orgName type="Editore">Ars Minima</orgName>
                         <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
                     </org>
                     <org xml:id="PI1">
@@ -257,18 +257,6 @@
 
     <text type="cartolina" xml:id="xx1" >
         <front>
-          <div type="catalogazione">
-            <p>
-            <stamp type="postmark">
-                <mentioned  xml:id="stamp12">
-                    <lb/><num type="cardinal">83</num>
-                </mentioned>
-              <note resp="#PG">Numero di catalogazione presente nel retro della cartolina</note>
-            </stamp>
-          </p>
-
-
-          </div>
             <div type="postmark">
                 <p>
                     <stamp type="postmark">
@@ -317,7 +305,7 @@
         <body>
             <div type="fronte" xml:id="fronte083">
                 <figure>
-                    <figDesc> L’illustrazione rappresenta la madonna con un bambino in braccio vicino ad un fiume.</figDesc>
+                    <figDesc>L’illustrazione rappresenta una donna con un bambino in braccio vicino ad un fiume.</figDesc>
                     <head>Madonnina</head>
                 </figure>
             </div>

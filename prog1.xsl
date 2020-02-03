@@ -533,7 +533,7 @@
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <xsl:attribute name="id">p_francobolli</xsl:attribute>
                                 <b>FRANCOBOLLI, TIMBRI E STAMPE</b><br/>
-                                <xsl:for-each select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div[2]/tei:p/tei:stamp/tei:mentioned">
+                                <xsl:for-each select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div[1]/tei:p/tei:stamp/tei:mentioned">
                                     <xsl:element name="p">
                                         <xsl:attribute name="id"><xsl:value-of select='@xml:id'/></xsl:attribute>
                                         <xsl:apply-templates select="."/>
