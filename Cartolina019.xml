@@ -32,7 +32,6 @@
                 <respStmt>
                     <resp>Compilatore</resp>
                     <name ref="#TC">Tommaso Castagneto</name>
-                    <!--<name xml:id="XZ1">XZ</name>-->
                 </respStmt>
                 <respStmt>
                     <resp>Responsabile scientifico</resp>
@@ -74,7 +73,7 @@
                 </bibl>
 
                 <msDesc>
-                  
+
                     <msIdentifier>
                         <country type="nation">Italia</country>
                         <settlement type="city">La Spezia (SP)</settlement>
@@ -225,7 +224,7 @@
             </langUsage>
         </profileDesc>
     </teiHeader>
-    <facsimile><!-- coordinate per interfaccia finale ############## -->
+    <facsimile><!-- coordinate per interfaccia finale -->
 
         <graphic url='cartoline/7694-019F1.jpg'  xml:id="fronte1"/>
 
@@ -270,7 +269,7 @@
                         <note resp="#MG">Francobollo da 5 centesimi delle poste italiane.</note>
                   </stamp>
                   <stamp type="typography">
-                      <mentioned xml:id="stamp3c1"><!-- -->
+                      <mentioned xml:id="stamp3c1">
                           <lb/><num type="cardinal">582-3</num>
 
                       </mentioned>

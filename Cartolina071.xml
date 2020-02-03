@@ -21,7 +21,7 @@
                 <edition>
                     Studenti di Codifica dei Testi, Corso di Laurea Triennale di Informatica Umanistica, Università di Pisa
                     <!-- COMPILAZIONE -->
-                    <date when="2018">2018</date>  <!-- chiedere di date################## -->
+                    <date when="2018">2018</date>
                 </edition>
                 <!-- NOME COMPILATORE -->
                 <respStmt>
@@ -32,7 +32,6 @@
                 <respStmt>
                     <resp>Compilatore</resp>
                     <name ref="#TC">Tommaso Castagneto</name>
-                    <!--<name xml:id="XZ1">XZ</name>-->
                 </respStmt>
                 <respStmt>
                     <resp>Responsabile scientifico</resp>
@@ -50,7 +49,7 @@
                 <availability>
                     <p>Available under licence only</p>
                 </availability>
-                <date when="2019">2019</date><!-- chiedere di date################## -->
+                <date when="2019">2019</date>
                 <distributor>LabCD</distributor>
                 <address>
                     <addrLine>Laboratorio di Cultura Digitale - Università di Pisa</addrLine>
@@ -207,7 +206,7 @@
             <div type="stampe">
                 <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
                 <lb/><ab xml:id="ScritteR2">
-                    <s xml:id="stamp1c2"  style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s><!-- chiedere fra tag s e orientation -->
+                    <s xml:id="stamp1c2"  style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s>
                 <s xml:id="stamp2c2"  style="text-orientation: sideways-left">A. F. W III/2</s></ab>
             </div>
         </front>
@@ -220,7 +219,6 @@
                 </figure>
                 <ab n="ab_00" >
                     <lb xml:id="fronte_lb_1"/>In Freud' und Leid bewährt sich deutsche Einigkeit
-                  <!--  <persName ref="#M"><choice><abbr type="initial">D</abbr><expan>Domenico</expan></choice> Mastroianni</persName> -->
                 </ab>
             </div>
             <div xml:id="retro071" type="retro">
@@ -239,10 +237,9 @@
                 </div>
                 <div type="letter-body">
                     <ab  n="ab_02" xml:id="p1c2">
-                      <!--  <s type="sentence" n="retro_s_02"> -->
                             <lb />Prego l'imminente presa di</ab>
                             <ab xml:id="p2c2" n="ab_022"><lb />M. tanto dopo 12 ore d'intenso</ab>
-                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb />bombardamento.<!--</s>-->
+                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb />bombardamento.
                     </ab>
                 </div>
             </div>

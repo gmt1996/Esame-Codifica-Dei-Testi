@@ -32,7 +32,6 @@
                 <respStmt>
                     <resp>Compilatore</resp>
                     <name ref="#TC">Tommaso Castagneto</name>
-                    <!--<name xml:id="XZ1">XZ</name>-->
                 </respStmt>
                 <respStmt>
                     <resp>Responsabile scientifico</resp>
@@ -111,7 +110,7 @@
                                         <width>14</width>
                                     </dimensions>
                                     <stamp>E' presente un francobollo sull'estremità destra del retro della cartolina in discreto stato. Inoltre sono presenti presenti due timbri:
-                                    Il primo, quasi del tutto leggibile, è posizionato sull'estremità destra della cartolina e copre quasi per intero il timbro sopra descritto. Il secondo, proprio della casa editrice Ars minima, dal lato opposto totalmente leggibile.</stamp> <!-- descrivere francobolli-->
+                                    Il primo, quasi del tutto leggibile, è posizionato sull'estremità destra della cartolina e copre quasi per intero il timbro sopra descritto. Il secondo, proprio della casa editrice Ars minima, dal lato opposto totalmente leggibile.</stamp>
                                 </support>
                                 <!-- CONSERVAZIONE
                                 buono = non occorrono interventi di restauro;
@@ -172,7 +171,7 @@
                         <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
                     </org>
                     <org xml:id="PI1">
-                        <orgName type="Poste">Poste Italiane</orgName><!-- chiedere se francobollo? -->
+                        <orgName type="Poste">Poste Italiane</orgName>
                         <desc>Società che si occupa del servizio postale italiano</desc>
                     </org>
                 </listOrg>
@@ -236,7 +235,6 @@
         <graphic url='cartoline/7694-083F.jpg' width='100%' xml:id="fronte3"/>
 
         <surface n="2" corresp="#retro083">    <!-- Retro -->
-            <!-- testo lettera -->
             <graphic url='cartoline/7694-083R.jpg' width='100%' xml:id="retro3"/>
             <zone points = ' 356,13 398,12 402,42 354,39 ' xml:id="retro31"/>
             <zone points = ' 292,31 301,44 305,57 317,70 322,89 315,103 297,96 305,111 304,121 300,139 299,165 315,180 311,199 308,253 305,281 306,301 300,313 271,277 272,254 272,235 263,212 269,192 277,174 278,142 279,111 268,108 260,73 256,59 264,51 277,64 281,44 ' xml:id="retro32"/>
