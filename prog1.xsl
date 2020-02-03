@@ -683,7 +683,7 @@
       </xsl:template>
       <xsl:template match="//tei:correspAction[@type='received']">
           <xsl:if test="//current()/tei:placeName">
-         <b>Ed è giunta a: </b><em><xsl:value-of select="//current()/tei:placeName"/></em>
+         <b>Ed è arrivata a: </b><em><xsl:value-of select="//current()/tei:placeName"/></em>
       </xsl:if>
           <xsl:if test="not(//current()/tei:placeName)">
            <xsl:value-of select="//current()/tei:note"/>
