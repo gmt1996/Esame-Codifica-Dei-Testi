@@ -2,14 +2,18 @@
 function gestoreClickcart19(){
   if(this.id=='cart19'){
     nodoprimaCartolina.style.display='block';
-
+    nodosecondaCartolina.style.display='none';
+    nodoterzaCartolina.style.display='none';
   }
   if(this.id=='cart071'){
     nodosecondaCartolina.style.display='block';
-
+    nodoterzaCartolina.style.display='none';
+    nodoprimaCartolina.style.display='none';
   }
   if(this.id=='cart083'){
     nodoterzaCartolina.style.display='block';
+    nodoprimaCartolina.style.display='none';
+    nodosecondaCartolina.style.display='none';
   }
 }
 

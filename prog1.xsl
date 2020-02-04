@@ -570,15 +570,16 @@
 
             <div id="publication" class="col">
                 <h3>Informazioni sulla pubblicazione:</h3>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:publisher"/><br/>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:distributor"/>
-              <!--  <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>-->
+                <!--<xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:publisher"/><br/>
+                <xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:distributor"/>-->
+              <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             </div>
 
             <div id="crediti" class="col">
                 <h3>Crediti:</h3>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:titleStmt/tei:respStmt[1]/tei:name[1]"/><br/>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:respStmt[1]/tei:name[2]"/>
+                <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/>
+              <!--  <xsl:value-of select="/teiCorpus/TEI[1]//tei:titleStmt/tei:respStmt[1]/tei:name[1]"/><br/>
+                <xsl:value-of select="/teiCorpus/TEI[1]//tei:respStmt[1]/tei:name[2]"/>-->
             </div>
             </div>
           </div>
@@ -602,7 +603,7 @@
       </xsl:template>
       <!--TEMPLATE PER RESPSTMT INIZIALE-->
 
-      <xsl:template match="//tei:respStmt">
+      <xsl:template match="//tei:editionStmt/tei:respStmt">
           <xsl:choose>
               <xsl:when test="count(tei:name)>1">
                   <i class="material-icons">&#xe30c;</i>
@@ -623,9 +624,18 @@
       <!--TEMPLATE PER PUBLICATIONSTMT -->
 
       <xsl:template match="//tei:publicationStmt">
-          <p>Publisher: <xsl:value-of select="//current()/tei:publisher"/>, <xsl:value-of select="//current()/tei:pubPlace"/></p>
-          <p>Copyright: <xsl:value-of select="//current()/tei:availability"/></p>
-          <p>Distributor: <xsl:value-of select="//current()/tei:address/tei:addrLine[1]"/></p>
+          <i class="material-icons">&#xe80c;</i>
+          <b>Publisher: </b><xsl:value-of select="//current()/tei:publisher"/><br/>
+          <i class="material-icons">&#xe80c;</i>
+          <b>Distributor: </b><xsl:value-of select="//current()/tei:distributor"/><br/>
+      </xsl:template>
+
+      <xsl:template match="//tei:titleStmt/tei:respStmt">
+        <xsl:for-each select="name">
+          <xsl:if test="//current()[@xml:id='MG' or @xml:id='PG']">
+          <i class="material-icons">&#xe7ff;</i>
+          <xsl:value-of select="."/><br/></xsl:if>
+        </xsl:for-each>
       </xsl:template>
       <!--TEMPLATE PER MSDESC-->
 

@@ -134,14 +134,14 @@
 
                 <!-- NOMI -->
                 <listPerson>
-                    <person xml:id="MA">
+                    <person>
                         <persName>
                             <forename>Mario</forename>
                         </persName>
                         <sex>M</sex>
                         <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
                     </person>
-                    <person xml:id="GG">
+                    <person>
                         <persName>
                             <ref target="http://www.lucasforziniarte.it/archivio-artisti/lombardia/grossi-giannino-milano-1889-milano-1969-pittore"/>
                             <forename>Giannino</forename>
@@ -166,13 +166,13 @@
 
                 </listPerson>
                 <listOrg>
-                    <org xml:id="PI">
+                    <org>
                         <orgName type="Poste">Poste Italiane</orgName>
                         <desc>Società che si occupa del servizio postale italiano</desc>
                     </org>
                 </listOrg>
                 <listPlace>
-                    <place xml:id="MI">
+                    <place>
                         <placeName>Milano</placeName>
                         <location>
                             <settlement type="comune">Milano</settlement>
@@ -181,7 +181,7 @@
                             <country type="nazione">IT</country>
                         </location>
                     </place>
-                    <place xml:id="RV">
+                    <place>
                         <placeName>Ravenna</placeName>
                         <location>
                             <settlement type="comune">Ravenna</settlement>
@@ -250,7 +250,7 @@
     <text type="cartolina" xml:id="xx" >
         <front>
             <div type="stampe">
-                <ab xml:id="ScritteF1"><s><persName>  Giannino Grossi  </persName></s></ab>
+                <ab xml:id="ScritteF1"><s><persName> Giannino Grossi  </persName></s></ab>
             </div>
             <div type="postmark">
                 <p>

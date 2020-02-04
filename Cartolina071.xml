@@ -137,7 +137,7 @@
                 </msDesc>
 
                 <listPlace>
-                    <place xml:id="GO">
+                    <place>
                         <placeName>Gorizia</placeName>
                         <location>
                             <settlement type="comune">Gorizia</settlement>
@@ -205,9 +205,9 @@
         <front>
             <div type="stampe">
                 <ab xml:id="ScritteF2">In Freud' und Leid bewährt sich deutsche Einigkeit</ab>
-                <lb/><ab xml:id="ScritteR2">
-                    <s xml:id="stamp1c2"  style="text-orientation: sideways-left"><orgName ref="#AT">Nr. 708</orgName ></s>
-                <s xml:id="stamp2c2"  style="text-orientation: sideways-left">A. F. W III/2</s></ab>
+                <ab xml:id="ScritteR2">
+                    <s xml:id="stamp1c2"><orgName ref="#AT">Nr. 708</orgName ></s>
+                    <s xml:id="stamp2c2"  style="text-orientation: sideways-left">A. F. W III/2</s></ab>
             </div>
         </front>
         <!-- TRASCRIZIONE -->
@@ -228,10 +228,10 @@
                             <lb/>
                             <placeName ref="#SP">Gorizia</placeName>
                             <choice>
-                                <orig xml:id="orig1">li</orig>
+                                <orig>li</orig>
                                 <reg>il</reg>
                             </choice>
-                            <date xml:id="data_4" when="1916-08-14">14/8.1916</date>
+                            <date when="1916-08-14">14/8.1916</date>
                         </s>
                     </ab>
                 </div>
@@ -239,7 +239,7 @@
                     <ab  n="ab_02" xml:id="p1c2">
                             <lb/>Prego l'imminente presa di</ab>
                             <ab xml:id="p2c2" n="ab_022"><lb />M. tanto dopo 12 ore d'intenso</ab>
-                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb />bombardamento.
+                            <ab xml:id="p3c2" type="parag" n="ab_023"><lb/>bombardamento.
                     </ab>
                 </div>
             </div>

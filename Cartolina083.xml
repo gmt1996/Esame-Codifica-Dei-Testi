@@ -133,14 +133,14 @@
 
                 <!-- NOMI -->
                 <listPerson>
-                    <person xml:id="G">
+                    <person>
                         <persName>
                             <forename>Giovannino</forename>
                         </persName>
                         <sex>M</sex>
                         <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
                     </person>
-                    <person xml:id="M">
+                    <person>
                         <persName>
                             <ref target="http://www.icontemporanei.it/indice/omaggi/bersani/stefano_bersani_pittore_e_poeta.htm"/>
                             <forename>
@@ -166,17 +166,17 @@
 
                 </listPerson>
                 <listOrg>
-                    <org xml:id="AM">
+                    <org>
                         <orgName type="Editore">Ars Minima</orgName>
                         <desc>Casa editrice che si è occupata della pubblicazione della cartolina e ne detiene il copyright.</desc>
                     </org>
-                    <org xml:id="PI1">
+                    <org>
                         <orgName type="Poste">Poste Italiane</orgName>
                         <desc>Società che si occupa del servizio postale italiano</desc>
                     </org>
                 </listOrg>
                 <listPlace>
-                    <place xml:id="MO">
+                    <place>
                         <placeName>Modena</placeName>
                         <location>
                             <settlement type="comune">Modena</settlement>
@@ -185,7 +185,7 @@
                             <country type="nazione">IT</country>
                         </location>
                     </place>
-                    <place xml:id="RV1">
+                    <place>
                         <placeName>Ravenna</placeName>
                         <location>
                             <settlement type="comune">Ravenna</settlement>
@@ -315,7 +315,7 @@
                     <ab type="parag" n="ab_01">
                         <s type="sentence" n="retro_s_01">
                             <lb xml:id="retro_lb_00"  />
-                            <placeName ref="#MO">Modena</placeName>, <date xml:id="data_11" when="1917-06-12">12-06-1917</date>
+                            <placeName ref="#MO">Modena</placeName>, <date when="1917-06-12">12-06-1917</date>
                         </s>
                     </ab>
                 </div>
