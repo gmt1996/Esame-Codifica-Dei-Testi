@@ -33,8 +33,8 @@
               <div class="container">
               <div class="row">
                 <div class="col-sm-4">
-                  <h3>cartolina 019</h3>
-                  <a href='#primaCartolina'><img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt="Cartolina 019" id="cart19"></img></a>
+                  <h3>Cartolina 019</h3>
+                  <a href='#primaCartolina'><img src="cartoline/7694-019F.jpg" class="img-thumbnail" alt="Cartolina 019" id="cart19"></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo">descrizione</button>
                       <div id="demo" class="collapse">
                         <div class="container-fluid">
@@ -43,19 +43,17 @@
                               <xsl:attribute name="id">info</xsl:attribute>
 
                               <div id="div_msdesc">
-                                      <h3>Cartolina 019</h3>
                                       <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
-
                               </div>
 
                               <div id="div_persone">
-                                  <h2>PERSONE</h2>
+                                  <h4>PERSONE</h4>
                                       <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person"/>
 
                               </div>
 
                               <div id="div_luoghi">
-                                  <h2>LUOGHI</h2>
+                                  <h4>LUOGHI</h4>
                                       <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
                                       <xsl:apply-templates select="//TEI[@n='1']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
 
@@ -65,7 +63,7 @@
                       </div>
                 </div>
                 <div class="col-sm-4">
-                  <h3>cartoliona 071</h3>
+                  <h3>Cartoliona 071</h3>
                   <a href='#secondaCartolina'><img src="cartoline/7694-071F.jpg" class="img-thumbnail" alt="Cartolina 071" id='cart071'></img></a>
                   <button type="button" class="btn btn-primary" data-toggle="collapse" data-target="#demo2" href='#prova'>descrizione</button>
                       <div id="demo2" class="collapse">
@@ -74,13 +72,11 @@
                             <xsl:attribute name="id">info2</xsl:attribute>
 
                             <div id="div_msdesc">
-                                    <h3>Cartolina 071</h3>
                                     <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
-
                             </div>
 
                             <div id="div_luoghi">
-                                <h2>LUOGHI</h2>
+                                <h4>LUOGHI</h4>
 
                                     <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
                                     <xsl:apply-templates select="//TEI[@n='2']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
@@ -99,18 +95,17 @@
                             <xsl:attribute name="id">info3</xsl:attribute>
 
                             <div id="div_msdesc">
-                                    <h3>Cartolina 083</h3>
                                     <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:msDesc"/>
                             </div>
 
                             <div id="div_persone">
-                                <h2>PERSONE</h2>
+                                <h4>PERSONE</h4>
                                     <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPerson/tei:person"/>
 
                             </div>
 
                             <div id="div_luoghi">
-                                <h2>LUOGHI</h2>
+                                <h4>LUOGHI</h4>
                                     <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:fileDesc/tei:sourceDesc/tei:listPlace"/>
                                     <xsl:apply-templates select="//TEI[@n='3']/tei:teiHeader/tei:profileDesc/tei:correspDesc"/>
                             </div>
@@ -138,7 +133,6 @@
 
 
                     </xsl:element>
-                    <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
                   </div>
                   <div class="col" id='retro1'>
                     <xsl:element name="img">
@@ -165,8 +159,6 @@
                             </xsl:element>
                           </xsl:for-each>
                         </xsl:element>
-
-                    <!-- <img src="cartoline/7694-019F1.jpg" class="img-thumbnail" alt=""  id='fotoCart1'></img>-->
                   </div>
                   <div class="col" id='cartolina1InfoFronte'>
 
@@ -207,19 +199,10 @@
                                 <td class="td_2"><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></td>
                             </tr>
                         </table>
-
-<!--
-                        <br/>
-                        <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF1']"/></b>"</p>-->
                     </div>
                     <div class="col" id='cartolina1InfoRetro' style="display:none;" >
                         <xsl:element name="div">
                             <xsl:attribute name="class">text_retro1</xsl:attribute>
-                            <xsl:element name="p">
-                                <xsl:attribute name="class">p_retro</xsl:attribute>
-                                <em><xsl:apply-templates select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='opener']"/></em>
-                            </xsl:element>
                             <xsl:element name="p">
                                 <xsl:attribute name="class">p_retro</xsl:attribute>
                                 <b>CORPO DELLA CARTOLINA</b>
@@ -229,11 +212,7 @@
                                         <em><xsl:apply-templates select="."/></em>
                                     </xsl:element>
                                 </xsl:for-each>
-                                <!--<xsl:element name="map">
-                                  <xsl:attribute name="name">Map1</xsl:attribute>
-                                  <xsl:attribute name="class">Map</xsl:attribute>
-                                   <xsl:apply-templates select="//TEI[@n='1']/tei:facsimile/tei:surface/tei:zone"/>
-                                 </xsl:element>-->
+
                             </xsl:element>
                             <xsl:for-each select="/teiCorpus/TEI[1]/tei:text/tei:body/tei:div/tei:div[@type='closer']">
                                 <xsl:element name="p">
@@ -271,7 +250,7 @@
                                 </xsl:for-each>
                                 <xsl:element name="p">
                                     <xsl:attribute name="id"><xsl:value-of select="//tei:ab[@xml:id='ScritteR1']/tei:s/@xml:id"/></xsl:attribute>
-                                    <xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div[position()=1]/tei:ab[@xml:id='ScritteR1']"/><!-- -->
+                                    <xsl:value-of select="/teiCorpus/TEI[1]/tei:text/tei:front/tei:div[position()=1]/tei:ab[@xml:id='ScritteR1']"/>
 
                                 </xsl:element>
                             </xsl:element>
@@ -351,9 +330,7 @@
                             </tr>
                         </table>
                         <br/>
-                        <!--
-                        <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[2]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF2']"/></b>"</p>-->
+
                     </div>
                     <div class="col" id='cartolina2InfoRetro' style="display:none;" >
                         <xsl:element name="div">
@@ -486,9 +463,7 @@
 
                         </table>
                         <br/>
-                        <!--
-                        <p>Sul fronte della cartolina troviamo riportate le scritte:</p>
-                        <p style="text-align:center;">"<b><xsl:apply-templates select="/teiCorpus/TEI[3]/tei:text/tei:front/tei:div/tei:ab[@xml:id='ScritteF3']"/></b>"</p>-->
+
                   </div>
                   <div class="col" id='cartolina3InfoRetro' style="display:none;">
                         <xsl:element name="div">
@@ -570,16 +545,12 @@
 
             <div id="publication" class="col">
                 <h3>Informazioni sulla pubblicazione:</h3>
-                <!--<xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:publisher"/><br/>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:publicationStmt/tei:distributor"/>-->
               <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:publicationStmt"/>
             </div>
 
             <div id="crediti" class="col">
                 <h3>Crediti:</h3>
                 <xsl:apply-templates select="/teiCorpus/tei:teiHeader/tei:fileDesc/tei:titleStmt/tei:respStmt"/>
-              <!--  <xsl:value-of select="/teiCorpus/TEI[1]//tei:titleStmt/tei:respStmt[1]/tei:name[1]"/><br/>
-                <xsl:value-of select="/teiCorpus/TEI[1]//tei:respStmt[1]/tei:name[2]"/>-->
             </div>
             </div>
           </div>
@@ -595,13 +566,11 @@
           </xsl:element>
 
       </xsl:template>
-      <xsl:template match="//tei:div[@xml:id='ScritteR3']/tei:ab[position()=2]/tei:s">
-         <p class="ScritteR3"><xsl:value-of select="current()"/></p>
-      </xsl:template>
+
       <xsl:template match="//tei:gap">
       (<xsl:value-of select="."/>)
       </xsl:template>
-      <!--TEMPLATE PER RESPSTMT INIZIALE-->
+      <!--TEMPLATE PER RESPSTMT-->
 
       <xsl:template match="//tei:editionStmt/tei:respStmt">
           <xsl:choose>
@@ -629,6 +598,8 @@
           <i class="material-icons">&#xe80c;</i>
           <b>Distributor: </b><xsl:value-of select="//current()/tei:distributor"/><br/>
       </xsl:template>
+
+      <!--TEMPLATE PER CREDITI -->
 
       <xsl:template match="//tei:titleStmt/tei:respStmt">
         <xsl:for-each select="name">
@@ -670,19 +641,11 @@
       <xsl:template match="//tei:surname[node()='Bersani']">
           <a href="http://www.icontemporanei.it/indice/omaggi/bersani/stefano_bersani_pittore_e_poeta.htm"><xsl:value-of select="current()"/></a>
       </xsl:template>
-      <xsl:template match="//tei:addName">
-          (<xsl:value-of select="."/>)
-      </xsl:template>
+
 
       <!--TEMPLATE PER LUOGHI-->
 
-      <xsl:template match="//tei:place">
-         <xsl:apply-templates />
 
-      </xsl:template>
-      <xsl:template match="//tei:placeName">
-          <xsl:value-of select="current()"/>
-      </xsl:template>
       <xsl:template match="//tei:location">
           <xsl:if test="//current()/tei:district">
               (<xsl:value-of select="//current()/tei:district[@type='provincia']"/>), <xsl:value-of select="//current()/tei:region"/></xsl:if>,
@@ -695,8 +658,5 @@
           <xsl:if test="//current()/tei:placeName">
          <b>Ed è arrivata a: </b><em><xsl:value-of select="//current()/tei:placeName"/></em>
       </xsl:if>
-          <xsl:if test="not(//current()/tei:placeName)">
-           <xsl:value-of select="//current()/tei:note"/>
-          </xsl:if>
       </xsl:template>
   </xsl:stylesheet>

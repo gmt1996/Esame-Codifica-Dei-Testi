@@ -226,7 +226,7 @@
     </teiHeader>
     <facsimile><!-- coordinate per interfaccia finale -->
 
-        <graphic url='cartoline/7694-019F1.jpg'  xml:id="fronte1"/>
+        <graphic url='cartoline/7694-019F.jpg'  xml:id="fronte1"/>
 
         <surface  corresp="#retro019">    <!-- Retro -->
             <!-- testo lettera -->
@@ -292,8 +292,6 @@
             </div>
 
             <div xml:id="retro019" type="retro">
-              <div type="opener">
-              </div>
                 <div type="letter-body">
                     <ab type="parag" n="ab_02" xml:id="p1c1">
                         <lb/>
