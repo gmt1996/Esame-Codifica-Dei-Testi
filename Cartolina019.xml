@@ -161,7 +161,7 @@
                         <sex>F</sex>
                         <birth notAfter="1990">Ravenna</birth>
                         <note resp="#PG">Destinataria della cartolina. Non ci sono giunte molte informazioni su di lei. Nacque a Ravenna
-                            e frequentò l'istituto magistrale "Margherita Di Savoia" come alunna segretaria. Da una ricerca nell'Annuario del Ministero dell'Educazione nazionale in possiamo supporre in quanto compare il nell'anno 1914/1915 il corso di perfezionamento , presso l'Università di Bologna, per licenziati della scuola Normale</note>
+                            e frequentò l'istituto magistrale "Margherita Di Savoia" come alunna segretaria. E' infatti citata nell'Annuario del Ministero dell'Educazione nazionale nella sezione personale non insegnante</note>
                     </person>
 
                 </listPerson>
@@ -317,7 +317,7 @@
                             </addrLine>
 
                             <addrLine xml:id="p6c1" >
-                                <lb/><persName ref="#OT">Olivia Turtura</persName>
+                                <lb/><persName ref="#OT">Oliva Turtura</persName>
                             </addrLine>
 
                             <addrLine xml:id="p7c1" >
