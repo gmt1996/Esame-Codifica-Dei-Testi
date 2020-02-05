@@ -138,7 +138,7 @@
                             <forename>Giovannino</forename>
                         </persName>
                         <sex>M</sex>
-                        <note resp="#PG">Mittente della cartolina. Non si hanno ulteriori notizie su questo uomo</note>
+                        <note resp="#PG">Mittente della cartolina. Si può ipotizzare che sia il fidanzato di Olivia Turtura parente della destinataria Antonietta Turtura</note>
                     </person>
                     <person>
                         <persName>
@@ -160,7 +160,7 @@
                             <surname>Turtura</surname>
                         </persName>
                         <sex>F</sex>
-                        <note resp="#PG">Destinataria della cartolina. Supponiamo che sia parente stretta di Olivia Turtura in quanto residenti nella solita abitazione.</note>
+                        <note resp="#PG">Destinataria della cartolina. Supponiamo che sia parente stretta di Olivia Turtura in quanto residenti nella solita abitazione</note>
 
                     </person>
 
@@ -314,18 +314,18 @@
                 <div type="opener">
                     <ab type="parag" n="ab_01">
                         <s type="sentence" n="retro_s_01">
-                            <lb xml:id="retro_lb_00"  />
+                            <lb xml:id="retro_lb_00"/>
                             <placeName ref="#MO">Modena</placeName>, <date when="1917-06-12">12-06-1917</date>
                         </s>
                     </ab>
                 </div>
                 <div type="letter-body">
                     <ab xml:id="p1c3" n="ab_02">
-                        <lb  />
+                        <lb/>
                         Cordiali auguri e</ab>
-                        <ab xml:id="p2c3" n="ab_0222"><lb />
+                        <ab xml:id="p2c3" n="ab_0222"><lb/>
                         felicitazioni vivissime per</ab>
-                        <ab xml:id="p3c3" n="ab_0233"><lb />
+                        <ab xml:id="p3c3" n="ab_0233"><lb/>
                         il suo onomastico.
                     </ab>
                 </div>
